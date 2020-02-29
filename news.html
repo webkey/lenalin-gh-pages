@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Новости - Lenalin</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="description" content="Description">
+	<meta name="keywords" content="">
+	<meta name="imagetoolbar" content="no">
+	<meta name="msthemecompatible" content="no">
+	<meta name="cleartype" content="on">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="address=no">
+	<!--Icons-->
+	<!--<link rel="shortcut icon" href="./favicon/favicon.ico">-->
+	<link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+	<link rel="manifest" href="./favicon/site.webmanifest">
+	<link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<!--The Open Graph protocol-->
+	<meta property="og:type" content="website">
+	<meta property="og:locale" content="ru_RU">
+	<meta property="og:url" content="http://lenalin.ru">
+	<meta property="og:title" content="Lenalin">
+	<meta property="og:image" content="./favicon/share.jpg">
+	<meta property="og:image:height" content="630">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:description" content="Lenalin">
+	<meta property="og:site_name" content="Lenalin">
+	<link id="app-css" rel="stylesheet" href="./assets/styles/app.min.css">
+	<script>
+		document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/,'js');
+		if (!("ontouchstart" in document.documentElement)) {
+			document.documentElement.className += " no-touchevents";
+		} else {
+			document.documentElement.className += " touchevents";
+		}
+	</script>
+</head>
+<body>
+
+<div class="header-mob js-header-mob">
+	<div class="layout-page">
+		<div class="header-mob__container">
+			<a href="#" class="header-mob__mob-menu-control js-mob-menu-control">Open menu</a>
+			<div class="header-mob__search">
+				<div class="header-search js-header-search">
+	<div class="header-search__panel js-header-search-panel js-header-search-prevent-hide">
+		<form class="header-search__form" action="#" method="post" onsubmit="alert('Форма находится в тестовом режиме. Чтобы закрыть окно, нажмите ОК.'); return false;">
+			<div class="header-search__field">
+				<input type="text" placeholder="Введите поисковый запрос" class="header-search__input js-header-search-input" data-swc-prevent-remove />
+				<a href="#" class="header-search__close js-header-search-close">
+					<div class="header-search__close-icon">
+						<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.41793 3.64122C4.18718 3.41028 3.8128 3.41028 3.58205 3.64122C2.7253 4.49797 2.30421 5.69147 2.42658 6.91591C2.45712 7.22094 2.71408 7.44832 3.01418 7.44832C3.0339 7.44832 3.05377 7.44732 3.07349 7.44535C3.39843 7.41285 3.63546 7.12297 3.60296 6.79825C3.51587 5.9281 3.81302 5.082 4.41793 4.47707C4.64887 4.24635 4.64887 3.87194 4.41793 3.64122Z"></path>
+<path d="M6.75863 0C3.03191 0 0 3.03191 0 6.75863C0 10.4853 3.03191 13.5173 6.75863 13.5173C10.4853 13.5173 13.5173 10.4853 13.5173 6.75863C13.5173 3.03191 10.4853 0 6.75863 0ZM6.75863 12.335C3.68375 12.335 1.18228 9.8335 1.18228 6.75863C1.18228 3.68375 3.68375 1.18228 6.75863 1.18228C9.83331 1.18228 12.335 3.68375 12.335 6.75863C12.335 9.8335 9.8335 12.335 6.75863 12.335Z"></path>
+<path d="M15.8266 14.9907L11.531 10.6952C11.3001 10.4642 10.9261 10.4642 10.6952 10.6952C10.4642 10.9259 10.4642 11.3003 10.6952 11.5311L14.9908 15.8266C15.1062 15.9421 15.2574 15.9998 15.4087 15.9998C15.56 15.9998 15.7112 15.9421 15.8266 15.8266C16.0575 15.5959 16.0575 15.2215 15.8266 14.9907Z"></path>
+</svg>
+
+					</div>
+					<div class="header-search__close-text">Close search panel</div>
+				</a>
+				<div class="header-search__submit">
+					<div class="header-search__submit-icon">
+						<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M3.5059 7.79423L3.49185 7.7973H9.51424L7.62102 5.89991C7.52831 5.80728 7.47746 5.68179 7.47746 5.55009C7.47746 5.41838 7.52831 5.29377 7.62102 5.20091L7.91561 4.90618C8.00824 4.81355 8.13168 4.76233 8.26331 4.76233C8.39502 4.76233 8.51853 4.81318 8.61117 4.90582L11.8565 8.15087C11.9495 8.24387 12.0004 8.36774 12 8.49952C12.0004 8.63204 11.9495 8.75599 11.8565 8.84884L8.61117 12.0942C8.51853 12.1867 8.3951 12.2377 8.26331 12.2377C8.13168 12.2377 8.00824 12.1867 7.91561 12.0942L7.62102 11.7994C7.52831 11.707 7.47746 11.5834 7.47746 11.4517C7.47746 11.3201 7.52831 11.2031 7.62102 11.1105L9.53561 9.20255H3.49917C3.22792 9.20255 3 8.96877 3 8.69767V8.28082C3 8.00972 3.23466 7.79423 3.5059 7.79423Z" fill="black"></path></g><defs><clipPath id="clip0"><rect width="9" height="9" transform="matrix(-1 0 0 1 12 4)" fill="white"/></clipPath></defs></svg>
+
+					</div>
+					<div class="header-search__submit-text">Submit</div>
+					<input class="header-search__submit-input" type="submit" value="">
+				</div>
+			</div>
+		</form>
+	</div>
+
+	<a href="#" class="header-search__control js-header-search-control" title="Поиск по сайту">
+		<div class="header-search__submit-icon">
+			<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.41793 3.64122C4.18718 3.41028 3.8128 3.41028 3.58205 3.64122C2.7253 4.49797 2.30421 5.69147 2.42658 6.91591C2.45712 7.22094 2.71408 7.44832 3.01418 7.44832C3.0339 7.44832 3.05377 7.44732 3.07349 7.44535C3.39843 7.41285 3.63546 7.12297 3.60296 6.79825C3.51587 5.9281 3.81302 5.082 4.41793 4.47707C4.64887 4.24635 4.64887 3.87194 4.41793 3.64122Z"></path>
+<path d="M6.75863 0C3.03191 0 0 3.03191 0 6.75863C0 10.4853 3.03191 13.5173 6.75863 13.5173C10.4853 13.5173 13.5173 10.4853 13.5173 6.75863C13.5173 3.03191 10.4853 0 6.75863 0ZM6.75863 12.335C3.68375 12.335 1.18228 9.8335 1.18228 6.75863C1.18228 3.68375 3.68375 1.18228 6.75863 1.18228C9.83331 1.18228 12.335 3.68375 12.335 6.75863C12.335 9.8335 9.8335 12.335 6.75863 12.335Z"></path>
+<path d="M15.8266 14.9907L11.531 10.6952C11.3001 10.4642 10.9261 10.4642 10.6952 10.6952C10.4642 10.9259 10.4642 11.3003 10.6952 11.5311L14.9908 15.8266C15.1062 15.9421 15.2574 15.9998 15.4087 15.9998C15.56 15.9998 15.7112 15.9421 15.8266 15.8266C16.0575 15.5959 16.0575 15.2215 15.8266 14.9907Z"></path>
+</svg>
+
+		</div>
+		<div class="header-search__submit-text">Открыть форму поиска</div>
+	</a>
+
+	<div class="header-search-result" style="display: none; position: absolute; top: 2.8rem; left: 0; width: 26rem;">
+	<div class="header-search-result__item">
+		<a href="#">Введите поисковый запрос</a>
+	</div>
+	<div class="header-search-result__item">
+		<a href="#">Введите поисковый запрос</a>
+	</div>
+	<div class="header-search-result__item">
+		<a href="#">Введите поисковый запрос</a>
+	</div>
+	<div class="header-search-result__item">
+		<a href="#">Введите поисковый запрос</a>
+	</div>
+</div>
+
+</div>
+
+			</div>
+			<div class="header-mob__logo">
+				
+				<a href="home.html" class="header-mob__logo-inner" title="Lenalin">Lenalin</a>
+			</div>
+			<div class="header-mob__action">
+				<div class="header-action-mob">
+	<div class="header-action-mob__list">
+		<div class="header-action-mob__item">
+			<a href="#" class="header-cart" title="Перейти в корзину">
+	<div class="header-cart__icon">
+		<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.3333 14.6666H2.66667C2.48986 14.6666 2.32029 14.5963 2.19526 14.4713C2.07024 14.3463 2 14.1767 2 13.9999V1.99992C2 1.82311 2.07024 1.65354 2.19526 1.52851C2.32029 1.40349 2.48986 1.33325 2.66667 1.33325H13.3333C13.5101 1.33325 13.6797 1.40349 13.8047 1.52851C13.9298 1.65354 14 1.82311 14 1.99992V13.9999C14 14.1767 13.9298 14.3463 13.8047 14.4713C13.6797 14.5963 13.5101 14.6666 13.3333 14.6666ZM6 3.99992H4.66667V5.33325C4.66667 6.21731 5.01786 7.06515 5.64298 7.69027C6.2681 8.3154 7.11595 8.66659 8 8.66659C8.88406 8.66659 9.7319 8.3154 10.357 7.69027C10.9821 7.06515 11.3333 6.21731 11.3333 5.33325V3.99992H10V5.33325C10 5.86369 9.78929 6.37239 9.41421 6.74747C9.03914 7.12254 8.53043 7.33325 8 7.33325C7.46957 7.33325 6.96086 7.12254 6.58579 6.74747C6.21071 6.37239 6 5.86369 6 5.33325V3.99992Z"></path>
+</svg>
+
+	</div>
+	<div class="header-cart__count">2</div>
+</a>
+
+		</div>
+		<div class="header-action-mob__item">
+			<div class="header-login">
+	<div class="header-login__holder">
+		<a href="javascript:;" class="header-login__in js-popup-form-opener" data-src="#popup-login" title="Войти [Перейти в личный кабинет]">
+			<div class="header-login__in-figure">
+				<img class="header-login__in-icon" src="assets/images/login_in.svg" alt="Login">
+				<img class="header-login__in-img" src="assets/images/img-no-user.png" alt="User Name" style="display: none;">
+			</div>
+		</a>
+		<a href="#" class="header-login__out" title="Выйти" style="display: none;">
+			<div class="header-login__out-figure">
+				<img class="header-login__in-icon" src="assets/images/login_out.svg" alt="Logout">
+			</div>
+		</a>
+	</div>
+</div>
+
+		</div>
+	</div>
+</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="menu-overlay js-mob-menu-overlay"></div>
+<header class="header js-mob-menu js-mob-menu-prevent-hide">
+	<div class="header__holder">
+		<div class="header__frame">
+			<div class="header__container">
+				<div class="header__container-assets">
+					<div class="header-assets">
+	<div class="header-assets__nav">
+		<nav class="nav">
+	<ul class="nav__list js-nav">
+		
+		
+		<li class="nav__li js-nav-li">
+			<a class="nav__li-el" href="home.html">
+				<span class="nav__li-el-in">Главная</span>
+			</a>
+		</li>
+		
+
+		<li class="nav__li js-nav-li has-drop">
+			
+			
+			<a class="nav__li-el" href="catalog.html"><span class="nav__li-el-in">Каталог</span></a>
+			
+			<em class="nav__li-arrow js-nav-arrow">&#9660;</em>
+			<div class="nav__li-drop js-nav-drop">
+				<div class="sub-nav">
+					<ul class="sub-nav__list">
+						<li class="sub-nav__li js-nav-li">
+							<a class="sub-nav__li-el" href="catalog.html">
+								<span class="sub-nav__li-el-in">Каталог 1</span>
+							</a>
+						</li>
+						<li class="sub-nav__li js-nav-li has-drop">
+							<a class="sub-nav__li-el" href="catalog.html">
+								<span class="sub-nav__li-el-in">Каталог 2</span>
+							</a>
+							<em class="sub-nav__li-arrow js-nav-arrow">&#9660;</em>
+							<div class="sub-nav__li-drop js-nav-drop">
+								<div class="sub-sub-nav">
+									<ul class="sub-sub-nav__list">
+										<li class="sub-sub-nav__li js-nav-li">
+											<a class="sub-sub-nav__li-el" href="catalog.html">
+												<span class="sub-sub-nav__li-el-in">Подкаталог 2.1</span>
+											</a>
+										</li>
+										<li class="sub-sub-nav__li js-nav-li">
+											<a class="sub-sub-nav__li-el" href="catalog.html">
+												<span class="sub-sub-nav__li-el-in">Подкаталог 2.2</span>
+											</a>
+										</li>
+										<li class="sub-sub-nav__li js-nav-li">
+											<a class="sub-sub-nav__li-el" href="catalog.html">
+												<span class="sub-sub-nav__li-el-in">Подкаталог 2.3</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</li>
+
+		
+		
+		<li class="nav__li js-nav-li">
+			<a class="nav__li-el" href="news.html">
+				<span class="nav__li-el-in">Новости</span>
+			</a>
+		</li>
+		
+
+		
+		
+		<li class="nav__li js-nav-li">
+			<a class="nav__li-el" href="news.html">
+				<span class="nav__li-el-in">О нас</span>
+			</a>
+		</li>
+		
+
+		
+		
+		<li class="nav__li js-nav-li">
+			<a class="nav__li-el" href="contacts.html">
+				<span class="nav__li-el-in">Контакты</span>
+			</a>
+		</li>
+		
+	</ul>
+</nav>
+
+
+
+
+
+
+
+
+	</div>
+	<div class="header-assets__share">
+		<div class="header-share">
+	<div class="header-share__list">
+		<a href="https://www.instagram.com/" target="_blank" class="header-share__item instagram" title="Мы в Instagram">
+			<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 2C14.717 2 15.056 2.01 16.122 2.06C17.187 2.11 17.912 2.277 18.55 2.525C19.21 2.779 19.766 3.123 20.322 3.678C20.8305 4.1779 21.224 4.78259 21.475 5.45C21.722 6.087 21.89 6.813 21.94 7.878C21.987 8.944 22 9.283 22 12C22 14.717 21.99 15.056 21.94 16.122C21.89 17.187 21.722 17.912 21.475 18.55C21.2247 19.2178 20.8311 19.8226 20.322 20.322C19.822 20.8303 19.2173 21.2238 18.55 21.475C17.913 21.722 17.187 21.89 16.122 21.94C15.056 21.987 14.717 22 12 22C9.283 22 8.944 21.99 7.878 21.94C6.813 21.89 6.088 21.722 5.45 21.475C4.78233 21.2245 4.17753 20.8309 3.678 20.322C3.16941 19.8222 2.77593 19.2175 2.525 18.55C2.277 17.913 2.11 17.187 2.06 16.122C2.013 15.056 2 14.717 2 12C2 9.283 2.01 8.944 2.06 7.878C2.11 6.812 2.277 6.088 2.525 5.45C2.77524 4.78218 3.1688 4.17732 3.678 3.678C4.17767 3.16923 4.78243 2.77573 5.45 2.525C6.088 2.277 6.812 2.11 7.878 2.06C8.944 2.013 9.283 2 12 2ZM12 7C10.6739 7 9.40215 7.52678 8.46447 8.46447C7.52678 9.40215 7 10.6739 7 12C7 13.3261 7.52678 14.5979 8.46447 15.5355C9.40215 16.4732 10.6739 17 12 17C13.3261 17 14.5979 16.4732 15.5355 15.5355C16.4732 14.5979 17 13.3261 17 12C17 10.6739 16.4732 9.40215 15.5355 8.46447C14.5979 7.52678 13.3261 7 12 7ZM18.5 6.75C18.5 6.41848 18.3683 6.10054 18.1339 5.86612C17.8995 5.6317 17.5815 5.5 17.25 5.5C16.9185 5.5 16.6005 5.6317 16.3661 5.86612C16.1317 6.10054 16 6.41848 16 6.75C16 7.08152 16.1317 7.39946 16.3661 7.63388C16.6005 7.8683 16.9185 8 17.25 8C17.5815 8 17.8995 7.8683 18.1339 7.63388C18.3683 7.39946 18.5 7.08152 18.5 6.75ZM12 9C12.7956 9 13.5587 9.31607 14.1213 9.87868C14.6839 10.4413 15 11.2044 15 12C15 12.7956 14.6839 13.5587 14.1213 14.1213C13.5587 14.6839 12.7956 15 12 15C11.2044 15 10.4413 14.6839 9.87868 14.1213C9.31607 13.5587 9 12.7956 9 12C9 11.2044 9.31607 10.4413 9.87868 9.87868C10.4413 9.31607 11.2044 9 12 9Z"></path>
+</svg>
+
+			<span>Instagram</span>
+		</a>
+		<a href="https://www.pinterest.com/" target="_blank" class="header-share__item pinterest" title="Мы в Pinterest">
+			<svg width="24" height="24" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.9134 1.39597C7.31824 1.17654 5.69756 1.54167 4.35062 2.42394C3.00367 3.30621 2.02143 4.64604 1.58526 6.19601C1.1491 7.74599 1.28847 9.40144 1.97764 10.8567C2.66681 12.3119 3.85923 13.4686 5.33473 14.1133C5.29483 13.6012 5.33145 13.086 5.4434 12.5846C5.56673 12.0253 6.3074 8.94264 6.3074 8.94264C6.15991 8.61203 6.0862 8.25327 6.0914 7.8913C6.0914 6.9013 6.66273 6.16264 7.3734 6.16264C7.50107 6.16078 7.62764 6.18643 7.74451 6.23786C7.86138 6.28928 7.96581 6.36527 8.0507 6.46065C8.13558 6.55604 8.19893 6.66858 8.23644 6.79063C8.27394 6.91268 8.28473 7.04138 8.26806 7.16797C8.26806 7.76797 7.88273 8.67597 7.6814 9.52797C7.64161 9.68422 7.63908 9.84764 7.67403 10.005C7.70897 10.1625 7.7804 10.3095 7.88257 10.4342C7.98474 10.5589 8.11478 10.6579 8.26222 10.7232C8.40966 10.7885 8.57037 10.8182 8.7314 10.81C9.99673 10.81 10.8447 9.1893 10.8447 7.27597C10.8447 5.8093 9.8734 4.71064 8.08273 4.71064C7.65431 4.69399 7.22698 4.76459 6.82668 4.91814C6.42639 5.07169 6.06147 5.305 5.7541 5.6039C5.44672 5.90279 5.2033 6.26104 5.03861 6.65689C4.87392 7.05273 4.7914 7.47792 4.79606 7.90664C4.77698 8.38219 4.9304 8.84861 5.22806 9.21997C5.28368 9.26149 5.3243 9.31997 5.34378 9.38659C5.36326 9.45321 5.36055 9.52436 5.33606 9.5893C5.3054 9.71197 5.22806 10.0046 5.1974 10.112C5.19102 10.1484 5.17618 10.1828 5.15408 10.2124C5.13198 10.242 5.10323 10.266 5.07015 10.2825C5.03707 10.299 5.00059 10.3074 4.96363 10.3072C4.92668 10.307 4.89029 10.2981 4.8574 10.2813C3.93473 9.91197 3.50006 8.89664 3.50006 7.7373C3.50006 5.8393 5.0894 3.5673 8.2694 3.5673C10.8001 3.5673 12.4827 5.41864 12.4827 7.39864C12.4827 10.0046 11.0314 11.964 8.88673 11.964C8.56619 11.9742 8.24824 11.9035 7.96228 11.7583C7.67633 11.6131 7.4316 11.3981 7.25073 11.1333C7.25073 11.1333 6.8654 12.6773 6.7894 12.9693C6.63426 13.4738 6.40533 13.9525 6.11006 14.39C6.7254 14.5766 7.36473 14.67 8.0074 14.6673C8.88312 14.668 9.75037 14.496 10.5595 14.161C11.3686 13.8261 12.1038 13.3348 12.7228 12.7154C13.3418 12.0959 13.8325 11.3605 14.1669 10.5511C14.5013 9.74173 14.6727 8.87436 14.6714 7.99864C14.6706 6.38864 14.0872 4.8333 13.0291 3.61982C11.971 2.40635 10.5096 1.61668 8.91473 1.39664L8.9134 1.39597Z" fill="black"></path>
+</svg>
+
+			<span>Pinterest</span>
+		</a>
+	</div>
+</div>
+
+	</div>
+</div>
+
+				</div>
+				<div class="header__container-options">
+					<div class="header-options">
+	<div class="header-options__list">
+		<div class="header-options__item">
+			<div class="header-location">
+	<a href="#" class="header-location__control js-header-location-control" title="Выбрать страну">
+		<span class="header-location__control-inner">Беларусь</span>
+		<span class="header-location__control-arrow js-header-location-arrow"></span>
+	</a>
+	<div class="header-location__drop js-header-location-drop" data-swc-prevent-remove>
+		<div class="header-location__drop-list">
+			<div class="header-location__drop-item"><span>Беларусь</span></div>
+			<div class="header-location__drop-item"><a href="#rus">Россия</a></div>
+		</div>
+	</div>
+</div>
+
+		</div>
+		<div class="header-options__item">
+			<div class="header-contacts">
+	<div class="header-contacts__list">
+		<div class="header-contacts__item">
+			<div class="header-contacts__row">
+				<div class="header-contacts-el">
+					<div class="header-contacts-el__icon">
+						<i class="icon icon_tel_black"></i>
+					</div>
+					<div class="header-contacts-el__content">
+						<div class="header-contacts-el__title">
+							<div class="header-contacts-el__title-row">
+								<div class="header-phones">
+	<a href="#" class="header-phones__control js-header-phones-control" title="Показать намера контактных телефонов">
+		<span class="header-phones__control-inner">+7 (495) 215-53-94</span>
+		<span class="header-phones__control-arrow js-header-phones-arrow"></span>
+	</a>
+	<div class="header-phones__drop js-header-phones-drop" data-swc-prevent-remove>
+		<div class="header-phones__drop-list">
+			<div class="header-phones__drop-item"><a href="tel:+74959669353">+7 (495) 966-9353</a></div>
+			<div class="header-phones__drop-item"><a href="tel:+74959669353">+7 (495) 966-9353</a></div>
+			<div class="header-phones__drop-item"><a href="tel:+74959669353">+7 (495) 966-9353</a></div>
+		</div>
+	</div>
+</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header-contacts__item">
+			<div class="header-contacts__row">
+				<div class="header-contacts-el">
+					<div class="header-contacts-el__icon">
+						<i class="icon icon_time_black"></i>
+					</div>
+					<div class="header-contacts-el__content">
+						<div class="header-contacts-el__title">
+							<div class="header-contacts-el__title-row">пн-вс: 9:00 - 20:00</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+		</div>
+		<div class="header-options__item header-options__item_action">
+			<div class="header-action">
+	<div class="header-action__list">
+		<div class="header-action__item">
+			<a href="#" class="header-cart" title="Перейти в корзину">
+	<div class="header-cart__icon">
+		<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.3333 14.6666H2.66667C2.48986 14.6666 2.32029 14.5963 2.19526 14.4713C2.07024 14.3463 2 14.1767 2 13.9999V1.99992C2 1.82311 2.07024 1.65354 2.19526 1.52851C2.32029 1.40349 2.48986 1.33325 2.66667 1.33325H13.3333C13.5101 1.33325 13.6797 1.40349 13.8047 1.52851C13.9298 1.65354 14 1.82311 14 1.99992V13.9999C14 14.1767 13.9298 14.3463 13.8047 14.4713C13.6797 14.5963 13.5101 14.6666 13.3333 14.6666ZM6 3.99992H4.66667V5.33325C4.66667 6.21731 5.01786 7.06515 5.64298 7.69027C6.2681 8.3154 7.11595 8.66659 8 8.66659C8.88406 8.66659 9.7319 8.3154 10.357 7.69027C10.9821 7.06515 11.3333 6.21731 11.3333 5.33325V3.99992H10V5.33325C10 5.86369 9.78929 6.37239 9.41421 6.74747C9.03914 7.12254 8.53043 7.33325 8 7.33325C7.46957 7.33325 6.96086 7.12254 6.58579 6.74747C6.21071 6.37239 6 5.86369 6 5.33325V3.99992Z"></path>
+</svg>
+
+	</div>
+	<div class="header-cart__count">2</div>
+</a>
+
+		</div>
+		<div class="header-action__item">
+			<div class="header-login">
+	<div class="header-login__holder">
+		<a href="javascript:;" class="header-login__in js-popup-form-opener" data-src="#popup-login" title="Войти [Перейти в личный кабинет]">
+			<div class="header-login__in-figure">
+				<img class="header-login__in-icon" src="assets/images/login_in.svg" alt="Login">
+				<img class="header-login__in-img" src="assets/images/img-no-user.png" alt="User Name" style="display: none;">
+			</div>
+		</a>
+		<a href="#" class="header-login__out" title="Выйти" style="display: none;">
+			<div class="header-login__out-figure">
+				<img class="header-login__in-icon" src="assets/images/login_out.svg" alt="Logout">
+			</div>
+		</a>
+	</div>
+</div>
+
+		</div>
+	</div>
+</div>
+
+		</div>
+	</div>
+</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<a href="#" class="header__mob-menu-close js-mob-menu-close">Закрыть меню</a>
+</header>
+
+<div class="main">
+	<div class="home-page">
+		<section class="home-page__section home-page__section_news-previews">
+			<div class="section-default">
+	<div class="section-default__heading">
+		<div class="layout-page">
+			<div class="layout-content">
+				<h2 class="section-default__heading-title"><a href="news.html">Новости</a></h2>
+			</div>
+		</div>
+	</div>
+	<div class="section-default__content">
+		<div class="layout-page"><div class="layout-content"><div class="news-previews">
+	<div class="news-previews__list">
+		<div class="news-previews__item">
+			<a href="news-one.html" class="news-preview">
+	<div class="news-preview__figure lazy-load" data-bg="url(assets/images/temp/img-news-01.jpg)"></div>
+	<div class="news-preview__content">
+		<div class="news-preview__title">Как правильно выбирать подарок ребенку?</div>
+		<div class="news-preview__text">Если у вашего ребенка уже есть все, о чем он мечтает, самое время удивить его подарком, выполненным своими руками.</div>
+	</div>
+	<div class="news-preview__meta">
+		<time class="news-preview__meta-date" datetime="2020-09-20">20.09.2020</time>
+		<span class="news-preview__meta-more">Подробнее</span>
+	</div>
+</a>
+
+		</div>
+		<div class="news-previews__item">
+			<a href="news-one.html" class="news-preview">
+	<div class="news-preview__figure lazy-load" data-bg="url(assets/images/temp/img-news-02.jpg)"></div>
+	<div class="news-preview__content">
+		<div class="news-preview__title">С чего начать реализацию стимпанка в интерьере?</div>
+		<div class="news-preview__text">Однако талантливые дизайнеры умеют соблюсти гармонию и выдержать пропорции</div>
+	</div>
+	<div class="news-preview__meta">
+		<time class="news-preview__meta-date" datetime="2020-09-20">20.09.2020</time>
+		<span class="news-preview__meta-more">Подробнее</span>
+	</div>
+</a>
+
+		</div>
+		<div class="news-previews__item">
+			<a href="news-one.html" class="news-preview">
+	<div class="news-preview__figure lazy-load" data-bg="url(assets/images/temp/img-news-03.jpg)"></div>
+	<div class="news-preview__content">
+		<div class="news-preview__title">Как создать в доме зимнее настроение</div>
+		<div class="news-preview__text">Наше летнее и зимнее настроение кардинально отличаются. В теплое время года мы готовы открывать</div>
+	</div>
+	<div class="news-preview__meta">
+		<time class="news-preview__meta-date" datetime="2020-09-20">20.09.2020</time>
+		<span class="news-preview__meta-more">Подробнее</span>
+	</div>
+</a>
+
+		</div>
+
+		<div class="news-previews__item">
+			<a href="news-one.html" class="news-preview">
+	<div class="news-preview__figure lazy-load" data-bg="url(assets/images/temp/img-news-04.jpg)"></div>
+	<div class="news-preview__content">
+		<div class="news-preview__title">Как правильно выбирать подарок ребенку?</div>
+		<div class="news-preview__text">Если у вашего ребенка уже есть все, о чем он мечтает, самое время удивить его подарком, выполненным своими руками.</div>
+	</div>
+	<div class="news-preview__meta">
+		<time class="news-preview__meta-date" datetime="2020-09-20">20.09.2020</time>
+		<span class="news-preview__meta-more">Подробнее</span>
+	</div>
+</a>
+
+		</div>
+		<div class="news-previews__item">
+			<a href="news-one.html" class="news-preview">
+	<div class="news-preview__figure lazy-load" data-bg="url(assets/images/temp/img-news-05.jpg)"></div>
+	<div class="news-preview__content">
+		<div class="news-preview__title">С чего начать реализацию стимпанка в интерьере?</div>
+		<div class="news-preview__text">Однако талантливые дизайнеры умеют соблюсти гармонию и выдержать пропорции</div>
+	</div>
+	<div class="news-preview__meta">
+		<time class="news-preview__meta-date" datetime="2020-09-20">20.09.2020</time>
+		<span class="news-preview__meta-more">Подробнее</span>
+	</div>
+</a>
+
+		</div>
+		<div class="news-previews__item">
+			<a href="news-one.html" class="news-preview">
+	<div class="news-preview__figure lazy-load" data-bg="url(assets/images/temp/img-news-06.jpg)"></div>
+	<div class="news-preview__content">
+		<div class="news-preview__title">Как создать в доме зимнее настроение</div>
+		<div class="news-preview__text">Наше летнее и зимнее настроение кардинально отличаются. В теплое время года мы готовы открывать</div>
+	</div>
+	<div class="news-preview__meta">
+		<time class="news-preview__meta-date" datetime="2020-09-20">20.09.2020</time>
+		<span class="news-preview__meta-more">Подробнее</span>
+	</div>
+</a>
+
+		</div>
+
+		<div class="news-previews__item">
+			<a href="news-one.html" class="news-preview">
+	<div class="news-preview__figure lazy-load" data-bg="url(assets/images/temp/img-news-01.jpg)"></div>
+	<div class="news-preview__content">
+		<div class="news-preview__title">Как правильно выбирать подарок ребенку?</div>
+		<div class="news-preview__text">Если у вашего ребенка уже есть все, о чем он мечтает, самое время удивить его подарком, выполненным своими руками.</div>
+	</div>
+	<div class="news-preview__meta">
+		<time class="news-preview__meta-date" datetime="2020-09-20">20.09.2020</time>
+		<span class="news-preview__meta-more">Подробнее</span>
+	</div>
+</a>
+
+		</div>
+		<div class="news-previews__item">
+			<a href="news-one.html" class="news-preview">
+	<div class="news-preview__figure lazy-load" data-bg="url(assets/images/temp/img-news-02.jpg)"></div>
+	<div class="news-preview__content">
+		<div class="news-preview__title">С чего начать реализацию стимпанка в интерьере?</div>
+		<div class="news-preview__text">Однако талантливые дизайнеры умеют соблюсти гармонию и выдержать пропорции</div>
+	</div>
+	<div class="news-preview__meta">
+		<time class="news-preview__meta-date" datetime="2020-09-20">20.09.2020</time>
+		<span class="news-preview__meta-more">Подробнее</span>
+	</div>
+</a>
+
+		</div>
+		<div class="news-previews__item">
+			<a href="news-one.html" class="news-preview">
+	<div class="news-preview__figure lazy-load" data-bg="url(assets/images/temp/img-news-03.jpg)"></div>
+	<div class="news-preview__content">
+		<div class="news-preview__title">Как создать в доме зимнее настроение</div>
+		<div class="news-preview__text">Наше летнее и зимнее настроение кардинально отличаются. В теплое время года мы готовы открывать</div>
+	</div>
+	<div class="news-preview__meta">
+		<time class="news-preview__meta-date" datetime="2020-09-20">20.09.2020</time>
+		<span class="news-preview__meta-more">Подробнее</span>
+	</div>
+</a>
+
+		</div>
+	</div>
+</div>
+</div></div>
+	</div>
+</div>
+
+		</section>
+	</div>
+</div>
+<footer class="footer" data-aos="fade">
+	<div class="footer__container">
+		<div class="footer__common">
+			<div class="layout-page">
+				<div class="layout-content">
+					<div class="footer-common">
+	<div class="footer-common__boxes">
+		<div class="footer-common__box footer-common__box_logo">
+			<div class="footer-common__logo">
+				
+				<a href="home.html" class="footer-common__logo-inner" title="Lenalin">Lenalin</a>
+			</div>
+			<div class="footer-common__description">Здесь собрано все, чтобы подчеркнуть тепло и радушие вашего жилища. </div>
+		</div>
+		<div class="footer-common__box footer-common__box_assets">
+			<div class="footer-common__row">
+				<div class="footer-assets">
+	<div class="footer-assets__boxes">
+		<div class="footer-assets__box">
+			<div class="footer-assets__box-heading"><a href="#">Разделы</a></div>
+			<div class="footer-assets__box-content">
+				<div class="footer-nav">
+	<div class="footer-nav__list">
+		<div class="footer-nav__item"><a href="home.html" class="footer-nav__el">Главная</a></div>
+		
+
+		<div class="footer-nav__item"><a href="catalog.html" class="footer-nav__el">Каталог</a></div>
+		
+
+		<div class="footer-nav__item"><a href="news.html" class="footer-nav__el">Новости</a></div>
+		
+
+		<div class="footer-nav__item"><a href="about.html" class="footer-nav__el">О нас</a></div>
+		
+
+		<div class="footer-nav__item"><a href="contacts.html" class="footer-nav__el">Контакты</a></div>
+		
+	</div>
+</div>
+
+			</div>
+		</div>
+		<div class="footer-assets__box">
+			<div class="footer-assets__box-heading">Помощь</div>
+			<div class="footer-assets__box-content">
+				<div class="footer-nav">
+	<div class="footer-nav__list">
+		<div class="footer-nav__item"><a href="news-one.html" class="footer-nav__el">Как сделать заказ</a></div>
+		
+
+		<div class="footer-nav__item"><a href="news-one.html" class="footer-nav__el">Оплата</a></div>
+		
+
+		<div class="footer-nav__item"><a href="news-one.html" class="footer-nav__el">Доставка</a></div>
+		
+
+		<div class="footer-nav__item"><a href="news-one.html" class="footer-nav__el">Пункты выдачи</a></div>
+		
+
+		<div class="footer-nav__item"><a href="news-one.html" class="footer-nav__el">Обмен и возврат</a></div>
+		
+
+		<div class="footer-nav__item"><a href="news-one.html" class="footer-nav__el">Правила ухода</a></div>
+		
+	</div>
+</div>
+
+			</div>
+		</div>
+		<div class="footer-assets__box footer-assets__box_sm_full-width footer-assets__box_sm_divider">
+			<div class="footer-assets__box-heading">Контакты</div>
+			<div class="footer-assets__box-content">
+				<div class="footer-contacts">
+	<div class="footer-contacts__list">
+		<div class="footer-contacts__item">
+			<div class="footer-contacts__title">Телефоны:</div>
+			<div class="footer-contacts__text">
+				<div class="footer-contacts__text-item">
+					<a class="footer-contacts__link" href="tel:+74952129900">+7 (495) 212-99-00</a>
+				</div>
+				<div class="footer-contacts__text-item">
+					<a class="footer-contacts__link" href="tel:+74952145666">+7 (495) 214-56-66</a>
+				</div>
+			</div>
+		</div>
+		<div class="footer-contacts__item">
+			<div class="footer-contacts__title">E-mail:</div>
+			<div class="footer-contacts__text">
+				<div class="footer-contacts__text-item">
+					<a class="footer-contacts__link" href="mailto:lenalin.se@mail.ru">lenalin.se@mail.ru</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+			</div>
+		</div>
+		<div class="footer-assets__box footer-assets__box_sm_full-width">
+			<div class="footer-assets__box-heading">Принимаем к оплате:</div>
+			<div class="footer-assets__box-content">
+				<div class="footer-assets__box-content-item">
+					<div class="footer-payments footer-payments_sm_inline">
+	<div class="footer-payments__list">
+		<div class="footer-payments__item">
+			<img class="footer-payments__img" src="assets/images/icon-pay-visa_white.svg" alt="Visa">
+		</div>
+		<div class="footer-payments__item">
+			<img class="footer-payments__img" src="assets/images/icon-pay-master-card_white.svg" alt="Mastercard">
+		</div>
+		<div class="footer-payments__item">
+			<img class="footer-payments__img" src="assets/images/icon-pay-paypal_white.svg" alt="Paypal">
+		</div>
+	</div>
+</div>
+
+				</div>
+				<div class="footer-assets__box-content-item">
+					<div class="footer-callback">
+	<a href="#" class="btn-default-alt btn-default-alt_sm btn-default-alt_sm_full-width js-popup-form-opener" data-src="#popup-callback" title="Обратная связь"><span>Обратная связь</span></a>
+
+	<div style="display: none;" id="popup-callback" class="popup-form">
+	<div class="popup-form__layout">
+		<div class="popup-form__title">Обратная связь</div>
+		
+		
+		<form action="#" method="post">
+			<div class="popup-form__content">
+				<div class="form-unit form-unit_space_small">
+	<div class="form-unit__label">
+		<label for="callback-name" class="form-def-label">Имя:</label>
+
+	</div>
+	<div class="form-unit__input">
+		<input class="form-def" id="callback-name" name="callback-name" type="text" placeholder="Введите Ваше имя" required />
+
+	</div>
+</div>
+<div class="form-unit form-unit_space_small">
+	<div class="form-unit__label">
+		<label for="callback-phone" class="form-def-label">Телефон:</label>
+
+	</div>
+	<div class="form-unit__input">
+		<input class="form-def" id="callback-phone" name="callback-phone" type="text" placeholder="Введите Ваш контактный телефон" required />
+
+	</div>
+</div>
+<div class="form-unit form-unit_space_small">
+	<div class="form-unit__label">
+		<label for="callback-message" class="form-def-label">Комментарий:</label>
+
+	</div>
+	<div class="form-unit__input">
+		<textarea class="form-def" id="callback-message"  placeholder="Опишите проблему"    required></textarea>
+
+	</div>
+</div>
+
+			</div>
+			<div class="popup-form__buttons"><button class="btn-default btn-default_small btn-default_full-width" title="Отправить" type="submit"><span>Отправить</span></button>
+</div>
+			
+		</form>
+	</div>
+</div>
+
+
+</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="footer__add">
+			<div class="layout-page">
+				<div class="layout-content">
+					<div class="footer-subscribe">
+	<form action="#" method="post" class="footer-subscribe__form">
+		<div class="footer-subscribe__label">
+			<label class="footer-subscribe__label-inner" for="subscribe">Подписаться на рассылку:</label>
+		</div>
+		<div class="footer-subscribe__field">
+			<div class="footer-subscribe__entry">
+				<input id="subscribe" class="footer-subscribe__input" placeholder="Ваш e-mail" name="subscribe" type="email" required>
+			</div>
+			<div class="footer-subscribe__submit">
+				<button class="btn-default-alt btn-default-alt_small btn-default-alt_small_sm btn-default-alt_small_sm_no-min-width" title="Отправить"><span>Отправить</span></button>
+
+			</div>
+		</div>
+		<span class="footer-subscribe__note" style="display: none;">Вы подписаны</span>
+	</form>
+</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="footer__bottom">
+			<div class="layout-page">
+				<div class="layout-content">
+					<div class="footer-meta">
+	<div class="footer-meta__boxes">
+		<div class="footer-meta__box footer-meta__box_left">
+			<span class="footer-meta__copyright"><span class="nobr">&copy; 2009-2020 lenalin.se</span></span>
+		</div>
+		<div class="footer-meta__box footer-meta__box_right">
+			<div class="footer-meta__development">
+				<div class="site-dev">
+	<span class="site-dev__text">Разработка сайта iMedia&nbsp;Solutions</span>
+	<a href="https://www.imedia24.ru/" class="site-dev__logo" target="_blank">iMedia Solutions</a>
+</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script src="./assets/libs/js/jquery.min.js"></script>
+<script src="./assets/scripts/app.min.js"></script>
+</body>
+</html>
+
