@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Lenalin - Site map</title>
+	<title>Lenalin - Категория</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 	<meta name="description" content="Description">
@@ -144,8 +144,8 @@
 												<span class="nav__li-el-in">Главная</span>
 											</a>
 										</li>
-										<li class="nav__li js-nav-li has-drop">
-											<a class="nav__li-el" href="catalog.html"><span class="nav__li-el-in">Каталог</span></a>
+										<li class="nav__li js-nav-li has-drop current is-open">
+											<span class="nav__li-el"><span class="nav__li-el-in">Каталог</span></span>
 											<em class="nav__li-arrow js-nav-arrow">&#9660;</em>
 											<div class="nav__li-drop js-nav-drop">
 												<div class="sub-nav">
@@ -344,8 +344,14 @@
 									</a>
 								</li>
 								<li class="breadcrumbs__li" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+									<a class="breadcrumbs__el" itemprop="item" href="catalog.html" title="Перейти на страницу Каталог">
+										<span class="breadcrumbs__el-in" itemprop="name">Каталог</span>
+										<meta itemprop="position" content="1" />
+									</a>
+								</li>
+								<li class="breadcrumbs__li" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
 									<span class="breadcrumbs__el-in">
-										<span itemprop="name">Список страниц</span>
+										<span itemprop="name">Категория</span>
 									</span>
 								</li>
 							</ul>
@@ -357,41 +363,249 @@
 				<div class="layout-page">
 					<div class="layout-content">
 						<div class="heading">
-							<h1 class="heading__title">Список страниц</h1>
+							<h1 class="heading__title">Категория</h1>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="page__section">
 				<div class="layout-page">
-					<div class="layout-content edit-content">
-						<ol class="list-of-pages">
-							<li><a href="home.html">Home - Главная</a></li>
-							<!--<li><a href="inner.html">Inner - Внутренняя текстовая</a></li>-->
-							<li><a href="about.html">About - О компании</a></li>
-							<li><a href="news.html">News - Список новостей</a></li>
-							<li><a href="news-one.html">News One - Внутренняя новостная</a></li>
-							<li><a href="contacts.html">Contacts - Контакты</a></li>
-							<li><a href="catalog.html">Catalog - Каталог</a></li>
-							<li><a href="category.html">Category - Категория</a></li>
-							<li><a href="product-card.html">Product card - Карточка продукта</a></li>
-							<li><a href="cart.html">Cart - Корзина</a></li>
-							<li><a href="checkout.html">Checkout - Оформление заказа</a></li>
-							<li><a href="cabinet-profile.html">Cabinet. Profile - Личный кабинет. Профиль</a></li>
-							<li><a href="cabinet-favorites.html">Cabinet. Favorites - Личный кабинет. Избранное</a></li>
-							<li><a href="cabinet-history.html">Cabinet. History - Личный кабинет. История заказов</a></li>
-							<li><a href="404.html">404 - Страница не найдена</a></li>
-							<li><a href="typography.html">Typography - Элементы</a></li>
-						</ol>
-						<style>
-							.list-of-pages li a {
-								color: inherit;
-							}
-
-							.list-of-pages li a::after {
-								content: ' ('attr(href) ')';
-							}
-						</style>
+					<div class="layout-content">
+						<div class="categories">
+							<div class="categories__list">
+								<div class="categories__item">
+									<div class="categories__in">
+										<a href="catalog.html" class="widget-bg-and-descr widget-bg-and-descr_fit">
+											<div class="widget-bg-and-descr__figure lazy-load" data-bg="url(assets/images/temp/img-popular-categories-01.jpg)"></div>
+											<div class="widget-bg-and-descr__mask"></div>
+											<div class="widget-bg-and-descr__content">
+												<div class="widget-bg-and-descr__title">Пижамы</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="categories__item">
+									<div class="categories__in">
+										<a href="catalog.html" class="widget-bg-and-descr widget-bg-and-descr_fit">
+											<div class="widget-bg-and-descr__figure lazy-load" data-bg="url(assets/images/temp/img-popular-categories-02.jpg)"></div>
+											<div class="widget-bg-and-descr__mask"></div>
+											<div class="widget-bg-and-descr__content">
+												<div class="widget-bg-and-descr__title">Рубашки</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="categories__item">
+									<div class="categories__in">
+										<a href="catalog.html" class="widget-bg-and-descr widget-bg-and-descr_fit">
+											<div class="widget-bg-and-descr__figure lazy-load" data-bg="url(assets/images/temp/img-popular-categories-03.jpg)"></div>
+											<div class="widget-bg-and-descr__mask"></div>
+											<div class="widget-bg-and-descr__content">
+												<div class="widget-bg-and-descr__title">Постельное белье</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="categories__item">
+									<div class="categories__in">
+										<a href="catalog.html" class="widget-bg-and-descr widget-bg-and-descr_fit">
+											<div class="widget-bg-and-descr__figure lazy-load" data-bg="url(assets/images/temp/img-popular-categories-04.jpg)"></div>
+											<div class="widget-bg-and-descr__mask"></div>
+											<div class="widget-bg-and-descr__content">
+												<div class="widget-bg-and-descr__title">Шторы и портьеры</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="categories__item">
+									<div class="categories__in">
+										<a href="catalog.html" class="widget-bg-and-descr widget-bg-and-descr_fit">
+											<div class="widget-bg-and-descr__figure lazy-load" data-bg="url(assets/images/temp/img-popular-categories-05.jpg)"></div>
+											<div class="widget-bg-and-descr__mask"></div>
+											<div class="widget-bg-and-descr__content">
+												<div class="widget-bg-and-descr__title">Халаты</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="categories__item">
+									<div class="categories__in">
+										<a href="catalog.html" class="widget-bg-and-descr widget-bg-and-descr_fit">
+											<div class="widget-bg-and-descr__figure lazy-load" data-bg="url(assets/images/temp/img-popular-categories-06.jpg)"></div>
+											<div class="widget-bg-and-descr__mask"></div>
+											<div class="widget-bg-and-descr__content">
+												<div class="widget-bg-and-descr__title">Пледы</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="categories__item">
+									<div class="categories__in">
+										<a href="catalog.html" class="widget-bg-and-descr widget-bg-and-descr_fit">
+											<div class="widget-bg-and-descr__figure lazy-load" data-bg="url(assets/images/temp/img-popular-categories-07.jpg)"></div>
+											<div class="widget-bg-and-descr__mask"></div>
+											<div class="widget-bg-and-descr__content">
+												<div class="widget-bg-and-descr__title">Покрывала</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="categories__item">
+									<div class="categories__in">
+										<a href="catalog.html" class="widget-bg-and-descr widget-bg-and-descr_fit">
+											<div class="widget-bg-and-descr__figure lazy-load" data-bg="url(assets/images/temp/img-popular-categories-08.jpg)"></div>
+											<div class="widget-bg-and-descr__mask"></div>
+											<div class="widget-bg-and-descr__content">
+												<div class="widget-bg-and-descr__title">Тюли и вуали</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="categories__item">
+									<div class="categories__in">
+										<a href="catalog.html" class="widget-bg-and-descr widget-bg-and-descr_fit">
+											<div class="widget-bg-and-descr__figure lazy-load" data-bg="url(assets/images/temp/img-popular-categories-04.jpg)"></div>
+											<div class="widget-bg-and-descr__mask"></div>
+											<div class="widget-bg-and-descr__content">
+												<div class="widget-bg-and-descr__title">Шторы и портьеры</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="categories__item">
+									<div class="categories__in">
+										<a href="catalog.html" class="widget-bg-and-descr widget-bg-and-descr_fit">
+											<div class="widget-bg-and-descr__figure lazy-load" data-bg="url(assets/images/temp/img-popular-categories-05.jpg)"></div>
+											<div class="widget-bg-and-descr__mask"></div>
+											<div class="widget-bg-and-descr__content">
+												<div class="widget-bg-and-descr__title">Халаты</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="categories__item">
+									<div class="categories__in">
+										<a href="catalog.html" class="widget-bg-and-descr widget-bg-and-descr_fit">
+											<div class="widget-bg-and-descr__figure lazy-load" data-bg="url(assets/images/temp/img-popular-categories-06.jpg)"></div>
+											<div class="widget-bg-and-descr__mask"></div>
+											<div class="widget-bg-and-descr__content">
+												<div class="widget-bg-and-descr__title">Пледы</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="categories__item">
+									<div class="categories__in">
+										<a href="catalog.html" class="widget-bg-and-descr widget-bg-and-descr_fit">
+											<div class="widget-bg-and-descr__figure lazy-load" data-bg="url(assets/images/temp/img-popular-categories-01.jpg)"></div>
+											<div class="widget-bg-and-descr__mask"></div>
+											<div class="widget-bg-and-descr__content">
+												<div class="widget-bg-and-descr__title">Пижамы постельное белье рубашки</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="categories__item">
+									<div class="categories__in">
+										<a href="catalog.html" class="widget-bg-and-descr widget-bg-and-descr_fit">
+											<div class="widget-bg-and-descr__figure lazy-load" data-bg="url(assets/images/temp/img-popular-categories-02.jpg)"></div>
+											<div class="widget-bg-and-descr__mask"></div>
+											<div class="widget-bg-and-descr__content">
+												<div class="widget-bg-and-descr__title">Рубашки</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="categories__item">
+									<div class="categories__in">
+										<a href="catalog.html" class="widget-bg-and-descr widget-bg-and-descr_fit">
+											<div class="widget-bg-and-descr__figure lazy-load" data-bg="url(assets/images/temp/img-popular-categories-03.jpg)"></div>
+											<div class="widget-bg-and-descr__mask"></div>
+											<div class="widget-bg-and-descr__content">
+												<div class="widget-bg-and-descr__title">Постельное белье</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="categories__item">
+									<div class="categories__in">
+										<a href="catalog.html" class="widget-bg-and-descr widget-bg-and-descr_fit">
+											<div class="widget-bg-and-descr__figure lazy-load" data-bg="url(assets/images/temp/img-popular-categories-07.jpg)"></div>
+											<div class="widget-bg-and-descr__mask"></div>
+											<div class="widget-bg-and-descr__content">
+												<div class="widget-bg-and-descr__title">Покрывала</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="categories__item">
+									<div class="categories__in">
+										<a href="catalog.html" class="widget-bg-and-descr widget-bg-and-descr_fit">
+											<div class="widget-bg-and-descr__figure lazy-load" data-bg="url(assets/images/temp/img-popular-categories-08.jpg)"></div>
+											<div class="widget-bg-and-descr__mask"></div>
+											<div class="widget-bg-and-descr__content">
+												<div class="widget-bg-and-descr__title">Тюли и вуали</div>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__section page__section_align-center">
+				<div class="layout-page">
+					<div class="layout-content">
+						<div class="pagination">
+							<div class="pagination__layout">
+								<div class="pagination__left">
+									<a style="display: none;" class="pagination__first disabled" href="#">
+										<i class="pagination__first-arr">
+											<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M7.21855 7.99999L10.5186 11.3L9.57589 12.2427L5.33322 7.99999L9.57589 3.75732L10.5186 4.69999L7.21855 7.99999Z" fill="black"></path>
+											</svg>
+										</i>
+										<span class="pagination__first-text">First</span>
+									</a>
+									<a class="pagination__prev disabled" href="#">
+										<i class="pagination__prev-arr">
+											<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M7.21855 7.99999L10.5186 11.3L9.57589 12.2427L5.33322 7.99999L9.57589 3.75732L10.5186 4.69999L7.21855 7.99999Z" fill="black"></path>
+											</svg>
+										</i>
+										<span class="pagination__prev-text">Prev</span>
+									</a>
+								</div>
+								<div class="pagination__pages">
+									<div class="pagination__pages-li"><a class="pagination__pages-li-el" href="#">1</a></div>
+									<div class="pagination__pages-li"><span class="pagination__pages-li-dots">...</span></div>
+									<div class="pagination__pages-li"><a class="pagination__pages-li-el" href="#">6</a></div>
+									<div class="pagination__pages-li current"><span class="pagination__pages-li-el">7</span></div>
+									<div class="pagination__pages-li"><a class="pagination__pages-li-el" href="#">8</a></div>
+									<div class="pagination__pages-li"><span class="pagination__pages-li-dots">...</span></div>
+									<div class="pagination__pages-li"><a class="pagination__pages-li-el" href="#">11</a></div>
+								</div>
+								<div class="pagination__right">
+									<a class="pagination__next" href="#">
+										<span class="pagination__next-text">Next</span>
+										<i class="pagination__next-arr">
+											<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M8.78144 8.00001L5.48144 4.70001L6.42411 3.75734L10.6668 8.00001L6.42411 12.2427L5.48145 11.3L8.78144 8.00001Z" fill="black"></path>
+											</svg>
+										</i>
+									</a>
+									<a style="display: none;" class="pagination__last" href="#">
+										<span class="pagination__last-text">Last</span>
+										<i class="pagination__last-arr">
+											<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M8.78144 8.00001L5.48144 4.70001L6.42411 3.75734L10.6668 8.00001L6.42411 12.2427L5.48145 11.3L8.78144 8.00001Z" fill="black"></path>
+											</svg>
+										</i>
+									</a>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -420,7 +634,7 @@
 														<div class="footer-nav">
 															<div class="footer-nav__list">
 																<div class="footer-nav__item"><a href="home.html" class="footer-nav__el">Главная</a></div>
-																<div class="footer-nav__item"><a href="catalog.html" class="footer-nav__el">Каталог</a></div>
+																<div class="footer-nav__item current"><span class="footer-nav__el">Каталог</span></div>
 																<div class="footer-nav__item"><a href="news.html" class="footer-nav__el">Новости</a></div>
 																<div class="footer-nav__item"><a href="about.html" class="footer-nav__el">О нас</a></div>
 																<div class="footer-nav__item"><a href="contacts.html" class="footer-nav__el">Контакты</a></div>

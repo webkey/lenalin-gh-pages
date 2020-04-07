@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Lenalin - Site map</title>
+	<title>Lenalin - Контакты</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 	<meta name="description" content="Description">
@@ -196,10 +196,10 @@
 												<span class="nav__li-el-in">О нас</span>
 											</a>
 										</li>
-										<li class="nav__li js-nav-li">
-											<a class="nav__li-el" href="contacts.html">
+										<li class="nav__li js-nav-li current">
+											<span class="nav__li-el">
 												<span class="nav__li-el-in">Контакты</span>
-											</a>
+											</span>
 										</li>
 									</ul>
 								</nav>
@@ -331,69 +331,58 @@
 		<a href="#" class="header__mob-menu-close js-mob-menu-close">Закрыть меню</a>
 	</header>
 	<div class="main">
-		<div class="page">
-			<div class="page__breadcrumbs">
-				<div class="layout-page">
-					<div class="layout-content">
-						<div class="breadcrumbs">
-							<ul itemscope itemtype="http://schema.org/BreadcrumbList" class="breadcrumbs__list">
-								<li class="breadcrumbs__li" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-									<a class="breadcrumbs__el" itemprop="item" href="home.html" title="Перейти на страницу Главная">
-										<span class="breadcrumbs__el-in" itemprop="name">Главная</span>
-										<meta itemprop="position" content="0" />
-									</a>
-								</li>
-								<li class="breadcrumbs__li" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-									<span class="breadcrumbs__el-in">
-										<span itemprop="name">Список страниц</span>
-									</span>
-								</li>
-							</ul>
+		<div class="page-contacts">
+			<div class="layout-page">
+				<div class="layout-content">
+					<div class="page-contacts__content">
+						<div class="page-contacts__breadcrumbs">
+							<div class="breadcrumbs">
+								<ul itemscope itemtype="http://schema.org/BreadcrumbList" class="breadcrumbs__list">
+									<li class="breadcrumbs__li" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+										<a class="breadcrumbs__el" itemprop="item" href="home.html" title="Перейти на страницу Главная">
+											<span class="breadcrumbs__el-in" itemprop="name">Главная</span>
+											<meta itemprop="position" content="0" />
+										</a>
+									</li>
+									<li class="breadcrumbs__li" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+										<span class="breadcrumbs__el-in">
+											<span itemprop="name">Контакты</span>
+										</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="page-contacts__heading">
+							<h1 class="page-contacts__heading-title">Контакты</h1>
+						</div>
+						<div class="page-contacts__entry">
+							<p>Magna eu nisi nulla velit amet aliquip sunt enim et proident dolor. Aliquip quis magna duis elit incididunt. Fugiat do incididunt in reprehenderit consectetur nulla. Fugiat eu sit magna ipsum. Sint ex excepteur aliqua sit cupidatat aliquip adipisicing ipsum nisi culpa nostrud.</p>
+						</div>
+						<div class="page-contacts__section">
+							<div class="contacts-list">
+								<div class="contacts-list__item">
+									<div class="contacts-list__title">Телефоны:</div>
+									<div class="contacts-list__descr">
+										<div class="contacts-list__descr-item"><a href="tel:+74952129900">+7 (495) 212-99-00</a></div>
+										<div class="contacts-list__descr-item"><a href="tel:+74952145666">+7 (495) 214-56-66</a></div>
+									</div>
+								</div>
+								<div class="contacts-list__item">
+									<div class="contacts-list__title">E-mail:</div>
+									<div class="contacts-list__descr">
+										<div class="contacts-list__descr-item"><a href="mailto:lenalin.se@mail.ru">lenalin.se@mail.ru</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="page-contacts__section">
+							<a href="#" class="btn-def btn-def_sm-full-width js-popup-form-opener" data-src="#popup-callback" title="Обратная связь"><span>Обратная связь</span></a>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="page__heading">
-				<div class="layout-page">
-					<div class="layout-content">
-						<div class="heading">
-							<h1 class="heading__title">Список страниц</h1>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="page__section">
-				<div class="layout-page">
-					<div class="layout-content edit-content">
-						<ol class="list-of-pages">
-							<li><a href="home.html">Home - Главная</a></li>
-							<!--<li><a href="inner.html">Inner - Внутренняя текстовая</a></li>-->
-							<li><a href="about.html">About - О компании</a></li>
-							<li><a href="news.html">News - Список новостей</a></li>
-							<li><a href="news-one.html">News One - Внутренняя новостная</a></li>
-							<li><a href="contacts.html">Contacts - Контакты</a></li>
-							<li><a href="catalog.html">Catalog - Каталог</a></li>
-							<li><a href="category.html">Category - Категория</a></li>
-							<li><a href="product-card.html">Product card - Карточка продукта</a></li>
-							<li><a href="cart.html">Cart - Корзина</a></li>
-							<li><a href="checkout.html">Checkout - Оформление заказа</a></li>
-							<li><a href="cabinet-profile.html">Cabinet. Profile - Личный кабинет. Профиль</a></li>
-							<li><a href="cabinet-favorites.html">Cabinet. Favorites - Личный кабинет. Избранное</a></li>
-							<li><a href="cabinet-history.html">Cabinet. History - Личный кабинет. История заказов</a></li>
-							<li><a href="404.html">404 - Страница не найдена</a></li>
-							<li><a href="typography.html">Typography - Элементы</a></li>
-						</ol>
-						<style>
-							.list-of-pages li a {
-								color: inherit;
-							}
-
-							.list-of-pages li a::after {
-								content: ' ('attr(href) ')';
-							}
-						</style>
-					</div>
-				</div>
+			<div class="page-contacts__map">
+				<div class="contacts-map" style="background: url(assets/images/temp/map.jpg) no-repeat center; background-size: cover; height: 100%; width: 100%;"></div>
 			</div>
 		</div>
 	</div>
@@ -423,7 +412,7 @@
 																<div class="footer-nav__item"><a href="catalog.html" class="footer-nav__el">Каталог</a></div>
 																<div class="footer-nav__item"><a href="news.html" class="footer-nav__el">Новости</a></div>
 																<div class="footer-nav__item"><a href="about.html" class="footer-nav__el">О нас</a></div>
-																<div class="footer-nav__item"><a href="contacts.html" class="footer-nav__el">Контакты</a></div>
+																<div class="footer-nav__item current"><span class="footer-nav__el">Контакты</span></div>
 															</div>
 														</div>
 													</div>

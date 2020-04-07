@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Lenalin - Site map</title>
+	<title>Lenalin - Личный кабинет. Профиль</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 	<meta name="description" content="Description">
@@ -344,8 +344,14 @@
 									</a>
 								</li>
 								<li class="breadcrumbs__li" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+									<a class="breadcrumbs__el" itemprop="item" href="cabinet-profile.html" title="Перейти на страницу Личный кабинет">
+										<span class="breadcrumbs__el-in" itemprop="name">Личный кабинет</span>
+										<meta itemprop="position" content="1" />
+									</a>
+								</li>
+								<li class="breadcrumbs__li" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
 									<span class="breadcrumbs__el-in">
-										<span itemprop="name">Список страниц</span>
+										<span itemprop="name">Профиль</span>
 									</span>
 								</li>
 							</ul>
@@ -357,41 +363,271 @@
 				<div class="layout-page">
 					<div class="layout-content">
 						<div class="heading">
-							<h1 class="heading__title">Список страниц</h1>
+							<h1 class="heading__title">Личный кабинет</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__section page__section_space-large">
+				<div class="layout-page">
+					<div class="layout-content">
+						<div class="pseudo-tabs">
+							<div class="pseudo-tabs__list">
+								<div class="pseudo-tabs__li current">
+									<a class="pseudo-tabs__li-el" href="javascript:;"><span class="pseudo-tabs__li-el-in">Профиль</span></a>
+								</div>
+								<div class="pseudo-tabs__li ">
+									<a class="pseudo-tabs__li-el" href="cabinet-favorites.html"><span class="pseudo-tabs__li-el-in">Избранное</span></a>
+								</div>
+								<div class="pseudo-tabs__li ">
+									<a class="pseudo-tabs__li-el" href="cabinet-history.html"><span class="pseudo-tabs__li-el-in">История заказов</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__section page__section_space-large">
+				<div class="layout-page">
+					<div class="layout-content">
+						<div class="layout-form layout-form_align-left">
+							<div class="personal-data">
+								<div class="personal-data__photo">
+									<div class="personal-data-photo">
+										<div class="personal-data-photo__photo">
+											<img class="personal-data-photo__photo-img" src="assets/images/no-photo.jpg" alt="User photo" />
+										</div>
+										<div class="personal-data-photo__controls">
+											<label class="personal-data-photo__photo-upload js-custom-input-file">
+												<span class="personal-data-photo__btn-upload">Загрузить фото</span>
+												<input type="file" class="personal-data-photo__input-upload">
+											</label>
+										</div>
+									</div>
+								</div>
+								<div class="personal-data__info">
+									<div class="personal-data-info">
+										<div class="personal-data-info__name">Павел Бенушин</div>
+										<div class="personal-data-info__list">
+											<div class="personal-data-info__item">
+												<div class="personal-data-info__unit personal-data-info__unit_edit">
+													<div class="personal-data-info__unit-label">E-mail:</div>
+													<div class="personal-data-info__unit-text">PolBen12@mail.ru</div>
+													<div class="personal-data-info__unit-edit">
+														<a href="#" class="btn-edit js-popup-form-opener" data-src="#popup-change-data" title="Редактировать данные"><span>Редактировать</span></a>
+														<div style="display: none;" id="popup-change-data" class="popup-form">
+															<div class="popup-form__layout">
+																<div class="popup-form__title">Изменить поле</div>
+																<form action="#" method="post" onsubmit="alert('Форма находится в тестовом режиме. Чтобы закрыть окно, нажмите ОК.'); return false;">
+																	<div class="popup-form__content">
+																		<div class="form-grid">
+																			<div class="form-grid__row form-grid__row_space-small">
+																				<div class="form-grid__col">
+																					<div class="form-grid__field form-grid__field_space-small">
+																						<div class="form-unit">
+																							<div class="form-unit__label">
+																								<label for="change-data" class="form-def-label">Новое значение:</label>
+																							</div>
+																							<div class="form-unit__input">
+																								<input class="form-def" id="change-data" name="change-data" type="text" placeholder="Введите новые данные" required />
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="popup-form__buttons"><button class="btn-def btn-def_small btn-def_full-width" title="Применить" type="submit"><span>Применить</span></button>
+																	</div>
+																</form>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="personal-data-info__item">
+												<div class="personal-data-info__unit personal-data-info__unit_edit">
+													<div class="personal-data-info__unit-label">Phone:</div>
+													<div class="personal-data-info__unit-text">+375(33) 668-77-76</div>
+													<div class="personal-data-info__unit-edit">
+														<a href="#" class="btn-edit js-popup-form-opener" data-src="#popup-change-data" title="Редактировать данные"><span>Редактировать</span></a>
+													</div>
+												</div>
+											</div>
+											<div class="personal-data-info__item">
+												<div class="personal-data-info__unit personal-data-info__unit_edit">
+													<div class="personal-data-info__unit-label">Пароль:</div>
+													<div class="personal-data-info__unit-text">
+														<span class="personal-data-info__unit-pass">* * * * * * *</span>
+													</div>
+													<div class="personal-data-info__unit-edit">
+														<a href="#" class="btn-edit js-popup-form-opener" data-src="#popup-change-password" title="Редактировать данные"><span>Редактировать</span></a>
+													</div>
+													<div style="display: none;" id="popup-change-password" class="popup-form">
+														<div class="popup-form__layout">
+															<div class="popup-form__title">Изменить пароль</div>
+															<form action="#" method="post" onsubmit="alert('Форма находится в тестовом режиме. Чтобы закрыть окно, нажмите ОК.'); return false;">
+																<div class="popup-form__content">
+																	<div class="form-grid">
+																		<div class="form-grid__row form-grid__row_space-small">
+																			<div class="form-grid__col">
+																				<div class="form-grid__field form-grid__field_space-small">
+																					<div class="form-unit">
+																						<div class="form-unit__label">
+																							<label for="change-password-old-pass" class="form-def-label">Старый пароль:</label>
+																						</div>
+																						<div class="form-unit__input">
+																							<a href="#" class="form-unit__input-icon form-unit__input-icon_show-pass js-show-pass"></a>
+																							<input class="form-def form-def_icon-right" id="change-password-old-pass" name="change-password-old-pass" type="password" placeholder="Введите старый пароль" required />
+																						</div>
+																					</div>
+																				</div>
+																				<div class="form-grid__field form-grid__field_space-small">
+																					<div class="form-unit">
+																						<div class="form-unit__label">
+																							<label for="change-password-new-pass" class="form-def-label">Новый пароль:</label>
+																						</div>
+																						<div class="form-unit__input">
+																							<a href="#" class="form-unit__input-icon form-unit__input-icon_show-pass js-show-pass"></a>
+																							<input class="form-def form-def_icon-right js-main-password" id="change-password-new-pass" name="change-password-new-pass" type="password" placeholder="Введите новый пароль" required />
+																						</div>
+																					</div>
+																				</div>
+																				<div class="form-grid__field form-grid__field_space-small">
+																					<div class="form-unit">
+																						<div class="form-unit__label">
+																							<label for="change-password-repeat-pass" class="form-def-label">Новый пароль еще раз:</label>
+																						</div>
+																						<div class="form-unit__input">
+																							<a href="#" class="form-unit__input-icon form-unit__input-icon_show-pass js-show-pass"></a>
+																							<input class="form-def form-def_icon-right js-confirm-password" id="change-password-repeat-pass" name="change-password-repeat-pass" type="password" placeholder="Повторите новый пароль" required />
+																							<div class="feedback-error feedback-error_confirm-password">Пароли не совпадают</div>
+																							<div class="feedback-success feedback-success_confirm-password">Пароли совпадают</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="popup-form__buttons"><button class="btn-def btn-def_small btn-def_full-width" title="Изменить" type="submit"><span>Изменить</span></button>
+																</div>
+															</form>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="page__section">
 				<div class="layout-page">
-					<div class="layout-content edit-content">
-						<ol class="list-of-pages">
-							<li><a href="home.html">Home - Главная</a></li>
-							<!--<li><a href="inner.html">Inner - Внутренняя текстовая</a></li>-->
-							<li><a href="about.html">About - О компании</a></li>
-							<li><a href="news.html">News - Список новостей</a></li>
-							<li><a href="news-one.html">News One - Внутренняя новостная</a></li>
-							<li><a href="contacts.html">Contacts - Контакты</a></li>
-							<li><a href="catalog.html">Catalog - Каталог</a></li>
-							<li><a href="category.html">Category - Категория</a></li>
-							<li><a href="product-card.html">Product card - Карточка продукта</a></li>
-							<li><a href="cart.html">Cart - Корзина</a></li>
-							<li><a href="checkout.html">Checkout - Оформление заказа</a></li>
-							<li><a href="cabinet-profile.html">Cabinet. Profile - Личный кабинет. Профиль</a></li>
-							<li><a href="cabinet-favorites.html">Cabinet. Favorites - Личный кабинет. Избранное</a></li>
-							<li><a href="cabinet-history.html">Cabinet. History - Личный кабинет. История заказов</a></li>
-							<li><a href="404.html">404 - Страница не найдена</a></li>
-							<li><a href="typography.html">Typography - Элементы</a></li>
-						</ol>
-						<style>
-							.list-of-pages li a {
-								color: inherit;
-							}
-
-							.list-of-pages li a::after {
-								content: ' ('attr(href) ')';
-							}
-						</style>
+					<div class="layout-content">
+						<div class="layout-form layout-form_align-left">
+							<div class="personal-data-form">
+								<form action="#" method="post" class="personal-data-form__form" onsubmit="alert('Форма находится в тестовом режиме. Чтобы закрыть окно, нажмите ОК.'); return false;">
+									<div class="default-form__heading">
+										<div class="default-form__title">Адрес</div>
+									</div>
+									<div class="default-form__section">
+										<div class="form-grid">
+											<div class="form-grid__row">
+												<div class="form-grid__col form-grid__col_6 form-grid__col_sm-12">
+													<div class="form-grid__field">
+														<div class="form-unit">
+															<div class="form-unit__label">
+																<label for="personal-data-country" class="form-def-label">Страна:</label>
+															</div>
+															<div class="form-unit__input">
+																<div class="form-unit__input-icon form-unit__input-icon_no-events">
+																	<i class="icon icon_edit"></i>
+																</div>
+																<input class="form-def form-def_icon-right" id="personal-data-country" name="personal-data-country" type="text" placeholder="Ваш ответ" required />
+															</div>
+														</div>
+													</div>
+													<div class="form-grid__field">
+														<div class="form-unit">
+															<div class="form-unit__label">
+																<label for="personal-data-city" class="form-def-label">Город:</label>
+															</div>
+															<div class="form-unit__input">
+																<div class="form-unit__input-icon form-unit__input-icon_no-events">
+																	<i class="icon icon_edit"></i>
+																</div>
+																<input class="form-def form-def_icon-right" id="personal-data-city" name="personal-data-city" type="text" placeholder="Ваш ответ" required />
+															</div>
+														</div>
+													</div>
+													<div class="form-grid__field">
+														<div class="form-unit">
+															<div class="form-unit__label">
+																<label for="personal-data-street" class="form-def-label">Улица, дом:</label>
+															</div>
+															<div class="form-unit__input">
+																<div class="form-unit__input-icon form-unit__input-icon_no-events">
+																	<i class="icon icon_edit"></i>
+																</div>
+																<input class="form-def form-def_icon-right" id="personal-data-street" name="personal-data-street" type="text" placeholder="Ваш ответ" required />
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="form-grid__col form-grid__col_6 form-grid__col_sm-12">
+													<div class="form-grid__field form-grid__field_6">
+														<div class="form-unit">
+															<div class="form-unit__label">
+																<label for="personal-data-door-code" class="form-def-label">Код домофона:</label>
+															</div>
+															<div class="form-unit__input">
+																<div class="form-unit__input-icon form-unit__input-icon_no-events">
+																	<i class="icon icon_edit"></i>
+																</div>
+																<input class="form-def form-def_icon-right" id="personal-data-door-code" name="personal-data-door-code" type="text" placeholder="Ваш ответ" />
+															</div>
+														</div>
+													</div>
+													<div class="form-grid__field form-grid__field_6">
+														<div class="form-unit">
+															<div class="form-unit__label">
+																<label for="personal-data-floor" class="form-def-label">Этаж:</label>
+															</div>
+															<div class="form-unit__input">
+																<div class="form-unit__input-icon form-unit__input-icon_no-events">
+																	<i class="icon icon_edit"></i>
+																</div>
+																<input class="form-def form-def_icon-right" id="personal-data-floor" name="personal-data-floor" type="text" placeholder="Ваш ответ" />
+															</div>
+														</div>
+													</div>
+													<div class="form-grid__field">
+														<div class="form-unit">
+															<div class="form-unit__label">
+																<label for="personal-data-apartment-number" class="form-def-label">Номер квартиры:</label>
+															</div>
+															<div class="form-unit__input">
+																<div class="form-unit__input-icon form-unit__input-icon_no-events">
+																	<i class="icon icon_edit"></i>
+																</div>
+																<input class="form-def form-def_icon-right" id="personal-data-apartment-number" name="personal-data-apartment-number" type="text" placeholder="Ваш ответ" />
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="default-form__footer">
+										<button class="btn-def btn-def_small btn-def_sm-full-width" title="Сохранить" type="submit"><span>Сохранить</span></button>
+									</div>
+								</form>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

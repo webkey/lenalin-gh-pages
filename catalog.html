@@ -1,0 +1,2481 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<title>Lenalin - Каталог</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+	<meta name="description" content="Description">
+	<meta name="keywords" content="">
+	<meta name="imagetoolbar" content="no">
+	<meta name="msthemecompatible" content="no">
+	<meta name="cleartype" content="on">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="address=no">
+	<!--Icons-->
+	<!--<link rel="shortcut icon" href="./favicon/favicon.ico">-->
+	<link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+	<link rel="manifest" href="./favicon/site.webmanifest">
+	<link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#cab3b1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<!--The Open Graph protocol-->
+	<meta property="og:type" content="website">
+	<meta property="og:locale" content="ru_RU">
+	<meta property="og:url" content="http://lenalin.ru">
+	<meta property="og:title" content="Lenalin">
+	<meta property="og:image" content="./favicon/share.jpg">
+	<meta property="og:image:height" content="630">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:description" content="Lenalin">
+	<meta property="og:site_name" content="Lenalin">
+	<link id="app-css" rel="stylesheet" href="./assets/styles/app.min.css">
+	<script>
+		document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/, 'js');
+		if (!("ontouchstart" in document.documentElement)) {
+			document.documentElement.className += " no-touchevents";
+		} else {
+			document.documentElement.className += " touchevents";
+		}
+	</script>
+</head>
+
+<body>
+	<div class="header-mob js-header-mob">
+		<div class="layout-page">
+			<div class="header-mob__container">
+				<a href="#" class="header-mob__mob-menu-control js-mob-menu-control">Open menu</a>
+				<div class="header-mob__search">
+					<div class="header-search js-header-search">
+						<div class="header-search__panel js-header-search-panel js-header-search-prevent-hide">
+							<form class="header-search__form" action="#" method="post" onsubmit="alert('Форма находится в тестовом режиме. Чтобы закрыть окно, нажмите ОК.'); return false;">
+								<div class="header-search__field">
+									<label for="search" class="header-search__label">Найти</label>
+									<input id="search" type="text" placeholder="Введите поисковый запрос" class="header-search__input js-header-search-input" data-swc-prevent-remove autocomplete="off" />
+									<a href="#" class="header-search__close js-header-search-close">
+										<div class="header-search__close-icon"></div>
+										<div class="header-search__close-text">Close search panel</div>
+									</a>
+									<div class="header-search__submit">
+										<div class="header-search__submit-icon"></div>
+										<div class="header-search__submit-text">Submit</div>
+										<input class="header-search__submit-input" type="submit" value="">
+									</div>
+								</div>
+							</form>
+						</div>
+						<a href="#" class="header-search__control js-header-search-control" title="Поиск по сайту">
+							<div class="header-search__control-icon"></div>
+							<div class="header-search__control-text">Открыть форму поиска</div>
+						</a>
+						<div class="header-search-result" style="display: none;">
+							<div class="header-search-result__item">
+								<a href="#">Введите поисковый запрос</a>
+							</div>
+							<div class="header-search-result__item">
+								<a href="#">Введите поисковый запрос</a>
+							</div>
+							<div class="header-search-result__item">
+								<a href="#">Введите поисковый запрос</a>
+							</div>
+							<div class="header-search-result__item">
+								<a href="#">Введите поисковый запрос</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header-mob__logo">
+					<a href="home.html" class="header-mob__logo-inner" title="Lenalin">Lenalin</a>
+				</div>
+				<div class="header-mob__action">
+					<div class="header-action-mob">
+						<div class="header-action-mob__list">
+							<div class="header-action-mob__item">
+								<a href="cart.html" class="header-cart" title="Перейти в корзину">
+									<div class="header-cart__icon">
+										<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+											<path d="M13.3333 14.6666H2.66667C2.48986 14.6666 2.32029 14.5963 2.19526 14.4713C2.07024 14.3463 2 14.1767 2 13.9999V1.99992C2 1.82311 2.07024 1.65354 2.19526 1.52851C2.32029 1.40349 2.48986 1.33325 2.66667 1.33325H13.3333C13.5101 1.33325 13.6797 1.40349 13.8047 1.52851C13.9298 1.65354 14 1.82311 14 1.99992V13.9999C14 14.1767 13.9298 14.3463 13.8047 14.4713C13.6797 14.5963 13.5101 14.6666 13.3333 14.6666ZM6 3.99992H4.66667V5.33325C4.66667 6.21731 5.01786 7.06515 5.64298 7.69027C6.2681 8.3154 7.11595 8.66659 8 8.66659C8.88406 8.66659 9.7319 8.3154 10.357 7.69027C10.9821 7.06515 11.3333 6.21731 11.3333 5.33325V3.99992H10V5.33325C10 5.86369 9.78929 6.37239 9.41421 6.74747C9.03914 7.12254 8.53043 7.33325 8 7.33325C7.46957 7.33325 6.96086 7.12254 6.58579 6.74747C6.21071 6.37239 6 5.86369 6 5.33325V3.99992Z"></path>
+										</svg>
+									</div>
+									<div class="header-cart__count">2</div>
+								</a>
+							</div>
+							<div class="header-action-mob__item">
+								<div class="header-login">
+									<div class="header-login__holder">
+										<a href="javascript:;" class="header-login__in js-popup-form-opener" data-src="#popup-login" title="Войти [Перейти в личный кабинет]">
+											<div class="header-login__in-figure">
+												<img class="header-login__in-icon" src="assets/images/login_in.svg" alt="Login">
+												<img class="header-login__in-img" src="assets/images/img-no-user.png" alt="User Name" style="display: none;">
+											</div>
+										</a>
+										<a href="#" class="header-login__out" title="Выйти" style="display: none;">
+											<div class="header-login__out-figure">
+												<img class="header-login__in-icon" src="assets/images/login_out.svg" alt="Logout">
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="menu-overlay js-mob-menu-overlay"></div>
+	<header class="header js-mob-menu js-mob-menu-prevent-hide">
+		<div class="header__holder">
+			<div class="header__frame">
+				<div class="header__container">
+					<div class="header__container-assets">
+						<div class="header-assets">
+							<div class="header-assets__nav">
+								<nav class="nav">
+									<ul class="nav__list js-nav">
+										<li class="nav__li js-nav-li">
+											<a class="nav__li-el" href="home.html">
+												<span class="nav__li-el-in">Главная</span>
+											</a>
+										</li>
+										<li class="nav__li js-nav-li has-drop current is-open">
+											<span class="nav__li-el"><span class="nav__li-el-in">Каталог</span></span>
+											<em class="nav__li-arrow js-nav-arrow">&#9660;</em>
+											<div class="nav__li-drop js-nav-drop">
+												<div class="sub-nav">
+													<ul class="sub-nav__list">
+														<li class="sub-nav__li js-nav-li">
+															<a class="sub-nav__li-el" href="catalog.html">
+																<span class="sub-nav__li-el-in">Каталог 1</span>
+															</a>
+														</li>
+														<li class="sub-nav__li js-nav-li has-drop">
+															<a class="sub-nav__li-el" href="catalog.html">
+																<span class="sub-nav__li-el-in">Каталог 2</span>
+															</a>
+															<em class="sub-nav__li-arrow js-nav-arrow">&#9660;</em>
+															<div class="sub-nav__li-drop js-nav-drop">
+																<div class="sub-sub-nav">
+																	<ul class="sub-sub-nav__list">
+																		<li class="sub-sub-nav__li js-nav-li">
+																			<a class="sub-sub-nav__li-el" href="catalog.html">
+																				<span class="sub-sub-nav__li-el-in">Подкаталог 2.1</span>
+																			</a>
+																		</li>
+																		<li class="sub-sub-nav__li js-nav-li">
+																			<a class="sub-sub-nav__li-el" href="catalog.html">
+																				<span class="sub-sub-nav__li-el-in">Подкаталог 2.2</span>
+																			</a>
+																		</li>
+																		<li class="sub-sub-nav__li js-nav-li">
+																			<a class="sub-sub-nav__li-el" href="catalog.html">
+																				<span class="sub-sub-nav__li-el-in">Подкаталог 2.3</span>
+																			</a>
+																		</li>
+																	</ul>
+																</div>
+															</div>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</li>
+										<li class="nav__li js-nav-li">
+											<a class="nav__li-el" href="news.html">
+												<span class="nav__li-el-in">Новости</span>
+											</a>
+										</li>
+										<li class="nav__li js-nav-li">
+											<a class="nav__li-el" href="about.html">
+												<span class="nav__li-el-in">О нас</span>
+											</a>
+										</li>
+										<li class="nav__li js-nav-li">
+											<a class="nav__li-el" href="contacts.html">
+												<span class="nav__li-el-in">Контакты</span>
+											</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+							<div class="header-assets__share">
+								<div class="header-share">
+									<div class="header-share__list">
+										<a href="https://www.instagram.com/" target="_blank" rel="noopener" class="header-share__item instagram" title="Мы в Instagram">
+											<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+												<path d="M12 2C14.717 2 15.056 2.01 16.122 2.06C17.187 2.11 17.912 2.277 18.55 2.525C19.21 2.779 19.766 3.123 20.322 3.678C20.8305 4.1779 21.224 4.78259 21.475 5.45C21.722 6.087 21.89 6.813 21.94 7.878C21.987 8.944 22 9.283 22 12C22 14.717 21.99 15.056 21.94 16.122C21.89 17.187 21.722 17.912 21.475 18.55C21.2247 19.2178 20.8311 19.8226 20.322 20.322C19.822 20.8303 19.2173 21.2238 18.55 21.475C17.913 21.722 17.187 21.89 16.122 21.94C15.056 21.987 14.717 22 12 22C9.283 22 8.944 21.99 7.878 21.94C6.813 21.89 6.088 21.722 5.45 21.475C4.78233 21.2245 4.17753 20.8309 3.678 20.322C3.16941 19.8222 2.77593 19.2175 2.525 18.55C2.277 17.913 2.11 17.187 2.06 16.122C2.013 15.056 2 14.717 2 12C2 9.283 2.01 8.944 2.06 7.878C2.11 6.812 2.277 6.088 2.525 5.45C2.77524 4.78218 3.1688 4.17732 3.678 3.678C4.17767 3.16923 4.78243 2.77573 5.45 2.525C6.088 2.277 6.812 2.11 7.878 2.06C8.944 2.013 9.283 2 12 2ZM12 7C10.6739 7 9.40215 7.52678 8.46447 8.46447C7.52678 9.40215 7 10.6739 7 12C7 13.3261 7.52678 14.5979 8.46447 15.5355C9.40215 16.4732 10.6739 17 12 17C13.3261 17 14.5979 16.4732 15.5355 15.5355C16.4732 14.5979 17 13.3261 17 12C17 10.6739 16.4732 9.40215 15.5355 8.46447C14.5979 7.52678 13.3261 7 12 7ZM18.5 6.75C18.5 6.41848 18.3683 6.10054 18.1339 5.86612C17.8995 5.6317 17.5815 5.5 17.25 5.5C16.9185 5.5 16.6005 5.6317 16.3661 5.86612C16.1317 6.10054 16 6.41848 16 6.75C16 7.08152 16.1317 7.39946 16.3661 7.63388C16.6005 7.8683 16.9185 8 17.25 8C17.5815 8 17.8995 7.8683 18.1339 7.63388C18.3683 7.39946 18.5 7.08152 18.5 6.75ZM12 9C12.7956 9 13.5587 9.31607 14.1213 9.87868C14.6839 10.4413 15 11.2044 15 12C15 12.7956 14.6839 13.5587 14.1213 14.1213C13.5587 14.6839 12.7956 15 12 15C11.2044 15 10.4413 14.6839 9.87868 14.1213C9.31607 13.5587 9 12.7956 9 12C9 11.2044 9.31607 10.4413 9.87868 9.87868C10.4413 9.31607 11.2044 9 12 9Z"></path>
+											</svg>
+											<span>Instagram</span>
+										</a>
+										<a href="https://www.pinterest.com/" target="_blank" rel="noopener" class="header-share__item pinterest" title="Мы в Pinterest">
+											<svg width="24" height="24" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M8.9134 1.39597C7.31824 1.17654 5.69756 1.54167 4.35062 2.42394C3.00367 3.30621 2.02143 4.64604 1.58526 6.19601C1.1491 7.74599 1.28847 9.40144 1.97764 10.8567C2.66681 12.3119 3.85923 13.4686 5.33473 14.1133C5.29483 13.6012 5.33145 13.086 5.4434 12.5846C5.56673 12.0253 6.3074 8.94264 6.3074 8.94264C6.15991 8.61203 6.0862 8.25327 6.0914 7.8913C6.0914 6.9013 6.66273 6.16264 7.3734 6.16264C7.50107 6.16078 7.62764 6.18643 7.74451 6.23786C7.86138 6.28928 7.96581 6.36527 8.0507 6.46065C8.13558 6.55604 8.19893 6.66858 8.23644 6.79063C8.27394 6.91268 8.28473 7.04138 8.26806 7.16797C8.26806 7.76797 7.88273 8.67597 7.6814 9.52797C7.64161 9.68422 7.63908 9.84764 7.67403 10.005C7.70897 10.1625 7.7804 10.3095 7.88257 10.4342C7.98474 10.5589 8.11478 10.6579 8.26222 10.7232C8.40966 10.7885 8.57037 10.8182 8.7314 10.81C9.99673 10.81 10.8447 9.1893 10.8447 7.27597C10.8447 5.8093 9.8734 4.71064 8.08273 4.71064C7.65431 4.69399 7.22698 4.76459 6.82668 4.91814C6.42639 5.07169 6.06147 5.305 5.7541 5.6039C5.44672 5.90279 5.2033 6.26104 5.03861 6.65689C4.87392 7.05273 4.7914 7.47792 4.79606 7.90664C4.77698 8.38219 4.9304 8.84861 5.22806 9.21997C5.28368 9.26149 5.3243 9.31997 5.34378 9.38659C5.36326 9.45321 5.36055 9.52436 5.33606 9.5893C5.3054 9.71197 5.22806 10.0046 5.1974 10.112C5.19102 10.1484 5.17618 10.1828 5.15408 10.2124C5.13198 10.242 5.10323 10.266 5.07015 10.2825C5.03707 10.299 5.00059 10.3074 4.96363 10.3072C4.92668 10.307 4.89029 10.2981 4.8574 10.2813C3.93473 9.91197 3.50006 8.89664 3.50006 7.7373C3.50006 5.8393 5.0894 3.5673 8.2694 3.5673C10.8001 3.5673 12.4827 5.41864 12.4827 7.39864C12.4827 10.0046 11.0314 11.964 8.88673 11.964C8.56619 11.9742 8.24824 11.9035 7.96228 11.7583C7.67633 11.6131 7.4316 11.3981 7.25073 11.1333C7.25073 11.1333 6.8654 12.6773 6.7894 12.9693C6.63426 13.4738 6.40533 13.9525 6.11006 14.39C6.7254 14.5766 7.36473 14.67 8.0074 14.6673C8.88312 14.668 9.75037 14.496 10.5595 14.161C11.3686 13.8261 12.1038 13.3348 12.7228 12.7154C13.3418 12.0959 13.8325 11.3605 14.1669 10.5511C14.5013 9.74173 14.6727 8.87436 14.6714 7.99864C14.6706 6.38864 14.0872 4.8333 13.0291 3.61982C11.971 2.40635 10.5096 1.61668 8.91473 1.39664L8.9134 1.39597Z" fill="black"></path>
+											</svg>
+											<span>Pinterest</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="header__container-options">
+						<div class="header-options">
+							<div class="header-options__list">
+								<div class="header-options__item">
+									<div class="header-location">
+										<a href="#" class="header-location__control js-header-location-control" title="Выбрать страну">
+											<span class="header-location__control-inner">Беларусь</span>
+											<span class="header-location__control-arrow js-header-location-arrow"></span>
+										</a>
+										<div class="header-location__drop js-header-location-drop" data-swc-prevent-remove>
+											<div class="header-location__drop-list">
+												<div class="header-location__drop-item"><span>Беларусь</span></div>
+												<div class="header-location__drop-item"><a href="#ru">Россия</a></div>
+												<div class="header-location__drop-item"><a href="#de">Германия</a></div>
+												<div class="header-location__drop-item"><a href="#uk">Англия</a></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="header-options__item">
+									<div class="header-contacts">
+										<div class="header-contacts__list">
+											<div class="header-contacts__item">
+												<div class="header-contacts__row">
+													<div class="header-contacts-el">
+														<div class="header-contacts-el__icon">
+															<i class="icon icon_tel_black"></i>
+														</div>
+														<div class="header-contacts-el__content">
+															<div class="header-contacts-el__title">
+																<div class="header-contacts-el__title-row">
+																	<div class="header-phones">
+																		<a href="tel:+7492155394" class="header-phones__control">+7 (495) 215-53-94</a>
+																		<a href="#" class="header-phones__control-arrow js-header-phones-control" title="Показать намера контактных телефонов"></a>
+																		<div class="header-phones__drop js-header-phones-drop" data-swc-prevent-remove>
+																			<div class="header-phones__drop-list">
+																				<div class="header-phones__drop-item"><a href="tel:+74959669353">+7 (495) 966-93-53</a></div>
+																				<div class="header-phones__drop-item"><a href="tel:+74959669353">+7 (495) 966-93-53</a></div>
+																				<div class="header-phones__drop-item"><a href="tel:+74959669353">+7 (495) 966-93-53</a></div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="header-contacts__item">
+												<div class="header-contacts__row">
+													<div class="header-contacts-el">
+														<div class="header-contacts-el__icon">
+															<i class="icon icon_time_black"></i>
+														</div>
+														<div class="header-contacts-el__content">
+															<div class="header-contacts-el__title">
+																<div class="header-contacts-el__title-row">пн-вс: 9:00 - 20:00</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="header-options__item header-options__item_action">
+									<div class="header-action">
+										<div class="header-action__list">
+											<div class="header-action__item">
+												<a href="cart.html" class="header-cart" title="Перейти в корзину">
+													<div class="header-cart__icon">
+														<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+															<path d="M13.3333 14.6666H2.66667C2.48986 14.6666 2.32029 14.5963 2.19526 14.4713C2.07024 14.3463 2 14.1767 2 13.9999V1.99992C2 1.82311 2.07024 1.65354 2.19526 1.52851C2.32029 1.40349 2.48986 1.33325 2.66667 1.33325H13.3333C13.5101 1.33325 13.6797 1.40349 13.8047 1.52851C13.9298 1.65354 14 1.82311 14 1.99992V13.9999C14 14.1767 13.9298 14.3463 13.8047 14.4713C13.6797 14.5963 13.5101 14.6666 13.3333 14.6666ZM6 3.99992H4.66667V5.33325C4.66667 6.21731 5.01786 7.06515 5.64298 7.69027C6.2681 8.3154 7.11595 8.66659 8 8.66659C8.88406 8.66659 9.7319 8.3154 10.357 7.69027C10.9821 7.06515 11.3333 6.21731 11.3333 5.33325V3.99992H10V5.33325C10 5.86369 9.78929 6.37239 9.41421 6.74747C9.03914 7.12254 8.53043 7.33325 8 7.33325C7.46957 7.33325 6.96086 7.12254 6.58579 6.74747C6.21071 6.37239 6 5.86369 6 5.33325V3.99992Z"></path>
+														</svg>
+													</div>
+													<div class="header-cart__count">2</div>
+												</a>
+											</div>
+											<div class="header-action__item">
+												<div class="header-login">
+													<div class="header-login__holder">
+														<a href="javascript:;" class="header-login__in js-popup-form-opener" data-src="#popup-login" title="Войти [Перейти в личный кабинет]">
+															<div class="header-login__in-figure">
+																<img class="header-login__in-icon" src="assets/images/login_in.svg" alt="Login">
+																<img class="header-login__in-img" src="assets/images/img-no-user.png" alt="User Name" style="display: none;">
+															</div>
+														</a>
+														<a href="#" class="header-login__out" title="Выйти" style="display: none;">
+															<div class="header-login__out-figure">
+																<img class="header-login__in-icon" src="assets/images/login_out.svg" alt="Logout">
+															</div>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a href="#" class="header__mob-menu-close js-mob-menu-close">Закрыть меню</a>
+	</header>
+	<div class="main">
+		<div class="page">
+			<div class="page__breadcrumbs">
+				<div class="layout-page">
+					<div class="layout-content">
+						<div class="breadcrumbs">
+							<ul itemscope itemtype="http://schema.org/BreadcrumbList" class="breadcrumbs__list">
+								<li class="breadcrumbs__li" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+									<a class="breadcrumbs__el" itemprop="item" href="home.html" title="Перейти на страницу Главная">
+										<span class="breadcrumbs__el-in" itemprop="name">Главная</span>
+										<meta itemprop="position" content="0" />
+									</a>
+								</li>
+								<li class="breadcrumbs__li" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+									<span class="breadcrumbs__el-in">
+										<span itemprop="name">Каталог</span>
+									</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__heading">
+				<div class="layout-page">
+					<div class="layout-content">
+						<div class="heading">
+							<h1 class="heading__title">Каталог</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__section">
+				<div class="layout-page">
+					<div class="layout-content">
+						<div class="layout-filters">
+							<div class="filters-menu-overlay js-filters-menu-overlay"></div>
+							<aside class="layout-filters__aside js-filters-menu js-prevent-hide">
+								<div class="filters-menu js-filter-menu">
+									<div class="filters-menu__header">
+										Фильтры
+										<a href="#" class="filters-menu__close js-filters-menu-close" title="Закрыть фильтр">Закрыть фильтр</a>
+									</div>
+									<div class="filters-menu__main">
+										<div class="filters-menu__layout">
+											<!-- This element can be replaced with the <form> tag if necessary -->
+											<div class="filters js-filters">
+												<ul class="filters__list ">
+													<li class="filters__li">
+														<strong class="filters__li-el"><span class="filters__li-el-in">По категориям</span></strong>
+														<div class="filters__li-drop">
+															<div class="sub-filters">
+																<ul class="sub-filters__list">
+																	<li class="sub-filters__li js-filters-li has-drop">
+																		<a class="sub-filters__li-el" href="catalog.html?bedding-sets">
+																			<span class="sub-filters__li-el-in">Постельные комплекты</span>
+																		</a>
+																		<em class="sub-filters__li-arrow js-filters-arrow">&#9660;</em>
+																		<div class="sub-filters__li-drop js-filters-drop">
+																			<div class="sub-sub-filters">
+																				<ul class="sub-sub-filters__list">
+																					<li class="sub-sub-filters__li js-filters-li has-drop">
+																						<a class="sub-sub-filters__li-el" href="catalog.html?natural-flax">
+																							<span class="sub-sub-filters__li-el-in">Натуральный лен</span>
+																						</a>
+																						<em class="sub-sub-filters__li-arrow js-filters-arrow">&#9660;</em>
+																						<div class="sub-sub-filters__li-drop js-filters-drop">
+																							<div class="sub-sub-filters__set">
+																								<!--For example-->
+																								<div class="filters-set">
+																									<div class="filters-set__list">
+																										<div class="filters-set__li">
+																											<div class="filters-set__title">Размер:</div>
+																											<div class="filters-set__descr filters-set__descr_full-width">
+																												<div class="form-list">
+																													<div class="form-list__list form-list__list_space-small">
+																														<div class="form-list__li form-list__li_space-small">
+																															<label class="form-checkbox">
+																																<input class="form-checkbox__input js-filter" type="checkbox" name="filters-size">
+																																<span class="form-checkbox__label">2-спл</span>
+																															</label>
+																														</div>
+																														<div class="form-list__li form-list__li_space-small">
+																															<label class="form-checkbox">
+																																<input class="form-checkbox__input js-filter" type="checkbox" name="filters-size">
+																																<span class="form-checkbox__label">1.5-спл</span>
+																															</label>
+																														</div>
+																														<div class="form-list__li form-list__li_space-small">
+																															<label class="form-checkbox">
+																																<input class="form-checkbox__input js-filter" type="checkbox" name="filters-size">
+																																<span class="form-checkbox__label">Евро</span>
+																															</label>
+																														</div>
+																													</div>
+																												</div>
+																											</div>
+																										</div>
+																										<div class="filters-set__li">
+																											<div class="filters-set__title">Цвет:</div>
+																											<div class="filters-set__descr filters-set__descr_full-width">
+																												<div class="form-list">
+																													<div class="form-list__list form-list__list_space-small form-list__list_2-cols">
+																														<div class="form-list__li form-list__li_space-small">
+																															<label class="form-color-check">
+																																<input class="form-color-check__input js-filter" type="checkbox" name="form-color">
+																																<i class="form-color-check__pict" style="background-color: #fff"></i>
+																																<span class="form-color-check__label">Белый</span>
+																															</label>
+																														</div>
+																														<div class="form-list__li form-list__li_space-small">
+																															<label class="form-color-check">
+																																<input class="form-color-check__input js-filter" type="checkbox" name="form-color">
+																																<i class="form-color-check__pict" style="background-color: #000"></i>
+																																<span class="form-color-check__label">Чёрный</span>
+																															</label>
+																														</div>
+																														<div class="form-list__li form-list__li_space-small">
+																															<label class="form-color-check">
+																																<input class="form-color-check__input js-filter" type="checkbox" name="form-color">
+																																<i class="form-color-check__pict" style="background-color: #7798ab"></i>
+																																<span class="form-color-check__label">Голубой</span>
+																															</label>
+																														</div>
+																														<div class="form-list__li form-list__li_space-small">
+																															<label class="form-color-check">
+																																<input class="form-color-check__input js-filter" type="checkbox" name="form-color">
+																																<i class="form-color-check__pict" style="background-color: #c4c4c4"></i>
+																																<span class="form-color-check__label">Серый</span>
+																															</label>
+																														</div>
+																														<div class="form-list__li form-list__li_space-small">
+																															<label class="form-color-check">
+																																<input class="form-color-check__input js-filter" type="checkbox" name="form-color">
+																																<i class="form-color-check__pict" style="background-color: #cab3b1"></i>
+																																<span class="form-color-check__label">Розовый</span>
+																															</label>
+																														</div>
+																														<div class="form-list__li form-list__li_space-small">
+																															<label class="form-color-check">
+																																<input class="form-color-check__input js-filter" type="checkbox" name="form-color">
+																																<i class="form-color-check__pict" style="background-color: #86bc94"></i>
+																																<span class="form-color-check__label">Зеленый</span>
+																															</label>
+																														</div>
+																													</div>
+																												</div>
+																											</div>
+																										</div>
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+																					</li>
+																					<li class="sub-sub-filters__li js-filters-li has-drop">
+																						<a class="sub-sub-filters__li-el" href="catalog.html?softened-linen">
+																							<span class="sub-sub-filters__li-el-in">Cмягченный лен</span>
+																						</a>
+																						<em class="sub-sub-filters__li-arrow js-filters-arrow">&#9660;</em>
+																						<div class="sub-sub-filters__li-drop js-filters-drop">
+																							<div class="sub-sub-filters__set">
+																								<!--For example-->
+																								<div class="filters-set">
+																									<div class="filters-set__list">
+																										<div class="filters-set__li">
+																											<div class="filters-set__title">Размер:</div>
+																											<div class="filters-set__descr filters-set__descr_full-width">
+																												<div class="form-list">
+																													<div class="form-list__list form-list__list_space-small">
+																														<div class="form-list__li form-list__li_space-small">
+																															<label class="form-checkbox">
+																																<input class="form-checkbox__input js-filter" type="checkbox" name="filters-size">
+																																<span class="form-checkbox__label">2-спл</span>
+																															</label>
+																														</div>
+																														<div class="form-list__li form-list__li_space-small">
+																															<label class="form-checkbox">
+																																<input class="form-checkbox__input js-filter" type="checkbox" name="filters-size">
+																																<span class="form-checkbox__label">1.5-спл</span>
+																															</label>
+																														</div>
+																														<div class="form-list__li form-list__li_space-small">
+																															<label class="form-checkbox">
+																																<input class="form-checkbox__input js-filter" type="checkbox" name="filters-size">
+																																<span class="form-checkbox__label">Евро</span>
+																															</label>
+																														</div>
+																													</div>
+																												</div>
+																											</div>
+																										</div>
+																										<div class="filters-set__li">
+																											<div class="filters-set__title">Цвет:</div>
+																											<div class="filters-set__descr filters-set__descr_full-width">
+																												<div class="form-list">
+																													<div class="form-list__list form-list__list_space-small form-list__list_2-cols">
+																														<div class="form-list__li form-list__li_space-small">
+																															<label class="form-color-check">
+																																<input class="form-color-check__input js-filter" type="checkbox" name="form-color">
+																																<i class="form-color-check__pict" style="background-color: #fff"></i>
+																																<span class="form-color-check__label">Белый</span>
+																															</label>
+																														</div>
+																														<div class="form-list__li form-list__li_space-small">
+																															<label class="form-color-check">
+																																<input class="form-color-check__input js-filter" type="checkbox" name="form-color">
+																																<i class="form-color-check__pict" style="background-color: #000"></i>
+																																<span class="form-color-check__label">Чёрный</span>
+																															</label>
+																														</div>
+																														<div class="form-list__li form-list__li_space-small">
+																															<label class="form-color-check">
+																																<input class="form-color-check__input js-filter" type="checkbox" name="form-color">
+																																<i class="form-color-check__pict" style="background-color: #7798ab"></i>
+																																<span class="form-color-check__label">Голубой</span>
+																															</label>
+																														</div>
+																														<div class="form-list__li form-list__li_space-small">
+																															<label class="form-color-check">
+																																<input class="form-color-check__input js-filter" type="checkbox" name="form-color">
+																																<i class="form-color-check__pict" style="background-color: #c4c4c4"></i>
+																																<span class="form-color-check__label">Серый</span>
+																															</label>
+																														</div>
+																														<div class="form-list__li form-list__li_space-small">
+																															<label class="form-color-check">
+																																<input class="form-color-check__input js-filter" type="checkbox" name="form-color">
+																																<i class="form-color-check__pict" style="background-color: #cab3b1"></i>
+																																<span class="form-color-check__label">Розовый</span>
+																															</label>
+																														</div>
+																														<div class="form-list__li form-list__li_space-small">
+																															<label class="form-color-check">
+																																<input class="form-color-check__input js-filter" type="checkbox" name="form-color">
+																																<i class="form-color-check__pict" style="background-color: #86bc94"></i>
+																																<span class="form-color-check__label">Зеленый</span>
+																															</label>
+																														</div>
+																													</div>
+																												</div>
+																											</div>
+																										</div>
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+																					</li>
+																				</ul>
+																			</div>
+																		</div>
+																	</li>
+																	<li class="sub-filters__li js-filters-li has-drop">
+																		<a class="sub-filters__li-el" href="catalog.html?sheets">
+																			<span class="sub-filters__li-el-in">Простыни</span>
+																		</a>
+																		<em class="sub-filters__li-arrow js-filters-arrow">&#9660;</em>
+																		<div class="sub-filters__li-drop js-filters-drop">
+																			<div class="sub-sub-filters">
+																				<ul class="sub-sub-filters__list">
+																					<li class="sub-sub-filters__li js-filters-li has-drop">
+																						<a class="sub-sub-filters__li-el" href="catalog.html?natural-flax">
+																							<span class="sub-sub-filters__li-el-in">Натуральный лен</span>
+																						</a>
+																						<em class="sub-sub-filters__li-arrow js-filters-arrow">&#9660;</em>
+																						<div class="sub-sub-filters__li-drop js-filters-drop">
+																							<div class="sub-sub-filters__set">
+																								<!--For example-->
+																								<div class="filters-set">
+																									<div class="filters-set__list">
+																										<div class="filters-set__li">
+																											<div class="filters-set__title">Размер:</div>
+																											<div class="filters-set__descr filters-set__descr_full-width">
+																												<div class="form-list">
+																													<div class="form-list__list form-list__list_space-small">
+																														<div class="form-list__li form-list__li_space-small">
+																															<label class="form-checkbox">
+																																<input class="form-checkbox__input js-filter" type="checkbox" name="filters-size">
+																																<span class="form-checkbox__label">2-спл</span>
+																															</label>
+																														</div>
+																														<div class="form-list__li form-list__li_space-small">
+																															<label class="form-checkbox">
+																																<input class="form-checkbox__input js-filter" type="checkbox" name="filters-size">
+																																<span class="form-checkbox__label">1.5-спл</span>
+																															</label>
+																														</div>
+																														<div class="form-list__li form-list__li_space-small">
+																															<label class="form-checkbox">
+																																<input class="form-checkbox__input js-filter" type="checkbox" name="filters-size">
+																																<span class="form-checkbox__label">Евро</span>
+																															</label>
+																														</div>
+																													</div>
+																												</div>
+																											</div>
+																										</div>
+																										<div class="filters-set__li">
+																											<div class="filters-set__title">Цвет:</div>
+																											<div class="filters-set__descr filters-set__descr_full-width">
+																												<div class="form-list">
+																													<div class="form-list__list form-list__list_space-small form-list__list_2-cols">
+																														<div class="form-list__li form-list__li_space-small">
+																															<label class="form-color-check">
+																																<input class="form-color-check__input js-filter" type="checkbox" name="form-color">
+																																<i class="form-color-check__pict" style="background-color: #fff"></i>
+																																<span class="form-color-check__label">Белый</span>
+																															</label>
+																														</div>
+																														<div class="form-list__li form-list__li_space-small">
+																															<label class="form-color-check">
+																																<input class="form-color-check__input js-filter" type="checkbox" name="form-color">
+																																<i class="form-color-check__pict" style="background-color: #000"></i>
+																																<span class="form-color-check__label">Чёрный</span>
+																															</label>
+																														</div>
+																														<div class="form-list__li form-list__li_space-small">
+																															<label class="form-color-check">
+																																<input class="form-color-check__input js-filter" type="checkbox" name="form-color">
+																																<i class="form-color-check__pict" style="background-color: #7798ab"></i>
+																																<span class="form-color-check__label">Голубой</span>
+																															</label>
+																														</div>
+																														<div class="form-list__li form-list__li_space-small">
+																															<label class="form-color-check">
+																																<input class="form-color-check__input js-filter" type="checkbox" name="form-color">
+																																<i class="form-color-check__pict" style="background-color: #c4c4c4"></i>
+																																<span class="form-color-check__label">Серый</span>
+																															</label>
+																														</div>
+																														<div class="form-list__li form-list__li_space-small">
+																															<label class="form-color-check">
+																																<input class="form-color-check__input js-filter" type="checkbox" name="form-color">
+																																<i class="form-color-check__pict" style="background-color: #cab3b1"></i>
+																																<span class="form-color-check__label">Розовый</span>
+																															</label>
+																														</div>
+																														<div class="form-list__li form-list__li_space-small">
+																															<label class="form-color-check">
+																																<input class="form-color-check__input js-filter" type="checkbox" name="form-color">
+																																<i class="form-color-check__pict" style="background-color: #86bc94"></i>
+																																<span class="form-color-check__label">Зеленый</span>
+																															</label>
+																														</div>
+																													</div>
+																												</div>
+																											</div>
+																										</div>
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+																					</li>
+																					<li class="sub-sub-filters__li js-filters-li has-drop">
+																						<a class="sub-sub-filters__li-el" href="catalog.html?softened-linen">
+																							<span class="sub-sub-filters__li-el-in">Cмягченный лен</span>
+																						</a>
+																						<em class="sub-sub-filters__li-arrow js-filters-arrow">&#9660;</em>
+																						<div class="sub-sub-filters__li-drop js-filters-drop">
+																							<div class="sub-sub-filters__set">
+																								<!--For example-->
+																								<div class="filters-set">
+																									<div class="filters-set__list">
+																										<div class="filters-set__li">
+																											<div class="filters-set__title">Размер:</div>
+																											<div class="filters-set__descr filters-set__descr_full-width">
+																												<div class="form-list">
+																													<div class="form-list__list form-list__list_space-small">
+																														<div class="form-list__li form-list__li_space-small">
+																															<label class="form-checkbox">
+																																<input class="form-checkbox__input js-filter" type="checkbox" name="filters-size">
+																																<span class="form-checkbox__label">2-спл</span>
+																															</label>
+																														</div>
+																														<div class="form-list__li form-list__li_space-small">
+																															<label class="form-checkbox">
+																																<input class="form-checkbox__input js-filter" type="checkbox" name="filters-size">
+																																<span class="form-checkbox__label">1.5-спл</span>
+																															</label>
+																														</div>
+																														<div class="form-list__li form-list__li_space-small">
+																															<label class="form-checkbox">
+																																<input class="form-checkbox__input js-filter" type="checkbox" name="filters-size">
+																																<span class="form-checkbox__label">Евро</span>
+																															</label>
+																														</div>
+																													</div>
+																												</div>
+																											</div>
+																										</div>
+																										<div class="filters-set__li">
+																											<div class="filters-set__title">Цвет:</div>
+																											<div class="filters-set__descr filters-set__descr_full-width">
+																												<div class="form-list">
+																													<div class="form-list__list form-list__list_space-small form-list__list_2-cols">
+																														<div class="form-list__li form-list__li_space-small">
+																															<label class="form-color-check">
+																																<input class="form-color-check__input js-filter" type="checkbox" name="form-color">
+																																<i class="form-color-check__pict" style="background-color: #fff"></i>
+																																<span class="form-color-check__label">Белый</span>
+																															</label>
+																														</div>
+																														<div class="form-list__li form-list__li_space-small">
+																															<label class="form-color-check">
+																																<input class="form-color-check__input js-filter" type="checkbox" name="form-color">
+																																<i class="form-color-check__pict" style="background-color: #000"></i>
+																																<span class="form-color-check__label">Чёрный</span>
+																															</label>
+																														</div>
+																														<div class="form-list__li form-list__li_space-small">
+																															<label class="form-color-check">
+																																<input class="form-color-check__input js-filter" type="checkbox" name="form-color">
+																																<i class="form-color-check__pict" style="background-color: #7798ab"></i>
+																																<span class="form-color-check__label">Голубой</span>
+																															</label>
+																														</div>
+																														<div class="form-list__li form-list__li_space-small">
+																															<label class="form-color-check">
+																																<input class="form-color-check__input js-filter" type="checkbox" name="form-color">
+																																<i class="form-color-check__pict" style="background-color: #c4c4c4"></i>
+																																<span class="form-color-check__label">Серый</span>
+																															</label>
+																														</div>
+																														<div class="form-list__li form-list__li_space-small">
+																															<label class="form-color-check">
+																																<input class="form-color-check__input js-filter" type="checkbox" name="form-color">
+																																<i class="form-color-check__pict" style="background-color: #cab3b1"></i>
+																																<span class="form-color-check__label">Розовый</span>
+																															</label>
+																														</div>
+																														<div class="form-list__li form-list__li_space-small">
+																															<label class="form-color-check">
+																																<input class="form-color-check__input js-filter" type="checkbox" name="form-color">
+																																<i class="form-color-check__pict" style="background-color: #86bc94"></i>
+																																<span class="form-color-check__label">Зеленый</span>
+																															</label>
+																														</div>
+																													</div>
+																												</div>
+																											</div>
+																										</div>
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+																					</li>
+																				</ul>
+																			</div>
+																		</div>
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</li>
+													<li class="filters__li">
+														<strong class="filters__li-el"><span class="filters__li-el-in">По комнате</span></strong>
+														<div class="filters__li-drop">
+															<div class="sub-filters">
+																<ul class="sub-filters__list">
+																	<li class="sub-filters__li js-filters-li">
+																		<a class="sub-filters__li-el" href="catalog.html?living-room">
+																			<span class="sub-filters__li-el-in">Гостиная</span>
+																		</a>
+																	</li>
+																	<li class="sub-filters__li js-filters-li">
+																		<a class="sub-filters__li-el" href="catalog.html?bedroom">
+																			<span class="sub-filters__li-el-in">Спальня</span>
+																		</a>
+																	</li>
+																	<li class="sub-filters__li js-filters-li">
+																		<a class="sub-filters__li-el" href="catalog.html?kitchen">
+																			<span class="sub-filters__li-el-in">Кухня</span>
+																		</a>
+																	</li>
+																	<li class="sub-filters__li js-filters-li">
+																		<a class="sub-filters__li-el" href="catalog.html?bathroom">
+																			<span class="sub-filters__li-el-in">Баня/Ванная</span>
+																		</a>
+																	</li>
+																	<li class="sub-filters__li js-filters-li">
+																		<a class="sub-filters__li-el" href="catalog.html?children">
+																			<span class="sub-filters__li-el-in">Детская</span>
+																		</a>
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</aside>
+							<div class="layout-filters__content">
+								<div class="page__section page__section_space-smallest page__section_hide page__section_show-lg reset-line-height">
+									<a href="#" class="filters-menu-switcher js-filters-menu-switcher" title="Открыть/закрыть панель с фильтрами">
+										<span>Открыть фильтры</span>
+									</a>
+								</div>
+								<div class="page__section page__section_space-smallest">
+									<div class="controls-panel">
+										<div class="controls-panel__sorting">
+											<div class="form-unit-inline__input">
+												<select class="form-select-inline js-form-select-inline" name="sort-by">
+													<option value="">Сортировать по</option>
+													<option value="price">Сортировать по цене</option>
+													<option value="date">Сортировать по дате</option>
+													<option value="popular">Сортировать по популярности</option>
+												</select>
+											</div>
+										</div>
+										<div class="controls-panel__show">
+											<div class="form-unit-inline__label">
+												<span class="label">Показывать по:</span>
+											</div>
+											<div class="form-unit-inline__input">
+												<select class="form-select-inline js-form-select-inline" name="show-count">
+													<option value="9">9</option>
+													<option value="12">12</option>
+													<option value="25">25</option>
+												</select>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="page__section">
+									<div class="catalog">
+										<div class="catalog__list">
+											<div class="catalog__item">
+												<div class="widget-offer-img-and-descr">
+													<div class="widget-offer-img-and-descr__flip js-container-flip js-flip-prevent-hide">
+														<a href="#" class="widget-offer-img-and-descr__btn-flip js-btn-flip">Купить</a>
+														<div class="widget-offer-img-and-descr__flip-front">
+															<div class="widget-offer-img-and-descr__figure lazy-load" data-bg="url(assets/images/temp/img-best-offers-01.jpg)" style="background-image: url(assets/images/len.webp)"></div>
+														</div>
+														<div class="widget-offer-img-and-descr__flip-back">
+															<form action="checkout.html" method="POST" class="quick-offer quick-offer_fit">
+																<div class="quick-offer__layout">
+																	<div class="quick-offer__entry">
+																		<div class="quick-offer__title">Комплект постельного белья изо льна <strong>Сладкие сны</strong></div>
+																		<div class="quick-offer__size">
+																			<div class="size">
+																				<div class="size__list">
+																					<div class="size__item">
+																						<label class="size__el">
+																							<input type="radio" name="quick-offer-size" checked />
+																							<span>2-спл</span>
+																						</label>
+																					</div>
+																					<div class="size__item">
+																						<label class="size__el">
+																							<input type="radio" name="quick-offer-size" />
+																							<span>1.5-спл</span>
+																						</label>
+																					</div>
+																					<div class="size__item">
+																						<label class="size__el">
+																							<input type="radio" name="quick-offer-size" />
+																							<span>Евро</span>
+																						</label>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="quick-offer__colors">
+																			<div class="colors">
+																				<div class="colors__list">
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #7798ab">#7798ab</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" checked />
+																							<span style="background-color: #757575">#757575</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #ffffff">#ffffff</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #cab3b1">#cab3b1</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #000000">#000000</span>
+																						</label>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="quick-offer__price">
+																		<div class="quick-offer__price-els">
+																			<div class="quick-offer__price-el quick-offer__price-el_old">200 руб.</div>
+																			<div class="quick-offer__price-el quick-offer__price-el_new">180 руб.</div>
+																		</div>
+																	</div>
+																	<div class="quick-offer__favorites">
+																		<label class="btn-favorites">
+																			<input type="checkbox" />
+																			<span>Favorites</span>
+																		</label>
+																	</div>
+																	<div class="quick-offer__button">
+																		<button class="btn-def btn-def_small" title="Заказать" type="submit"><span>Заказать</span></button>
+																	</div>
+																</div>
+															</form>
+														</div>
+													</div>
+													<div class="widget-offer-img-and-descr__content">
+														<div class="widget-offer-img-and-descr__title"><a href="product-card.html">Комплект постельного белья изо льна <strong>Сладкие сны</strong></a></div>
+														<div class="widget-offer-img-and-descr__price">
+															<div class="widget-offer-img-and-descr__price-els">
+																<div class="widget-offer-img-and-descr__price-el widget-offer-img-and-descr__price-el_old">200 руб.</div>
+																<div class="widget-offer-img-and-descr__price-el widget-offer-img-and-descr__price-el_new">180 руб.</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="catalog__item">
+												<div class="widget-offer-img-and-descr">
+													<div class="widget-offer-img-and-descr__flip js-container-flip js-flip-prevent-hide">
+														<a href="#" class="widget-offer-img-and-descr__btn-flip js-btn-flip">Купить</a>
+														<div class="widget-offer-img-and-descr__flip-front">
+															<div class="widget-offer-img-and-descr__figure lazy-load" data-bg="url(assets/images/temp/img-best-offers-08.jpg)" style="background-image: url(assets/images/len.webp)"></div>
+														</div>
+														<div class="widget-offer-img-and-descr__flip-back">
+															<form action="checkout.html" method="POST" class="quick-offer quick-offer_fit">
+																<div class="quick-offer__layout">
+																	<div class="quick-offer__entry">
+																		<div class="quick-offer__title">Комплект постельного белья изо льна <strong>Сладкие сны</strong></div>
+																		<div class="quick-offer__size">
+																			<div class="size">
+																				<div class="size__list">
+																					<div class="size__item">
+																						<label class="size__el">
+																							<input type="radio" name="quick-offer-size" checked />
+																							<span>2-спл</span>
+																						</label>
+																					</div>
+																					<div class="size__item">
+																						<label class="size__el">
+																							<input type="radio" name="quick-offer-size" />
+																							<span>1.5-спл</span>
+																						</label>
+																					</div>
+																					<div class="size__item">
+																						<label class="size__el">
+																							<input type="radio" name="quick-offer-size" />
+																							<span>Евро</span>
+																						</label>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="quick-offer__colors">
+																			<div class="colors">
+																				<div class="colors__list">
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #7798ab">#7798ab</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" checked />
+																							<span style="background-color: #757575">#757575</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #ffffff">#ffffff</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #cab3b1">#cab3b1</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #000000">#000000</span>
+																						</label>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="quick-offer__price">
+																		<div class="quick-offer__price-els">
+																			<div class="quick-offer__price-el quick-offer__price-el_old">200 руб.</div>
+																			<div class="quick-offer__price-el quick-offer__price-el_new">180 руб.</div>
+																		</div>
+																	</div>
+																	<div class="quick-offer__favorites">
+																		<label class="btn-favorites">
+																			<input type="checkbox" />
+																			<span>Favorites</span>
+																		</label>
+																	</div>
+																	<div class="quick-offer__button">
+																		<button class="btn-def btn-def_small" title="Заказать" type="submit"><span>Заказать</span></button>
+																	</div>
+																</div>
+															</form>
+														</div>
+													</div>
+													<div class="widget-offer-img-and-descr__content">
+														<div class="widget-offer-img-and-descr__title"><a href="product-card.html">Комплект постельного белья изо льна <strong>Сладкие сны</strong></a></div>
+														<div class="widget-offer-img-and-descr__price">
+															<div class="widget-offer-img-and-descr__price-els">
+																<div class="widget-offer-img-and-descr__price-el widget-offer-img-and-descr__price-el_old">200 руб.</div>
+																<div class="widget-offer-img-and-descr__price-el widget-offer-img-and-descr__price-el_new">180 руб.</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="catalog__item">
+												<div class="widget-offer-img-and-descr">
+													<div class="widget-offer-img-and-descr__flip js-container-flip js-flip-prevent-hide">
+														<a href="#" class="widget-offer-img-and-descr__btn-flip js-btn-flip">Купить</a>
+														<div class="widget-offer-img-and-descr__flip-front">
+															<div class="widget-offer-img-and-descr__figure lazy-load" data-bg="url(assets/images/temp/img-best-offers-02.jpg)" style="background-image: url(assets/images/len.webp)"></div>
+														</div>
+														<div class="widget-offer-img-and-descr__flip-back">
+															<form action="checkout.html" method="POST" class="quick-offer quick-offer_fit">
+																<div class="quick-offer__layout">
+																	<div class="quick-offer__entry">
+																		<div class="quick-offer__title">Длинный домашний халат из умягченного льна</div>
+																		<div class="quick-offer__size">
+																			<div class="size">
+																				<div class="size__list">
+																					<div class="size__item">
+																						<label class="size__el">
+																							<input type="radio" name="quick-offer-size" checked />
+																							<span>2-спл</span>
+																						</label>
+																					</div>
+																					<div class="size__item">
+																						<label class="size__el">
+																							<input type="radio" name="quick-offer-size" />
+																							<span>1.5-спл</span>
+																						</label>
+																					</div>
+																					<div class="size__item">
+																						<label class="size__el">
+																							<input type="radio" name="quick-offer-size" />
+																							<span>Евро</span>
+																						</label>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="quick-offer__colors">
+																			<div class="colors">
+																				<div class="colors__list">
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #7798ab">#7798ab</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" checked />
+																							<span style="background-color: #757575">#757575</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #ffffff">#ffffff</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #cab3b1">#cab3b1</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #000000">#000000</span>
+																						</label>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="quick-offer__price">
+																		<div class="quick-offer__price-els">
+																			<div class="quick-offer__price-el quick-offer__price-el_old">200 руб.</div>
+																			<div class="quick-offer__price-el quick-offer__price-el_new">180 руб.</div>
+																		</div>
+																	</div>
+																	<div class="quick-offer__favorites">
+																		<label class="btn-favorites">
+																			<input type="checkbox" />
+																			<span>Favorites</span>
+																		</label>
+																	</div>
+																	<div class="quick-offer__button">
+																		<button class="btn-def btn-def_small" title="Заказать" type="submit"><span>Заказать</span></button>
+																	</div>
+																</div>
+															</form>
+														</div>
+													</div>
+													<div class="widget-offer-img-and-descr__content">
+														<div class="widget-offer-img-and-descr__title"><a href="product-card.html">Длинный домашний халат из умягченного льна</a></div>
+														<div class="widget-offer-img-and-descr__price">
+															<div class="widget-offer-img-and-descr__price-els">
+																<div class="widget-offer-img-and-descr__price-el widget-offer-img-and-descr__price-el_new">95.90 руб.</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="catalog__item">
+												<div class="widget-offer-img-and-descr">
+													<div class="widget-offer-img-and-descr__flip js-container-flip js-flip-prevent-hide">
+														<a href="#" class="widget-offer-img-and-descr__btn-flip js-btn-flip">Купить</a>
+														<div class="widget-offer-img-and-descr__flip-front">
+															<div class="widget-offer-img-and-descr__figure lazy-load" data-bg="url(assets/images/temp/img-best-offers-03.jpg)" style="background-image: url(assets/images/len.webp)"></div>
+														</div>
+														<div class="widget-offer-img-and-descr__flip-back">
+															<form action="checkout.html" method="POST" class="quick-offer quick-offer_fit">
+																<div class="quick-offer__layout">
+																	<div class="quick-offer__entry">
+																		<div class="quick-offer__title">Скатерть льняная</div>
+																		<div class="quick-offer__size">
+																			<div class="size">
+																				<div class="size__list">
+																					<div class="size__item">
+																						<label class="size__el">
+																							<input type="radio" name="quick-offer-size" checked />
+																							<span>2-спл</span>
+																						</label>
+																					</div>
+																					<div class="size__item">
+																						<label class="size__el">
+																							<input type="radio" name="quick-offer-size" />
+																							<span>1.5-спл</span>
+																						</label>
+																					</div>
+																					<div class="size__item">
+																						<label class="size__el">
+																							<input type="radio" name="quick-offer-size" />
+																							<span>Евро</span>
+																						</label>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="quick-offer__colors">
+																			<div class="colors">
+																				<div class="colors__list">
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #7798ab">#7798ab</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" checked />
+																							<span style="background-color: #757575">#757575</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #ffffff">#ffffff</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #cab3b1">#cab3b1</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #000000">#000000</span>
+																						</label>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="quick-offer__price">
+																		<div class="quick-offer__price-els">
+																			<div class="quick-offer__price-el quick-offer__price-el_old">200 руб.</div>
+																			<div class="quick-offer__price-el quick-offer__price-el_new">180 руб.</div>
+																		</div>
+																	</div>
+																	<div class="quick-offer__favorites">
+																		<label class="btn-favorites">
+																			<input type="checkbox" />
+																			<span>Favorites</span>
+																		</label>
+																	</div>
+																	<div class="quick-offer__button">
+																		<button class="btn-def btn-def_small" title="Заказать" type="submit"><span>Заказать</span></button>
+																	</div>
+																</div>
+															</form>
+														</div>
+													</div>
+													<div class="widget-offer-img-and-descr__content">
+														<div class="widget-offer-img-and-descr__title"><a href="product-card.html">Скатерть льняная</a></div>
+														<div class="widget-offer-img-and-descr__price">
+															<div class="widget-offer-img-and-descr__price-els">
+																<div class="widget-offer-img-and-descr__price-el widget-offer-img-and-descr__price-el_new">95.90 руб.</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="catalog__item">
+												<div class="widget-offer-img-and-descr">
+													<div class="widget-offer-img-and-descr__flip js-container-flip js-flip-prevent-hide">
+														<a href="#" class="widget-offer-img-and-descr__btn-flip js-btn-flip">Купить</a>
+														<div class="widget-offer-img-and-descr__flip-front">
+															<div class="widget-offer-img-and-descr__figure lazy-load" data-bg="url(assets/images/temp/img-best-offers-04.jpg)" style="background-image: url(assets/images/len.webp)"></div>
+														</div>
+														<div class="widget-offer-img-and-descr__flip-back">
+															<form action="checkout.html" method="POST" class="quick-offer quick-offer_fit">
+																<div class="quick-offer__layout">
+																	<div class="quick-offer__entry">
+																		<div class="quick-offer__title">Magna eu nisi nulla velit amet aliquip sunt enim et proident dolor. Aliquip quis magna duis elit incididunt. Fugiat do incididunt in reprehenderit consectetur nulla. Fugiat eu sit magna ipsum. Sint ex excepteur aliqua sit cupidatat aliquip adipisicing ipsum nisi culpa nostrud</div>
+																		<div class="quick-offer__size">
+																			<div class="size">
+																				<div class="size__list">
+																					<div class="size__item">
+																						<label class="size__el">
+																							<input type="radio" name="quick-offer-size" checked />
+																							<span>2-спл</span>
+																						</label>
+																					</div>
+																					<div class="size__item">
+																						<label class="size__el">
+																							<input type="radio" name="quick-offer-size" />
+																							<span>1.5-спл</span>
+																						</label>
+																					</div>
+																					<div class="size__item">
+																						<label class="size__el">
+																							<input type="radio" name="quick-offer-size" />
+																							<span>Евро</span>
+																						</label>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="quick-offer__colors">
+																			<div class="colors">
+																				<div class="colors__list">
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #7798ab">#7798ab</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" checked />
+																							<span style="background-color: #757575">#757575</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #ffffff">#ffffff</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #cab3b1">#cab3b1</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #000000">#000000</span>
+																						</label>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="quick-offer__price">
+																		<div class="quick-offer__price-els">
+																			<div class="quick-offer__price-el quick-offer__price-el_old">200 руб.</div>
+																			<div class="quick-offer__price-el quick-offer__price-el_new">180 руб.</div>
+																		</div>
+																	</div>
+																	<div class="quick-offer__favorites">
+																		<label class="btn-favorites">
+																			<input type="checkbox" />
+																			<span>Favorites</span>
+																		</label>
+																	</div>
+																	<div class="quick-offer__button">
+																		<button class="btn-def btn-def_small" title="Заказать" type="submit"><span>Заказать</span></button>
+																	</div>
+																</div>
+															</form>
+														</div>
+													</div>
+													<div class="widget-offer-img-and-descr__content">
+														<div class="widget-offer-img-and-descr__title"><a href="product-card.html">Magna eu nisi nulla velit amet aliquip sunt enim et proident dolor. Aliquip quis magna duis elit incididunt. Fugiat do incididunt in reprehenderit consectetur nulla. Fugiat eu sit magna ipsum. Sint ex excepteur aliqua sit cupidatat aliquip adipisicing ipsum nisi culpa nostrud</a></div>
+														<div class="widget-offer-img-and-descr__price">
+															<div class="widget-offer-img-and-descr__price-els">
+																<div class="widget-offer-img-and-descr__price-el widget-offer-img-and-descr__price-el_new">120.90 руб.</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="catalog__item">
+												<div class="widget-offer-img-and-descr">
+													<div class="widget-offer-img-and-descr__flip js-container-flip js-flip-prevent-hide">
+														<a href="#" class="widget-offer-img-and-descr__btn-flip js-btn-flip">Купить</a>
+														<div class="widget-offer-img-and-descr__flip-front">
+															<div class="widget-offer-img-and-descr__figure lazy-load" data-bg="url(assets/images/temp/img-best-offers-05.jpg)" style="background-image: url(assets/images/len.webp)"></div>
+														</div>
+														<div class="widget-offer-img-and-descr__flip-back">
+															<form action="checkout.html" method="POST" class="quick-offer quick-offer_fit">
+																<div class="quick-offer__layout">
+																	<div class="quick-offer__entry">
+																		<div class="quick-offer__title">Нежное покрывало изо льна</div>
+																		<div class="quick-offer__size">
+																			<div class="size">
+																				<div class="size__list">
+																					<div class="size__item">
+																						<label class="size__el">
+																							<input type="radio" name="quick-offer-size" checked />
+																							<span>2-спл</span>
+																						</label>
+																					</div>
+																					<div class="size__item">
+																						<label class="size__el">
+																							<input type="radio" name="quick-offer-size" />
+																							<span>1.5-спл</span>
+																						</label>
+																					</div>
+																					<div class="size__item">
+																						<label class="size__el">
+																							<input type="radio" name="quick-offer-size" />
+																							<span>Евро</span>
+																						</label>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="quick-offer__colors">
+																			<div class="colors">
+																				<div class="colors__list">
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #7798ab">#7798ab</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" checked />
+																							<span style="background-color: #757575">#757575</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #ffffff">#ffffff</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #cab3b1">#cab3b1</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #000000">#000000</span>
+																						</label>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="quick-offer__price">
+																		<div class="quick-offer__price-els">
+																			<div class="quick-offer__price-el quick-offer__price-el_old">200 руб.</div>
+																			<div class="quick-offer__price-el quick-offer__price-el_new">180 руб.</div>
+																		</div>
+																	</div>
+																	<div class="quick-offer__favorites">
+																		<label class="btn-favorites">
+																			<input type="checkbox" />
+																			<span>Favorites</span>
+																		</label>
+																	</div>
+																	<div class="quick-offer__button">
+																		<button class="btn-def btn-def_small" title="Заказать" type="submit"><span>Заказать</span></button>
+																	</div>
+																</div>
+															</form>
+														</div>
+													</div>
+													<div class="widget-offer-img-and-descr__content">
+														<div class="widget-offer-img-and-descr__title"><a href="product-card.html">Нежное покрывало изо льна</a></div>
+														<div class="widget-offer-img-and-descr__price">
+															<div class="widget-offer-img-and-descr__price-els">
+																<div class="widget-offer-img-and-descr__price-el widget-offer-img-and-descr__price-el_old">200 руб.</div>
+																<div class="widget-offer-img-and-descr__price-el widget-offer-img-and-descr__price-el_new">180 руб.</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="catalog__item">
+												<div class="widget-offer-img-and-descr">
+													<div class="widget-offer-img-and-descr__flip js-container-flip js-flip-prevent-hide">
+														<a href="#" class="widget-offer-img-and-descr__btn-flip js-btn-flip">Купить</a>
+														<div class="widget-offer-img-and-descr__flip-front">
+															<div class="widget-offer-img-and-descr__figure lazy-load" data-bg="url(assets/images/temp/img-best-offers-06.jpg)" style="background-image: url(assets/images/len.webp)"></div>
+														</div>
+														<div class="widget-offer-img-and-descr__flip-back">
+															<form action="checkout.html" method="POST" class="quick-offer quick-offer_fit">
+																<div class="quick-offer__layout">
+																	<div class="quick-offer__entry">
+																		<div class="quick-offer__title">Пижама домашняя из умягченного льна</div>
+																		<div class="quick-offer__size">
+																			<div class="size">
+																				<div class="size__list">
+																					<div class="size__item">
+																						<label class="size__el">
+																							<input type="radio" name="quick-offer-size" checked />
+																							<span>2-спл</span>
+																						</label>
+																					</div>
+																					<div class="size__item">
+																						<label class="size__el">
+																							<input type="radio" name="quick-offer-size" />
+																							<span>1.5-спл</span>
+																						</label>
+																					</div>
+																					<div class="size__item">
+																						<label class="size__el">
+																							<input type="radio" name="quick-offer-size" />
+																							<span>Евро</span>
+																						</label>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="quick-offer__colors">
+																			<div class="colors">
+																				<div class="colors__list">
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #7798ab">#7798ab</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" checked />
+																							<span style="background-color: #757575">#757575</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #ffffff">#ffffff</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #cab3b1">#cab3b1</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #000000">#000000</span>
+																						</label>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="quick-offer__price">
+																		<div class="quick-offer__price-els">
+																			<div class="quick-offer__price-el quick-offer__price-el_old">200 руб.</div>
+																			<div class="quick-offer__price-el quick-offer__price-el_new">180 руб.</div>
+																		</div>
+																	</div>
+																	<div class="quick-offer__favorites">
+																		<label class="btn-favorites">
+																			<input type="checkbox" />
+																			<span>Favorites</span>
+																		</label>
+																	</div>
+																	<div class="quick-offer__button">
+																		<button class="btn-def btn-def_small" title="Заказать" type="submit"><span>Заказать</span></button>
+																	</div>
+																</div>
+															</form>
+														</div>
+													</div>
+													<div class="widget-offer-img-and-descr__content">
+														<div class="widget-offer-img-and-descr__title"><a href="product-card.html">Пижама домашняя из умягченного льна</a></div>
+														<div class="widget-offer-img-and-descr__price">
+															<div class="widget-offer-img-and-descr__price-els">
+																<div class="widget-offer-img-and-descr__price-el widget-offer-img-and-descr__price-el_new">120.90 руб.</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="catalog__item">
+												<div class="widget-offer-img-and-descr">
+													<div class="widget-offer-img-and-descr__flip js-container-flip js-flip-prevent-hide">
+														<a href="#" class="widget-offer-img-and-descr__btn-flip js-btn-flip">Купить</a>
+														<div class="widget-offer-img-and-descr__flip-front">
+															<div class="widget-offer-img-and-descr__figure lazy-load" data-bg="url(assets/images/temp/img-best-offers-07.jpg)" style="background-image: url(assets/images/len.webp)"></div>
+														</div>
+														<div class="widget-offer-img-and-descr__flip-back">
+															<form action="checkout.html" method="POST" class="quick-offer quick-offer_fit">
+																<div class="quick-offer__layout">
+																	<div class="quick-offer__entry">
+																		<div class="quick-offer__title">Комплект постельного белья изо льна <strong>Сладкие сны</strong></div>
+																		<div class="quick-offer__size">
+																			<div class="size">
+																				<div class="size__list">
+																					<div class="size__item">
+																						<label class="size__el">
+																							<input type="radio" name="quick-offer-size" checked />
+																							<span>2-спл</span>
+																						</label>
+																					</div>
+																					<div class="size__item">
+																						<label class="size__el">
+																							<input type="radio" name="quick-offer-size" />
+																							<span>1.5-спл</span>
+																						</label>
+																					</div>
+																					<div class="size__item">
+																						<label class="size__el">
+																							<input type="radio" name="quick-offer-size" />
+																							<span>Евро</span>
+																						</label>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="quick-offer__colors">
+																			<div class="colors">
+																				<div class="colors__list">
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #7798ab">#7798ab</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" checked />
+																							<span style="background-color: #757575">#757575</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #ffffff">#ffffff</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #cab3b1">#cab3b1</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #000000">#000000</span>
+																						</label>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="quick-offer__price">
+																		<div class="quick-offer__price-els">
+																			<div class="quick-offer__price-el quick-offer__price-el_old">200 руб.</div>
+																			<div class="quick-offer__price-el quick-offer__price-el_new">180 руб.</div>
+																		</div>
+																	</div>
+																	<div class="quick-offer__favorites">
+																		<label class="btn-favorites">
+																			<input type="checkbox" />
+																			<span>Favorites</span>
+																		</label>
+																	</div>
+																	<div class="quick-offer__button">
+																		<button class="btn-def btn-def_small" title="Заказать" type="submit"><span>Заказать</span></button>
+																	</div>
+																</div>
+															</form>
+														</div>
+													</div>
+													<div class="widget-offer-img-and-descr__content">
+														<div class="widget-offer-img-and-descr__title"><a href="product-card.html">Комплект постельного белья изо льна <strong>Сладкие сны</strong></a></div>
+														<div class="widget-offer-img-and-descr__price">
+															<div class="widget-offer-img-and-descr__price-els">
+																<div class="widget-offer-img-and-descr__price-el widget-offer-img-and-descr__price-el_old">200 руб.</div>
+																<div class="widget-offer-img-and-descr__price-el widget-offer-img-and-descr__price-el_new">180 руб.</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="catalog__item">
+												<div class="widget-offer-img-and-descr">
+													<div class="widget-offer-img-and-descr__flip js-container-flip js-flip-prevent-hide">
+														<a href="#" class="widget-offer-img-and-descr__btn-flip js-btn-flip">Купить</a>
+														<div class="widget-offer-img-and-descr__flip-front">
+															<div class="widget-offer-img-and-descr__figure lazy-load" data-bg="url(assets/images/temp/img-best-offers-08.jpg)" style="background-image: url(assets/images/len.webp)"></div>
+														</div>
+														<div class="widget-offer-img-and-descr__flip-back">
+															<form action="checkout.html" method="POST" class="quick-offer quick-offer_fit">
+																<div class="quick-offer__layout">
+																	<div class="quick-offer__entry">
+																		<div class="quick-offer__title">Комплект постельного белья изо льна <strong>Сладкие сны</strong></div>
+																		<div class="quick-offer__size">
+																			<div class="size">
+																				<div class="size__list">
+																					<div class="size__item">
+																						<label class="size__el">
+																							<input type="radio" name="quick-offer-size" checked />
+																							<span>2-спл</span>
+																						</label>
+																					</div>
+																					<div class="size__item">
+																						<label class="size__el">
+																							<input type="radio" name="quick-offer-size" />
+																							<span>1.5-спл</span>
+																						</label>
+																					</div>
+																					<div class="size__item">
+																						<label class="size__el">
+																							<input type="radio" name="quick-offer-size" />
+																							<span>Евро</span>
+																						</label>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="quick-offer__colors">
+																			<div class="colors">
+																				<div class="colors__list">
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #7798ab">#7798ab</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" checked />
+																							<span style="background-color: #757575">#757575</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #ffffff">#ffffff</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #cab3b1">#cab3b1</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #000000">#000000</span>
+																						</label>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="quick-offer__price">
+																		<div class="quick-offer__price-els">
+																			<div class="quick-offer__price-el quick-offer__price-el_old">200 руб.</div>
+																			<div class="quick-offer__price-el quick-offer__price-el_new">180 руб.</div>
+																		</div>
+																	</div>
+																	<div class="quick-offer__favorites">
+																		<label class="btn-favorites">
+																			<input type="checkbox" />
+																			<span>Favorites</span>
+																		</label>
+																	</div>
+																	<div class="quick-offer__button">
+																		<button class="btn-def btn-def_small" title="Заказать" type="submit"><span>Заказать</span></button>
+																	</div>
+																</div>
+															</form>
+														</div>
+													</div>
+													<div class="widget-offer-img-and-descr__content">
+														<div class="widget-offer-img-and-descr__title"><a href="product-card.html">Комплект постельного белья изо льна <strong>Сладкие сны</strong></a></div>
+														<div class="widget-offer-img-and-descr__price">
+															<div class="widget-offer-img-and-descr__price-els">
+																<div class="widget-offer-img-and-descr__price-el widget-offer-img-and-descr__price-el_old">200 руб.</div>
+																<div class="widget-offer-img-and-descr__price-el widget-offer-img-and-descr__price-el_new">180 руб.</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="catalog__item">
+												<div class="widget-offer-img-and-descr">
+													<div class="widget-offer-img-and-descr__flip js-container-flip js-flip-prevent-hide">
+														<a href="#" class="widget-offer-img-and-descr__btn-flip js-btn-flip">Купить</a>
+														<div class="widget-offer-img-and-descr__flip-front">
+															<div class="widget-offer-img-and-descr__figure lazy-load" data-bg="url(assets/images/temp/img-best-offers-03.jpg)" style="background-image: url(assets/images/len.webp)"></div>
+														</div>
+														<div class="widget-offer-img-and-descr__flip-back">
+															<form action="checkout.html" method="POST" class="quick-offer quick-offer_fit">
+																<div class="quick-offer__layout">
+																	<div class="quick-offer__entry">
+																		<div class="quick-offer__title">Скатерть льняная</div>
+																		<div class="quick-offer__size">
+																			<div class="size">
+																				<div class="size__list">
+																					<div class="size__item">
+																						<label class="size__el">
+																							<input type="radio" name="quick-offer-size" checked />
+																							<span>2-спл</span>
+																						</label>
+																					</div>
+																					<div class="size__item">
+																						<label class="size__el">
+																							<input type="radio" name="quick-offer-size" />
+																							<span>1.5-спл</span>
+																						</label>
+																					</div>
+																					<div class="size__item">
+																						<label class="size__el">
+																							<input type="radio" name="quick-offer-size" />
+																							<span>Евро</span>
+																						</label>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="quick-offer__colors">
+																			<div class="colors">
+																				<div class="colors__list">
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #7798ab">#7798ab</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" checked />
+																							<span style="background-color: #757575">#757575</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #ffffff">#ffffff</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #cab3b1">#cab3b1</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #000000">#000000</span>
+																						</label>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="quick-offer__price">
+																		<div class="quick-offer__price-els">
+																			<div class="quick-offer__price-el quick-offer__price-el_old">200 руб.</div>
+																			<div class="quick-offer__price-el quick-offer__price-el_new">180 руб.</div>
+																		</div>
+																	</div>
+																	<div class="quick-offer__favorites">
+																		<label class="btn-favorites">
+																			<input type="checkbox" />
+																			<span>Favorites</span>
+																		</label>
+																	</div>
+																	<div class="quick-offer__button">
+																		<button class="btn-def btn-def_small" title="Заказать" type="submit"><span>Заказать</span></button>
+																	</div>
+																</div>
+															</form>
+														</div>
+													</div>
+													<div class="widget-offer-img-and-descr__content">
+														<div class="widget-offer-img-and-descr__title"><a href="product-card.html">Скатерть льняная</a></div>
+														<div class="widget-offer-img-and-descr__price">
+															<div class="widget-offer-img-and-descr__price-els">
+																<div class="widget-offer-img-and-descr__price-el widget-offer-img-and-descr__price-el_new">95.90 руб.</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="catalog__item">
+												<div class="widget-offer-img-and-descr">
+													<div class="widget-offer-img-and-descr__flip js-container-flip js-flip-prevent-hide">
+														<a href="#" class="widget-offer-img-and-descr__btn-flip js-btn-flip">Купить</a>
+														<div class="widget-offer-img-and-descr__flip-front">
+															<div class="widget-offer-img-and-descr__figure lazy-load" data-bg="url(assets/images/temp/img-best-offers-04.jpg)" style="background-image: url(assets/images/len.webp)"></div>
+														</div>
+														<div class="widget-offer-img-and-descr__flip-back">
+															<form action="checkout.html" method="POST" class="quick-offer quick-offer_fit">
+																<div class="quick-offer__layout">
+																	<div class="quick-offer__entry">
+																		<div class="quick-offer__title">Magna eu nisi nulla velit amet aliquip sunt enim et proident dolor. Aliquip quis magna duis elit incididunt. Fugiat do incididunt in reprehenderit consectetur nulla. Fugiat eu sit magna ipsum. Sint ex excepteur aliqua sit cupidatat aliquip adipisicing ipsum nisi culpa nostrud</div>
+																		<div class="quick-offer__size">
+																			<div class="size">
+																				<div class="size__list">
+																					<div class="size__item">
+																						<label class="size__el">
+																							<input type="radio" name="quick-offer-size" checked />
+																							<span>2-спл</span>
+																						</label>
+																					</div>
+																					<div class="size__item">
+																						<label class="size__el">
+																							<input type="radio" name="quick-offer-size" />
+																							<span>1.5-спл</span>
+																						</label>
+																					</div>
+																					<div class="size__item">
+																						<label class="size__el">
+																							<input type="radio" name="quick-offer-size" />
+																							<span>Евро</span>
+																						</label>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="quick-offer__colors">
+																			<div class="colors">
+																				<div class="colors__list">
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #7798ab">#7798ab</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" checked />
+																							<span style="background-color: #757575">#757575</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #ffffff">#ffffff</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #cab3b1">#cab3b1</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #000000">#000000</span>
+																						</label>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="quick-offer__price">
+																		<div class="quick-offer__price-els">
+																			<div class="quick-offer__price-el quick-offer__price-el_old">200 руб.</div>
+																			<div class="quick-offer__price-el quick-offer__price-el_new">180 руб.</div>
+																		</div>
+																	</div>
+																	<div class="quick-offer__favorites">
+																		<label class="btn-favorites">
+																			<input type="checkbox" />
+																			<span>Favorites</span>
+																		</label>
+																	</div>
+																	<div class="quick-offer__button">
+																		<button class="btn-def btn-def_small" title="Заказать" type="submit"><span>Заказать</span></button>
+																	</div>
+																</div>
+															</form>
+														</div>
+													</div>
+													<div class="widget-offer-img-and-descr__content">
+														<div class="widget-offer-img-and-descr__title"><a href="product-card.html">Magna eu nisi nulla velit amet aliquip sunt enim et proident dolor. Aliquip quis magna duis elit incididunt. Fugiat do incididunt in reprehenderit consectetur nulla. Fugiat eu sit magna ipsum. Sint ex excepteur aliqua sit cupidatat aliquip adipisicing ipsum nisi culpa nostrud</a></div>
+														<div class="widget-offer-img-and-descr__price">
+															<div class="widget-offer-img-and-descr__price-els">
+																<div class="widget-offer-img-and-descr__price-el widget-offer-img-and-descr__price-el_new">120.90 руб.</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="catalog__item">
+												<div class="widget-offer-img-and-descr">
+													<div class="widget-offer-img-and-descr__flip js-container-flip js-flip-prevent-hide">
+														<a href="#" class="widget-offer-img-and-descr__btn-flip js-btn-flip">Купить</a>
+														<div class="widget-offer-img-and-descr__flip-front">
+															<div class="widget-offer-img-and-descr__figure lazy-load" data-bg="url(assets/images/temp/img-best-offers-05.jpg)" style="background-image: url(assets/images/len.webp)"></div>
+														</div>
+														<div class="widget-offer-img-and-descr__flip-back">
+															<form action="checkout.html" method="POST" class="quick-offer quick-offer_fit">
+																<div class="quick-offer__layout">
+																	<div class="quick-offer__entry">
+																		<div class="quick-offer__title">Нежное покрывало изо льна</div>
+																		<div class="quick-offer__size">
+																			<div class="size">
+																				<div class="size__list">
+																					<div class="size__item">
+																						<label class="size__el">
+																							<input type="radio" name="quick-offer-size" checked />
+																							<span>2-спл</span>
+																						</label>
+																					</div>
+																					<div class="size__item">
+																						<label class="size__el">
+																							<input type="radio" name="quick-offer-size" />
+																							<span>1.5-спл</span>
+																						</label>
+																					</div>
+																					<div class="size__item">
+																						<label class="size__el">
+																							<input type="radio" name="quick-offer-size" />
+																							<span>Евро</span>
+																						</label>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="quick-offer__colors">
+																			<div class="colors">
+																				<div class="colors__list">
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #7798ab">#7798ab</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" checked />
+																							<span style="background-color: #757575">#757575</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #ffffff">#ffffff</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #cab3b1">#cab3b1</span>
+																						</label>
+																					</div>
+																					<div class="colors__item">
+																						<label class="colors__el">
+																							<input type="radio" name="quick-offer-color" />
+																							<span style="background-color: #000000">#000000</span>
+																						</label>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="quick-offer__price">
+																		<div class="quick-offer__price-els">
+																			<div class="quick-offer__price-el quick-offer__price-el_old">200 руб.</div>
+																			<div class="quick-offer__price-el quick-offer__price-el_new">180 руб.</div>
+																		</div>
+																	</div>
+																	<div class="quick-offer__favorites">
+																		<label class="btn-favorites">
+																			<input type="checkbox" />
+																			<span>Favorites</span>
+																		</label>
+																	</div>
+																	<div class="quick-offer__button">
+																		<button class="btn-def btn-def_small" title="Заказать" type="submit"><span>Заказать</span></button>
+																	</div>
+																</div>
+															</form>
+														</div>
+													</div>
+													<div class="widget-offer-img-and-descr__content">
+														<div class="widget-offer-img-and-descr__title"><a href="product-card.html">Нежное покрывало изо льна</a></div>
+														<div class="widget-offer-img-and-descr__price">
+															<div class="widget-offer-img-and-descr__price-els">
+																<div class="widget-offer-img-and-descr__price-el widget-offer-img-and-descr__price-el_old">200 руб.</div>
+																<div class="widget-offer-img-and-descr__price-el widget-offer-img-and-descr__price-el_new">180 руб.</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="page__section page__section_align-center">
+									<div class="pagination">
+										<div class="pagination__layout">
+											<div class="pagination__left">
+												<a style="display: none;" class="pagination__first disabled" href="#">
+													<i class="pagination__first-arr">
+														<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M7.21855 7.99999L10.5186 11.3L9.57589 12.2427L5.33322 7.99999L9.57589 3.75732L10.5186 4.69999L7.21855 7.99999Z" fill="black"></path>
+														</svg>
+													</i>
+													<span class="pagination__first-text">First</span>
+												</a>
+												<a class="pagination__prev disabled" href="#">
+													<i class="pagination__prev-arr">
+														<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M7.21855 7.99999L10.5186 11.3L9.57589 12.2427L5.33322 7.99999L9.57589 3.75732L10.5186 4.69999L7.21855 7.99999Z" fill="black"></path>
+														</svg>
+													</i>
+													<span class="pagination__prev-text">Prev</span>
+												</a>
+											</div>
+											<div class="pagination__pages">
+												<div class="pagination__pages-li"><a class="pagination__pages-li-el" href="#">1</a></div>
+												<div class="pagination__pages-li"><span class="pagination__pages-li-dots">...</span></div>
+												<div class="pagination__pages-li"><a class="pagination__pages-li-el" href="#">6</a></div>
+												<div class="pagination__pages-li current"><span class="pagination__pages-li-el">7</span></div>
+												<div class="pagination__pages-li"><a class="pagination__pages-li-el" href="#">8</a></div>
+												<div class="pagination__pages-li"><span class="pagination__pages-li-dots">...</span></div>
+												<div class="pagination__pages-li"><a class="pagination__pages-li-el" href="#">11</a></div>
+											</div>
+											<div class="pagination__right">
+												<a class="pagination__next" href="#">
+													<span class="pagination__next-text">Next</span>
+													<i class="pagination__next-arr">
+														<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M8.78144 8.00001L5.48144 4.70001L6.42411 3.75734L10.6668 8.00001L6.42411 12.2427L5.48145 11.3L8.78144 8.00001Z" fill="black"></path>
+														</svg>
+													</i>
+												</a>
+												<a style="display: none;" class="pagination__last" href="#">
+													<span class="pagination__last-text">Last</span>
+													<i class="pagination__last-arr">
+														<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M8.78144 8.00001L5.48144 4.70001L6.42411 3.75734L10.6668 8.00001L6.42411 12.2427L5.48145 11.3L8.78144 8.00001Z" fill="black"></path>
+														</svg>
+													</i>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="footer__container">
+			<div class="footer__common">
+				<div class="layout-page">
+					<div class="layout-content">
+						<div class="footer-common">
+							<div class="footer-common__boxes">
+								<div class="footer-common__box footer-common__box_logo">
+									<div class="footer-common__logo">
+										<a href="home.html" class="footer-common__logo-inner" title="Lenalin">Lenalin</a>
+									</div>
+									<div class="footer-common__description">Здесь собрано все, чтобы подчеркнуть тепло и радушие вашего жилища. </div>
+								</div>
+								<div class="footer-common__box footer-common__box_assets">
+									<div class="footer-common__row">
+										<div class="footer-assets">
+											<div class="footer-assets__boxes">
+												<div class="footer-assets__box">
+													<div class="footer-assets__box-heading"><a href="#">Разделы</a></div>
+													<div class="footer-assets__box-content">
+														<div class="footer-nav">
+															<div class="footer-nav__list">
+																<div class="footer-nav__item"><a href="home.html" class="footer-nav__el">Главная</a></div>
+																<div class="footer-nav__item current"><span class="footer-nav__el">Каталог</span></div>
+																<div class="footer-nav__item"><a href="news.html" class="footer-nav__el">Новости</a></div>
+																<div class="footer-nav__item"><a href="about.html" class="footer-nav__el">О нас</a></div>
+																<div class="footer-nav__item"><a href="contacts.html" class="footer-nav__el">Контакты</a></div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="footer-assets__box">
+													<div class="footer-assets__box-heading">Помощь</div>
+													<div class="footer-assets__box-content">
+														<div class="footer-nav">
+															<div class="footer-nav__list">
+																<div class="footer-nav__item"><a href="news-one.html" class="footer-nav__el">Как сделать заказ</a></div>
+																<div class="footer-nav__item"><a href="news-one.html" class="footer-nav__el">Оплата</a></div>
+																<div class="footer-nav__item"><a href="news-one.html" class="footer-nav__el">Доставка</a></div>
+																<div class="footer-nav__item"><a href="news-one.html" class="footer-nav__el">Пункты выдачи</a></div>
+																<div class="footer-nav__item"><a href="news-one.html" class="footer-nav__el">Обмен и возврат</a></div>
+																<div class="footer-nav__item"><a href="news-one.html" class="footer-nav__el">Правила ухода</a></div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="footer-assets__box footer-assets__box_sm_full-width footer-assets__box_sm_divider">
+													<div class="footer-assets__box-heading">Контакты</div>
+													<div class="footer-assets__box-content">
+														<div class="footer-contacts">
+															<div class="footer-contacts__list">
+																<div class="footer-contacts__item">
+																	<div class="footer-contacts__title">Телефоны:</div>
+																	<div class="footer-contacts__text">
+																		<div class="footer-contacts__text-item">
+																			<a class="footer-contacts__link" href="tel:+74952129900">+7 (495) 212-99-00</a>
+																		</div>
+																		<div class="footer-contacts__text-item">
+																			<a class="footer-contacts__link" href="tel:+74952145666">+7 (495) 214-56-66</a>
+																		</div>
+																	</div>
+																</div>
+																<div class="footer-contacts__item">
+																	<div class="footer-contacts__title">E-mail:</div>
+																	<div class="footer-contacts__text">
+																		<div class="footer-contacts__text-item">
+																			<a class="footer-contacts__link" href="mailto:lenalin.se@mail.ru">lenalin.se@mail.ru</a>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="footer-assets__box footer-assets__box_sm_full-width">
+													<div class="footer-assets__box-heading">Принимаем к оплате:</div>
+													<div class="footer-assets__box-content">
+														<div class="footer-assets__box-content-item">
+															<div class="payment-methods  payment-methods_sm_inline">
+																<div class="payment-methods__list">
+																	<div class="payment-methods__item">
+																		<img class="payment-methods__img lazy-load" data-src="assets/images/icon-pay-visa_white.svg" src="assets/images/empty.png" alt="Visa">
+																	</div>
+																	<div class="payment-methods__item">
+																		<img class="payment-methods__img lazy-load" data-src="assets/images/icon-pay-mastercard_white.svg" src="assets/images/empty.png" alt="Mastercard">
+																	</div>
+																	<div class="payment-methods__item">
+																		<img class="payment-methods__img lazy-load" data-src="assets/images/icon-pay-paypal_white.svg" src="assets/images/empty.png" alt="Paypal">
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="footer-assets__box-content-item">
+															<div class="footer-callback">
+																<a href="#" class="btn-alt btn-alt_sm-full-width js-popup-form-opener" data-src="#popup-callback" title="Обратная связь"><span>Обратная связь</span></a>
+																<div style="display: none;" id="popup-callback" class="popup-form">
+																	<div class="popup-form__layout">
+																		<div class="popup-form__title">Обратная связь</div>
+																		<form action="#" method="post" onsubmit="alert('Форма находится в тестовом режиме. Чтобы закрыть окно, нажмите ОК.'); return false;">
+																			<div class="popup-form__content">
+																				<div class="form-grid">
+																					<div class="form-grid__row form-grid__row_space-small">
+																						<div class="form-grid__col">
+																							<div class="form-grid__field form-grid__field_space-small">
+																								<div class="form-unit">
+																									<div class="form-unit__label">
+																										<label for="callback-name" class="form-def-label">Имя:</label>
+																									</div>
+																									<div class="form-unit__input">
+																										<input class="form-def" id="callback-name" name="callback-name" type="text" placeholder="Введите Ваше имя" required />
+																									</div>
+																								</div>
+																							</div>
+																							<div class="form-grid__field form-grid__field_space-small">
+																								<div class="form-unit">
+																									<div class="form-unit__label">
+																										<label for="callback-phone" class="form-def-label">Телефон:</label>
+																									</div>
+																									<div class="form-unit__input">
+																										<input class="form-def" id="callback-phone" name="callback-phone" type="text" placeholder="Введите Ваш контактный телефон" required />
+																									</div>
+																								</div>
+																							</div>
+																							<div class="form-grid__field form-grid__field_space-small">
+																								<div class="form-unit">
+																									<div class="form-unit__label">
+																										<label for="callback-message" class="form-def-label">Комментарий:</label>
+																									</div>
+																									<div class="form-unit__input">
+																										<textarea class="form-def" id="callback-message" placeholder="Опишите проблему" required></textarea>
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																			<div class="popup-form__buttons"><button class="btn-def btn-def_small btn-def_full-width" title="Отправить" type="submit"><span>Отправить</span></button>
+																			</div>
+																		</form>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__add">
+				<div class="layout-page">
+					<div class="layout-content">
+						<div class="footer-subscribe">
+							<form action="#" method="post" class="footer-subscribe__form" onsubmit="alert('Форма находится в тестовом режиме. Чтобы закрыть окно, нажмите ОК.'); return false;">
+								<div class="footer-subscribe__label">
+									<label class="footer-subscribe__label-inner" for="subscribe">Подписаться на рассылку:</label>
+								</div>
+								<div class="footer-subscribe__field">
+									<div class="footer-subscribe__entry">
+										<input id="subscribe" class="footer-subscribe__input" placeholder="Ваш e-mail" name="subscribe" type="email" required>
+									</div>
+									<div class="footer-subscribe__submit">
+										<button class="btn-alt btn-alt_small btn-alt_sm-no-min-width" title="Отправить"><span>Отправить</span></button>
+									</div>
+								</div>
+								<span class="footer-subscribe__note" style="display: none;">Вы подписаны</span>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="layout-page">
+					<div class="layout-content">
+						<div class="footer-meta">
+							<div class="footer-meta__boxes">
+								<div class="footer-meta__box footer-meta__box_left">
+									<span class="footer-meta__copyright"><span class="nobr">&copy; 2009-2020 lenalin.se</span></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div style="display: none;" id="popup-login" class="popup-form">
+		<div class="popup-form__layout">
+			<div class="popup-form__title">Вход</div>
+			<form action="#" method="post" onsubmit="alert('Форма находится в тестовом режиме. Чтобы закрыть окно, нажмите ОК.'); return false;">
+				<div class="popup-form__content">
+					<div class="form-grid">
+						<div class="form-grid__row form-grid__row_space-small">
+							<div class="form-grid__col">
+								<div class="form-grid__field form-grid__field_space-small">
+									<div class="form-unit">
+										<div class="form-unit__label">
+											<label for="login-email" class="form-def-label">E-mail:</label>
+										</div>
+										<div class="form-unit__input">
+											<input class="form-def" id="login-email" name="login-email" type="email" placeholder="Ваш e-mail" required />
+										</div>
+									</div>
+								</div>
+								<div class="form-grid__field form-grid__field_space-small">
+									<div class="form-unit">
+										<div class="form-unit__label">
+											<label for="login-password" class="form-def-label">Пароль:</label>
+										</div>
+										<div class="form-unit__input">
+											<a href="#" class="form-unit__input-icon form-unit__input-icon_show-pass js-show-pass"></a>
+											<input class="form-def form-def_icon-right" id="login-password" name="login-password" type="password" placeholder="Ваш пароль" required />
+										</div>
+										<div class="form-unit__note">
+											<a href="javascript:;" class="js-popup-form-opener" data-src="#popup-recovery-password">Забыли пароль?</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="popup-form__buttons"><button class="btn-def btn-def_small btn-def_full-width" title="Войти" type="submit"><span>Войти</span></button>
+				</div>
+				<div class="popup-form__note">Еще нет аккаунта? <a href="javascript:;" class="js-popup-form-opener" data-src="#popup-sing-up">Зарегистрироваться</a></div>
+			</form>
+		</div>
+	</div>
+	<div style="display: none;" id="popup-sing-up" class="popup-form">
+		<div class="popup-form__layout">
+			<div class="popup-form__title">Регистрация</div>
+			<form action="#" method="post" onsubmit="alert('Форма находится в тестовом режиме. Чтобы закрыть окно, нажмите ОК.'); return false;">
+				<div class="popup-form__content">
+					<div class="form-grid">
+						<div class="form-grid__row form-grid__row_space-small">
+							<div class="form-grid__col">
+								<div class="form-grid__field form-grid__field_space-small">
+									<div class="form-unit">
+										<div class="form-unit__label">
+											<label for="sing-up-name" class="form-def-label">Имя:</label>
+										</div>
+										<div class="form-unit__input">
+											<input class="form-def" id="sing-up-name" name="sing-up-name" type="text" placeholder="Ваше имя" required />
+										</div>
+									</div>
+								</div>
+								<div class="form-grid__field form-grid__field_space-small">
+									<div class="form-unit">
+										<div class="form-unit__label">
+											<label for="sing-up-email" class="form-def-label">E-mail:</label>
+										</div>
+										<div class="form-unit__input">
+											<input class="form-def" id="sing-up-email" name="sing-up-email" type="email" placeholder="Ваш e-mail" required />
+										</div>
+									</div>
+								</div>
+								<div class="form-grid__field form-grid__field_space-small">
+									<div class="form-unit">
+										<div class="form-unit__label">
+											<label for="sing-up-password" class="form-def-label">Пароль:</label>
+										</div>
+										<div class="form-unit__input">
+											<a href="#" class="form-unit__input-icon form-unit__input-icon_show-pass js-show-pass"></a>
+											<input class="form-def form-def_icon-right js-main-password" id="sing-up-password" name="sing-up-password" type="password" placeholder="Ваш пароль" required />
+										</div>
+									</div>
+								</div>
+								<div class="form-grid__field form-grid__field_space-small">
+									<div class="form-unit">
+										<div class="form-unit__label">
+											<label for="sing-up-confirm-password" class="form-def-label">Повторить пароль:</label>
+										</div>
+										<div class="form-unit__input">
+											<a href="#" class="form-unit__input-icon form-unit__input-icon_show-pass js-show-pass"></a>
+											<input class="form-def form-def_icon-right js-confirm-password" id="sing-up-confirm-password" name="sing-up-confirm-password" type="password" placeholder="Повторить Ваш пароль" required />
+											<div class="feedback-error feedback-error_confirm-password">Пароли не совпадают</div>
+											<div class="feedback-success feedback-success_confirm-password">Пароли совпадают</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="popup-form__buttons"><button class="btn-def btn-def_small btn-def_full-width" title="Зарегистрироваться" type="submit"><span>Зарегистрироваться</span></button>
+				</div>
+				<div class="popup-form__note">Уже есть аккаунт? <a href="javascript:;" class="js-popup-form-opener" data-src="#popup-login">Войти</a></div>
+			</form>
+		</div>
+	</div>
+	<div style="display: none;" id="popup-recovery-password" class="popup-form">
+		<div class="popup-form__layout">
+			<div class="popup-form__title">Вход</div>
+			<div class="popup-form__sub-title">Забыли пароль?</div>
+			<div class="popup-form__text">Введите адрес электронной почты, на который придет ссылка для сброса пароля.</div>
+			<form action="#" method="post" onsubmit="alert('Форма находится в тестовом режиме. Чтобы закрыть окно, нажмите ОК.'); return false;">
+				<div class="popup-form__content">
+					<div class="form-grid">
+						<div class="form-grid__row form-grid__row_space-small">
+							<div class="form-grid__col">
+								<div class="form-grid__field form-grid__field_space-small">
+									<div class="form-unit">
+										<div class="form-unit__label">
+											<label for="recovery-password-email" class="form-def-label">E-mail:</label>
+										</div>
+										<div class="form-unit__input">
+											<input class="form-def" id="recovery-password-email" name="recovery-password-email" type="email" placeholder="Ваш e-mail" required />
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="popup-form__buttons"><button class="btn-def btn-def_small btn-def_full-width" title="Отправить" type="submit"><span>Отправить</span></button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<script src="./assets/libs/js/jquery.min.js"></script>
+	<script src="./assets/scripts/app.min.js"></script>
+</body>
+
+</html>

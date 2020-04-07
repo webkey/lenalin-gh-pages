@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Lenalin - Site map</title>
+	<title>Lenalin - Оформление заказа</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 	<meta name="description" content="Description">
@@ -139,10 +139,10 @@
 							<div class="header-assets__nav">
 								<nav class="nav">
 									<ul class="nav__list js-nav">
-										<li class="nav__li js-nav-li">
-											<a class="nav__li-el" href="home.html">
+										<li class="nav__li js-nav-li current">
+											<span class="nav__li-el">
 												<span class="nav__li-el-in">Главная</span>
-											</a>
+											</span>
 										</li>
 										<li class="nav__li js-nav-li has-drop">
 											<a class="nav__li-el" href="catalog.html"><span class="nav__li-el-in">Каталог</span></a>
@@ -344,8 +344,14 @@
 									</a>
 								</li>
 								<li class="breadcrumbs__li" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+									<a class="breadcrumbs__el" itemprop="item" href="checkout.html" title="Перейти на страницу Оформление заказа">
+										<span class="breadcrumbs__el-in" itemprop="name">Оформление заказа</span>
+										<meta itemprop="position" content="1" />
+									</a>
+								</li>
+								<li class="breadcrumbs__li" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
 									<span class="breadcrumbs__el-in">
-										<span itemprop="name">Список страниц</span>
+										<span itemprop="name">Профиль</span>
 									</span>
 								</li>
 							</ul>
@@ -357,41 +363,495 @@
 				<div class="layout-page">
 					<div class="layout-content">
 						<div class="heading">
-							<h1 class="heading__title">Список страниц</h1>
+							<h1 class="heading__title">Оформление заказа</h1>
 						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__section page__section_space-smallest reset-line-height">
+				<div class="layout-page">
+					<div class="layout-content">
+						<a href="cart.html" class="btn-control btn-control_small btn-control_arrow-left" title="Вернуться в корзину"><span>Вернуться в корзину</span></a>
 					</div>
 				</div>
 			</div>
 			<div class="page__section">
 				<div class="layout-page">
-					<div class="layout-content edit-content">
-						<ol class="list-of-pages">
-							<li><a href="home.html">Home - Главная</a></li>
-							<!--<li><a href="inner.html">Inner - Внутренняя текстовая</a></li>-->
-							<li><a href="about.html">About - О компании</a></li>
-							<li><a href="news.html">News - Список новостей</a></li>
-							<li><a href="news-one.html">News One - Внутренняя новостная</a></li>
-							<li><a href="contacts.html">Contacts - Контакты</a></li>
-							<li><a href="catalog.html">Catalog - Каталог</a></li>
-							<li><a href="category.html">Category - Категория</a></li>
-							<li><a href="product-card.html">Product card - Карточка продукта</a></li>
-							<li><a href="cart.html">Cart - Корзина</a></li>
-							<li><a href="checkout.html">Checkout - Оформление заказа</a></li>
-							<li><a href="cabinet-profile.html">Cabinet. Profile - Личный кабинет. Профиль</a></li>
-							<li><a href="cabinet-favorites.html">Cabinet. Favorites - Личный кабинет. Избранное</a></li>
-							<li><a href="cabinet-history.html">Cabinet. History - Личный кабинет. История заказов</a></li>
-							<li><a href="404.html">404 - Страница не найдена</a></li>
-							<li><a href="typography.html">Typography - Элементы</a></li>
-						</ol>
-						<style>
-							.list-of-pages li a {
-								color: inherit;
-							}
-
-							.list-of-pages li a::after {
-								content: ' ('attr(href) ')';
-							}
-						</style>
+					<div class="layout-content">
+						<div class="checkout">
+							<div class="layout-form layout-form_align-left">
+								<form class="checkout__form js-checkout-from" action="#" method="post">
+									<div class="checkout__section checkout__section_space-small">
+										<div class="widget-order-short">
+											<div class="widget-order-short__title">
+												В заказе 10 позиций:
+											</div>
+											<div class="widget-order-short__body">
+												<div class="widget-order-short__contain js-simplebar">
+													<div class="widget-order-short__products">
+														<div class="order-list-short">
+															<table class="order-list-short__list">
+																<tbody>
+																	<tr class='order-list-short__li'>
+																		<td class="order-list-short__el order-list-short__el_title">
+																			<div class="order-list-short__title">1. <a href="product-card.html">Комплект постельного белья изо льна 2</a></div>
+																		</td>
+																		<td class="order-list-short__el order-list-short__el_price">
+																			<div class="order-list-short__price">
+																				<div class="order-list-short__price-els">
+																					<div class="order-list-short__price-el order-list-short__price-el_new">180 руб.</div>
+																				</div>
+																			</div>
+																		</td>
+																	</tr>
+																	<tr class='order-list-short__li'>
+																		<td class="order-list-short__el order-list-short__el_title">
+																			<div class="order-list-short__title">2. <a href="product-card.html">Комплект постельного белья изо льна 2</a></div>
+																		</td>
+																		<td class="order-list-short__el order-list-short__el_price">
+																			<div class="order-list-short__price">
+																				<div class="order-list-short__price-els">
+																					<div class="order-list-short__price-el order-list-short__price-el_new">180 руб.</div>
+																				</div>
+																			</div>
+																		</td>
+																	</tr>
+																	<tr class='order-list-short__li'>
+																		<td class="order-list-short__el order-list-short__el_title">
+																			<div class="order-list-short__title">3. <a href="product-card.html">Комплект постельного белья изо льна 2</a></div>
+																		</td>
+																		<td class="order-list-short__el order-list-short__el_price">
+																			<div class="order-list-short__price">
+																				<div class="order-list-short__price-els">
+																					<div class="order-list-short__price-el order-list-short__price-el_new">180 руб.</div>
+																				</div>
+																			</div>
+																		</td>
+																	</tr>
+																	<tr class='order-list-short__li'>
+																		<td class="order-list-short__el order-list-short__el_title">
+																			<div class="order-list-short__title">4. <a href="product-card.html">Комплект постельного белья изо льна 2</a></div>
+																		</td>
+																		<td class="order-list-short__el order-list-short__el_price">
+																			<div class="order-list-short__price">
+																				<div class="order-list-short__price-els">
+																					<div class="order-list-short__price-el order-list-short__price-el_new">180 руб.</div>
+																				</div>
+																			</div>
+																		</td>
+																	</tr>
+																	<tr class='order-list-short__li'>
+																		<td class="order-list-short__el order-list-short__el_title">
+																			<div class="order-list-short__title">5. <a href="product-card.html">Комплект постельного белья изо льна 2</a></div>
+																		</td>
+																		<td class="order-list-short__el order-list-short__el_price">
+																			<div class="order-list-short__price">
+																				<div class="order-list-short__price-els">
+																					<div class="order-list-short__price-el order-list-short__price-el_new">180 руб.</div>
+																				</div>
+																			</div>
+																		</td>
+																	</tr>
+																	<tr class='order-list-short__li'>
+																		<td class="order-list-short__el order-list-short__el_title">
+																			<div class="order-list-short__title">6. <a href="product-card.html">Комплект постельного белья изо льна 2</a></div>
+																		</td>
+																		<td class="order-list-short__el order-list-short__el_price">
+																			<div class="order-list-short__price">
+																				<div class="order-list-short__price-els">
+																					<div class="order-list-short__price-el order-list-short__price-el_new">180 руб.</div>
+																				</div>
+																			</div>
+																		</td>
+																	</tr>
+																	<tr class='order-list-short__li'>
+																		<td class="order-list-short__el order-list-short__el_title">
+																			<div class="order-list-short__title">7. <a href="product-card.html">Комплект постельного белья изо льна 2</a></div>
+																		</td>
+																		<td class="order-list-short__el order-list-short__el_price">
+																			<div class="order-list-short__price">
+																				<div class="order-list-short__price-els">
+																					<div class="order-list-short__price-el order-list-short__price-el_new">180 руб.</div>
+																				</div>
+																			</div>
+																		</td>
+																	</tr>
+																	<tr class='order-list-short__li'>
+																		<td class="order-list-short__el order-list-short__el_title">
+																			<div class="order-list-short__title">8. <a href="product-card.html">Комплект постельного белья изо льна 2</a></div>
+																		</td>
+																		<td class="order-list-short__el order-list-short__el_price">
+																			<div class="order-list-short__price">
+																				<div class="order-list-short__price-els">
+																					<div class="order-list-short__price-el order-list-short__price-el_new">180 руб.</div>
+																				</div>
+																			</div>
+																		</td>
+																	</tr>
+																	<tr class='order-list-short__li'>
+																		<td class="order-list-short__el order-list-short__el_title">
+																			<div class="order-list-short__title">9. <a href="product-card.html">Комплект постельного белья изо льна 2</a></div>
+																		</td>
+																		<td class="order-list-short__el order-list-short__el_price">
+																			<div class="order-list-short__price">
+																				<div class="order-list-short__price-els">
+																					<div class="order-list-short__price-el order-list-short__price-el_new">180 руб.</div>
+																				</div>
+																			</div>
+																		</td>
+																	</tr>
+																	<tr class='order-list-short__li'>
+																		<td class="order-list-short__el order-list-short__el_title">
+																			<div class="order-list-short__title">10. <a href="product-card.html">Комплект постельного белья изо льна 2</a></div>
+																		</td>
+																		<td class="order-list-short__el order-list-short__el_price">
+																			<div class="order-list-short__price">
+																				<div class="order-list-short__price-els">
+																					<div class="order-list-short__price-el order-list-short__price-el_new">180 руб.</div>
+																				</div>
+																			</div>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="widget-order-short__footer">
+												<div class="widget-order-short__price">Итого: 666 руб.</div>
+											</div>
+										</div>
+									</div>
+									<div class="checkout__section checkout__section_space-large">
+										<div class="default-form__heading">
+											<div class="default-form__title">Данные пользователя</div>
+										</div>
+										<div class="default-form__section">
+											<div class="form-grid">
+												<div class="form-grid__row">
+													<div class="form-grid__col form-grid__col_6 form-grid__col_sm-12">
+														<div class="form-grid__field">
+															<div class="form-unit">
+																<div class="form-unit__label">
+																	<label for="checkout-name" class="form-def-label">Имя:</label>
+																</div>
+																<div class="form-unit__input">
+																	<input class="form-def" id="checkout-name" name="checkout-name" type="text" placeholder="Ваш ответ" required />
+																</div>
+															</div>
+														</div>
+														<div class="form-grid__field">
+															<div class="form-unit">
+																<div class="form-unit__label">
+																	<label for="checkout-second" class="form-def-label">Фамилия:</label>
+																</div>
+																<div class="form-unit__input">
+																	<input class="form-def" id="checkout-second" name="checkout-second" type="text" placeholder="Ваш ответ" required />
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="form-grid__col form-grid__col_6 form-grid__col_sm-12">
+														<div class="form-grid__field">
+															<div class="form-unit">
+																<div class="form-unit__label">
+																	<label for="checkout-phone" class="form-def-label">Мобильный телефон:</label>
+																</div>
+																<div class="form-unit__input">
+																	<input class="form-def" id="checkout-phone" name="checkout-phone" type="text" placeholder="Ваш ответ" required />
+																</div>
+															</div>
+														</div>
+														<div class="form-grid__field">
+															<div class="form-unit">
+																<div class="form-unit__label">
+																	<label for="checkout-email" class="form-def-label">E-mail:</label>
+																</div>
+																<div class="form-unit__input">
+																	<input class="form-def" id="checkout-email" name="checkout-email" type="email" placeholder="Ваш ответ" required />
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="checkout__section checkout__section_space-large">
+										<div class="default-form__heading">
+											<div class="default-form__title">Адрес</div>
+										</div>
+										<div class="default-form__section">
+											<div class="form-grid">
+												<div class="form-grid__row">
+													<div class="form-grid__col form-grid__col_6 form-grid__col_sm-12">
+														<div class="form-grid__field">
+															<div class="form-unit">
+																<div class="form-unit__label">
+																	<label for="checkout-country" class="form-def-label">Страна:</label>
+																</div>
+																<div class="form-unit__input">
+																	<input class="form-def" id="checkout-country" name="checkout-country" type="text" placeholder="Ваш ответ" required />
+																</div>
+															</div>
+														</div>
+														<div class="form-grid__field">
+															<div class="form-unit">
+																<div class="form-unit__label">
+																	<label for="checkout-city" class="form-def-label">Город:</label>
+																</div>
+																<div class="form-unit__input">
+																	<input class="form-def" id="checkout-city" name="checkout-city" type="text" placeholder="Ваш ответ" required />
+																</div>
+															</div>
+														</div>
+														<div class="form-grid__field">
+															<div class="form-unit">
+																<div class="form-unit__label">
+																	<label for="checkout-street" class="form-def-label">Улица, дом:</label>
+																</div>
+																<div class="form-unit__input">
+																	<input class="form-def" id="checkout-street" name="checkout-street" type="text" placeholder="Ваш ответ" required />
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="form-grid__col form-grid__col_6 form-grid__col_sm-12">
+														<div class="form-grid__field form-grid__field_6">
+															<div class="form-unit">
+																<div class="form-unit__label">
+																	<label for="checkout-door-code" class="form-def-label">Код домофона:</label>
+																</div>
+																<div class="form-unit__input">
+																	<input class="form-def" id="checkout-door-code" name="checkout-door-code" type="text" placeholder="Ваш ответ" />
+																</div>
+															</div>
+														</div>
+														<div class="form-grid__field form-grid__field_6">
+															<div class="form-unit">
+																<div class="form-unit__label">
+																	<label for="checkout-floor" class="form-def-label">Этаж:</label>
+																</div>
+																<div class="form-unit__input">
+																	<input class="form-def" id="checkout-floor" name="checkout-floor" type="text" placeholder="Ваш ответ" />
+																</div>
+															</div>
+														</div>
+														<div class="form-grid__field">
+															<div class="form-unit">
+																<div class="form-unit__label">
+																	<label for="checkout-apartment-number" class="form-def-label">Номер квартиры:</label>
+																</div>
+																<div class="form-unit__input">
+																	<input class="form-def" id="checkout-apartment-number" name="checkout-apartment-number" type="text" placeholder="Ваш ответ" />
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="checkout__section checkout__section_space-small">
+										<div class="checkout__cols">
+											<div class="checkout__cols-col">
+												<div class="default-form__heading">
+													<div class="default-form__title">Дата</div>
+												</div>
+												<div class="default-form__section">
+													<div class="form-list">
+														<div class="form-list__list">
+															<div class="form-list__li">
+																<label class="form-radio">
+																	<input class="form-radio__input" type="radio" name="delivery-date">
+																	<span class="form-radio__label">Как можно скорее</span>
+																</label>
+															</div>
+															<div class="form-list__li">
+																<label class="form-radio">
+																	<input class="form-radio__input js-choose-date" type="radio" name="delivery-date" checked>
+																	<span class="form-radio__label">
+																		<span class="datepicker-inline js-checkout-datepicker">
+																			<input class="datepicker-inline__input" type="text" placeholder="Выбрать дату..." data-input>
+																			<a class="datepicker-inline__icon" title="toggle" data-toggle>
+																				<i class="icon icon_calendar"></i>
+																			</a>
+																		</span>
+																	</span>
+																</label>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="checkout__cols-col">
+												<div class="default-form__heading">
+													<div class="default-form__title">Время</div>
+												</div>
+												<div class="default-form__section">
+													<div class="form-list">
+														<div class="form-list__list form-list__list_2-cols form-list__list_sm-1-cols">
+															<div class="form-list__li">
+																<label class="form-radio">
+																	<input class="form-radio__input" type="radio" name="delivery-time" checked>
+																	<span class="form-radio__label">10:00 - 12:00</span>
+																</label>
+															</div>
+															<div class="form-list__li">
+																<label class="form-radio">
+																	<input class="form-radio__input" type="radio" name="delivery-time">
+																	<span class="form-radio__label">12:00 - 14:00</span>
+																</label>
+															</div>
+															<div class="form-list__li">
+																<label class="form-radio">
+																	<input class="form-radio__input" type="radio" name="delivery-time">
+																	<span class="form-radio__label">14:00 - 16:00</span>
+																</label>
+															</div>
+															<div class="form-list__li">
+																<label class="form-radio">
+																	<input class="form-radio__input" type="radio" name="delivery-time">
+																	<span class="form-radio__label">16:00 - 18:00</span>
+																</label>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="checkout__divider checkout__divider_space-smallest"></div>
+									<div class="checkout__section">
+										<div class="checkout__cols">
+											<div class="checkout__cols-col">
+												<div class="payment ">
+													<div class="payment__title">Принимаем к оплате:</div>
+													<div class="payment__methods">
+														<div class="payment-methods  payment-methods_sm_inline">
+															<div class="payment-methods__list">
+																<div class="payment-methods__item">
+																	<img class="payment-methods__img lazy-load" data-src="assets/images/icon-pay-visa_black.svg" src="assets/images/empty.png" alt="Visa">
+																</div>
+																<div class="payment-methods__item">
+																	<img class="payment-methods__img lazy-load" data-src="assets/images/icon-pay-mastercard_black.svg" src="assets/images/empty.png" alt="Mastercard">
+																</div>
+																<div class="payment-methods__item">
+																	<img class="payment-methods__img lazy-load" data-src="assets/images/icon-pay-paypal_black.svg" src="assets/images/empty.png" alt="Paypal">
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="checkout__cols-col">
+												<div class="checkout-total checkout-total_top-space">
+													<div class="checkout-total__price">
+														<span class="checkout-total__price-label">Итого:</span>
+														<strong class="checkout-total__price-value">666 руб.</strong>
+													</div>
+													<div class="checkout-total__note">Бесплатная доставка</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="checkout__section checkout__section_space-small checkout__section_card js-checkout-card">
+										<div class="checkout__cols">
+											<div class="checkout__cols-col">
+												<div class="default-form__heading default-form__heading_space-small">
+													<div class="default-form__title default-form__title_large">Оплата картой</div>
+												</div>
+												<div class="default-form__section">
+													<div class="form-grid">
+														<div class="form-grid__row">
+															<div class="form-grid__col">
+																<div class="form-grid__field">
+																	<div class="form-unit">
+																		<div class="form-unit__label">
+																			<label for="checkout-pay-card-number" class="form-def-label">Номер карты:</label>
+																		</div>
+																		<div class="form-unit__input">
+																			<input class="form-def" id="checkout-pay-card-number" name="checkout-pay-card-number" type="text" placeholder="____ ____ ____ ____" required />
+																		</div>
+																	</div>
+																</div>
+																<div class="form-grid__field">
+																	<div class="form-unit">
+																		<div class="form-unit__label">
+																			<label for="checkout-pay-card-name" class="form-def-label">Название карты:</label>
+																		</div>
+																		<div class="form-unit__input">
+																			<input class="form-def" id="checkout-pay-card-name" name="checkout-pay-card-name" type="text" placeholder="Введите данные" required />
+																		</div>
+																	</div>
+																</div>
+																<div class="form-grid__field form-grid__field_4">
+																	<div class="form-unit">
+																		<div class="form-unit__label">
+																			<label for="checkout-pay-month" class="form-def-label">Месяц:</label>
+																		</div>
+																		<div class="form-unit__input">
+																			<input class="form-def" id="checkout-pay-month" name="checkout-pay-month" type="text" placeholder="__" required />
+																		</div>
+																	</div>
+																</div>
+																<div class="form-grid__field form-grid__field_4">
+																	<div class="form-unit">
+																		<div class="form-unit__label">
+																			<label for="checkout-pay-year" class="form-def-label">Год:</label>
+																		</div>
+																		<div class="form-unit__input">
+																			<input class="form-def" id="checkout-pay-year" name="checkout-pay-year" type="text" placeholder="__" required />
+																		</div>
+																	</div>
+																</div>
+																<div class="form-grid__field form-grid__field_4">
+																	<div class="form-unit">
+																		<div class="form-unit__label">
+																			<label for="checkout-pay-cvc" class="form-def-label">CVC код:</label>
+																		</div>
+																		<div class="form-unit__input">
+																			<input class="form-def" id="checkout-pay-cvc" name="checkout-pay-cvc" type="text" placeholder="___" required />
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="checkout__section checkout__section_align-right">
+										<div class="checkout__cols">
+											<div class="checkout__cols-col">
+												<button class="btn-def btn-def_full-width checkout__btn-pay js-btn-pay" title="Оплатить" type="submit"><span>Оплатить</span></button>
+												<div class="checkout__feedback-success" style="display: none">Оплата успешно произведена</div>
+											</div>
+											<div class="checkout__cols-col">
+												<a href="#" class="btn-def btn-def_full-width js-btn-order" title="Оформить заказ"><span>Оформить заказ</span></a>
+											</div>
+										</div>
+									</div>
+									<div style="display: none" class="successful-popup" id="successful-popup">
+										<div class="successful-popup__layout">
+											<div class="successful-popup__align">
+												<div class="successful-popup__content">
+													<div class="successful-popup__title">Благодарим за покупку!</div>
+													<div class="successful-popup__text">Если вы хотите продолжить, перейдите в каталог</div>
+												</div>
+												<div class="successful-popup__footer">
+													<div class="successful-popup__footer-btn">
+														<a href="catalog.html" class="btn-def btn-def_small btn-def_full-width" title="В каталог"><span>В каталог</span></a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -419,7 +879,7 @@
 													<div class="footer-assets__box-content">
 														<div class="footer-nav">
 															<div class="footer-nav__list">
-																<div class="footer-nav__item"><a href="home.html" class="footer-nav__el">Главная</a></div>
+																<div class="footer-nav__item current"><span class="footer-nav__el">Главная</span></div>
 																<div class="footer-nav__item"><a href="catalog.html" class="footer-nav__el">Каталог</a></div>
 																<div class="footer-nav__item"><a href="news.html" class="footer-nav__el">Новости</a></div>
 																<div class="footer-nav__item"><a href="about.html" class="footer-nav__el">О нас</a></div>

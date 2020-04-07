@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Lenalin - Site map</title>
+	<title>Lenalin - Личный кабинет. История заказов</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 	<meta name="description" content="Description">
@@ -344,8 +344,14 @@
 									</a>
 								</li>
 								<li class="breadcrumbs__li" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+									<a class="breadcrumbs__el" itemprop="item" href="cabinet-profile.html" title="Перейти на страницу Личный кабинет">
+										<span class="breadcrumbs__el-in" itemprop="name">Личный кабинет</span>
+										<meta itemprop="position" content="1" />
+									</a>
+								</li>
+								<li class="breadcrumbs__li" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
 									<span class="breadcrumbs__el-in">
-										<span itemprop="name">Список страниц</span>
+										<span itemprop="name">История заказов</span>
 									</span>
 								</li>
 							</ul>
@@ -357,41 +363,496 @@
 				<div class="layout-page">
 					<div class="layout-content">
 						<div class="heading">
-							<h1 class="heading__title">Список страниц</h1>
+							<h1 class="heading__title">Личный кабинет</h1>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="page__section">
 				<div class="layout-page">
-					<div class="layout-content edit-content">
-						<ol class="list-of-pages">
-							<li><a href="home.html">Home - Главная</a></li>
-							<!--<li><a href="inner.html">Inner - Внутренняя текстовая</a></li>-->
-							<li><a href="about.html">About - О компании</a></li>
-							<li><a href="news.html">News - Список новостей</a></li>
-							<li><a href="news-one.html">News One - Внутренняя новостная</a></li>
-							<li><a href="contacts.html">Contacts - Контакты</a></li>
-							<li><a href="catalog.html">Catalog - Каталог</a></li>
-							<li><a href="category.html">Category - Категория</a></li>
-							<li><a href="product-card.html">Product card - Карточка продукта</a></li>
-							<li><a href="cart.html">Cart - Корзина</a></li>
-							<li><a href="checkout.html">Checkout - Оформление заказа</a></li>
-							<li><a href="cabinet-profile.html">Cabinet. Profile - Личный кабинет. Профиль</a></li>
-							<li><a href="cabinet-favorites.html">Cabinet. Favorites - Личный кабинет. Избранное</a></li>
-							<li><a href="cabinet-history.html">Cabinet. History - Личный кабинет. История заказов</a></li>
-							<li><a href="404.html">404 - Страница не найдена</a></li>
-							<li><a href="typography.html">Typography - Элементы</a></li>
-						</ol>
-						<style>
-							.list-of-pages li a {
-								color: inherit;
-							}
-
-							.list-of-pages li a::after {
-								content: ' ('attr(href) ')';
-							}
-						</style>
+					<div class="layout-content">
+						<div class="pseudo-tabs">
+							<div class="pseudo-tabs__list">
+								<div class="pseudo-tabs__li ">
+									<a class="pseudo-tabs__li-el" href="cabinet-profile.html"><span class="pseudo-tabs__li-el-in">Профиль</span></a>
+								</div>
+								<div class="pseudo-tabs__li ">
+									<a class="pseudo-tabs__li-el" href="cabinet-favorites.html"><span class="pseudo-tabs__li-el-in">Избранное</span></a>
+								</div>
+								<div class="pseudo-tabs__li current">
+									<a class="pseudo-tabs__li-el" href="javascript:;"><span class="pseudo-tabs__li-el-in">История заказов</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__section">
+				<div class="layout-page">
+					<div class="layout-content">
+						<div class="layout-narrow layout-narrow_align-left">
+							<div class="order-history">
+								<div class="order-history__list">
+									<div class="order-history__item">
+										<div class="widget-order-history">
+											<div class="widget-order-history__common">
+												<div class="widget-order-history__common-body">
+													<div class="widget-order-history__status"><span class="sticker-status sticker-status_sent">Отправлен</span>
+													</div>
+													<div class="widget-order-history__number">Заказ: №456332</div>
+													<div class="widget-order-history__info">
+														<div class="widget-order-history__info-holder">
+															<div class="widget-order-history__date">20.09.2020</div>
+															<div class="widget-order-history__price">Сумма: 666.99 BYN</div>
+															<div class="widget-order-history__payment">Оплата картой</div>
+														</div>
+													</div>
+												</div>
+												<div class="widget-order-history__common-footer">
+													<a href="checkout.html" class="btn-def" title="Повторить заказ"><span>Повторить заказ</span></a>
+												</div>
+											</div>
+											<div class="widget-order-history__contain js-simplebar">
+												<div class="widget-order-history__products">
+													<div class="order-list">
+														<div class="order-list__list">
+															<div class='order-list__li'>
+																<div class="widget-product">
+																	<div class="widget-product__figure">
+																		<a class="widget-product__figure-link" href="product-card.html">
+																			<img class="widget-product__figure-img lazy-load" data-src="assets/images/temp/img-product-card-01.jpg" src="assets/images/empty.png" alt="Комплект постельного белья изо льна">
+																		</a>
+																	</div>
+																	<div class="widget-product__content">
+																		<div class="widget-product__title"><a href="product-card.html">Комплект постельного белья изо льна</a></div>
+																		<div class="widget-product__price">
+																			<div class="widget-product__price-els">
+																				<div class="widget-product__price-el widget-product__price-el_old">200 руб.</div>
+																				<div class="widget-product__price-el widget-product__price-el_new">180 руб.</div>
+																			</div>
+																		</div>
+																		<div class="widget-product__features">
+																			<div class="dl">
+																				<div class="dl__i">
+																					<div class="dl__t">Материал:</div>
+																					<div class="dl__d">лен</div>
+																				</div>
+																				<div class="dl__i">
+																					<div class="dl__t">Цвет:</div>
+																					<div class="dl__d">белый</div>
+																				</div>
+																				<div class="dl__i">
+																					<div class="dl__t">Размер:</div>
+																					<div class="dl__d">2 спл</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="widget-product__controls">
+																			<div class="widget-product__count">Количество: 1</div>
+																			<div class="widget-product__order"><a href="order.html" class="btn-def btn-def_invert btn-def_small" title="Заказать снова"><span>Заказать снова</span></a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class='order-list__li'>
+																<div class="widget-product">
+																	<div class="widget-product__figure">
+																		<a class="widget-product__figure-link" href="product-card.html">
+																			<img class="widget-product__figure-img lazy-load" data-src="assets/images/temp/img-product-card-01.jpg" src="assets/images/empty.png" alt="Комплект постельного белья изо льна">
+																		</a>
+																	</div>
+																	<div class="widget-product__content">
+																		<div class="widget-product__title"><a href="product-card.html">Комплект постельного белья изо льна</a></div>
+																		<div class="widget-product__price">
+																			<div class="widget-product__price-els">
+																				<div class="widget-product__price-el widget-product__price-el_old">200 руб.</div>
+																				<div class="widget-product__price-el widget-product__price-el_new">180 руб.</div>
+																			</div>
+																		</div>
+																		<div class="widget-product__features">
+																			<div class="dl">
+																				<div class="dl__i">
+																					<div class="dl__t">Материал:</div>
+																					<div class="dl__d">лен</div>
+																				</div>
+																				<div class="dl__i">
+																					<div class="dl__t">Цвет:</div>
+																					<div class="dl__d">белый</div>
+																				</div>
+																				<div class="dl__i">
+																					<div class="dl__t">Размер:</div>
+																					<div class="dl__d">2 спл</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="widget-product__controls">
+																			<div class="widget-product__count">Количество: 1</div>
+																			<div class="widget-product__order"><a href="order.html" class="btn-def btn-def_invert btn-def_small" title="Заказать снова"><span>Заказать снова</span></a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class='order-list__li'>
+																<div class="widget-product">
+																	<div class="widget-product__figure">
+																		<a class="widget-product__figure-link" href="product-card.html">
+																			<img class="widget-product__figure-img lazy-load" data-src="assets/images/temp/img-product-card-01.jpg" src="assets/images/empty.png" alt="Комплект постельного белья изо льна">
+																		</a>
+																	</div>
+																	<div class="widget-product__content">
+																		<div class="widget-product__title"><a href="product-card.html">Комплект постельного белья изо льна</a></div>
+																		<div class="widget-product__price">
+																			<div class="widget-product__price-els">
+																				<div class="widget-product__price-el widget-product__price-el_old">200 руб.</div>
+																				<div class="widget-product__price-el widget-product__price-el_new">180 руб.</div>
+																			</div>
+																		</div>
+																		<div class="widget-product__features">
+																			<div class="dl">
+																				<div class="dl__i">
+																					<div class="dl__t">Материал:</div>
+																					<div class="dl__d">лен</div>
+																				</div>
+																				<div class="dl__i">
+																					<div class="dl__t">Цвет:</div>
+																					<div class="dl__d">белый</div>
+																				</div>
+																				<div class="dl__i">
+																					<div class="dl__t">Размер:</div>
+																					<div class="dl__d">2 спл</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="widget-product__controls">
+																			<div class="widget-product__count">Количество: 1</div>
+																			<div class="widget-product__order"><a href="order.html" class="btn-def btn-def_invert btn-def_small" title="Заказать снова"><span>Заказать снова</span></a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class='order-list__li'>
+																<div class="widget-product">
+																	<div class="widget-product__figure">
+																		<a class="widget-product__figure-link" href="product-card.html">
+																			<img class="widget-product__figure-img lazy-load" data-src="assets/images/temp/img-product-card-01.jpg" src="assets/images/empty.png" alt="Комплект постельного белья изо льна">
+																		</a>
+																	</div>
+																	<div class="widget-product__content">
+																		<div class="widget-product__title"><a href="product-card.html">Комплект постельного белья изо льна</a></div>
+																		<div class="widget-product__price">
+																			<div class="widget-product__price-els">
+																				<div class="widget-product__price-el widget-product__price-el_old">200 руб.</div>
+																				<div class="widget-product__price-el widget-product__price-el_new">180 руб.</div>
+																			</div>
+																		</div>
+																		<div class="widget-product__features">
+																			<div class="dl">
+																				<div class="dl__i">
+																					<div class="dl__t">Материал:</div>
+																					<div class="dl__d">лен</div>
+																				</div>
+																				<div class="dl__i">
+																					<div class="dl__t">Цвет:</div>
+																					<div class="dl__d">белый</div>
+																				</div>
+																				<div class="dl__i">
+																					<div class="dl__t">Размер:</div>
+																					<div class="dl__d">2 спл</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="widget-product__controls">
+																			<div class="widget-product__count">Количество: 1</div>
+																			<div class="widget-product__order"><a href="order.html" class="btn-def btn-def_invert btn-def_small" title="Заказать снова"><span>Заказать снова</span></a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class='order-list__li'>
+																<div class="widget-product">
+																	<div class="widget-product__figure">
+																		<a class="widget-product__figure-link" href="product-card.html">
+																			<img class="widget-product__figure-img lazy-load" data-src="assets/images/temp/img-product-card-01.jpg" src="assets/images/empty.png" alt="Комплект постельного белья изо льна">
+																		</a>
+																	</div>
+																	<div class="widget-product__content">
+																		<div class="widget-product__title"><a href="product-card.html">Комплект постельного белья изо льна</a></div>
+																		<div class="widget-product__price">
+																			<div class="widget-product__price-els">
+																				<div class="widget-product__price-el widget-product__price-el_old">200 руб.</div>
+																				<div class="widget-product__price-el widget-product__price-el_new">180 руб.</div>
+																			</div>
+																		</div>
+																		<div class="widget-product__features">
+																			<div class="dl">
+																				<div class="dl__i">
+																					<div class="dl__t">Материал:</div>
+																					<div class="dl__d">лен</div>
+																				</div>
+																				<div class="dl__i">
+																					<div class="dl__t">Цвет:</div>
+																					<div class="dl__d">белый</div>
+																				</div>
+																				<div class="dl__i">
+																					<div class="dl__t">Размер:</div>
+																					<div class="dl__d">2 спл</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="widget-product__controls">
+																			<div class="widget-product__count">Количество: 1</div>
+																			<div class="widget-product__order"><a href="order.html" class="btn-def btn-def_invert btn-def_small" title="Заказать снова"><span>Заказать снова</span></a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="order-history__item">
+										<div class="widget-order-history">
+											<div class="widget-order-history__common">
+												<div class="widget-order-history__common-body">
+													<div class="widget-order-history__status"><span class="sticker-status sticker-status_done">Доставлено</span>
+													</div>
+													<div class="widget-order-history__number">Заказ: №7777</div>
+													<div class="widget-order-history__info">
+														<div class="widget-order-history__info-holder">
+															<div class="widget-order-history__date">10.02.2019</div>
+															<div class="widget-order-history__price">Сумма: 1999.99 BYN</div>
+															<div class="widget-order-history__payment">Оплата наличными</div>
+														</div>
+													</div>
+												</div>
+												<div class="widget-order-history__common-footer">
+													<a href="checkout.html" class="btn-def" title="Повторить заказ"><span>Повторить заказ</span></a>
+												</div>
+											</div>
+											<div class="widget-order-history__contain js-simplebar">
+												<div class="widget-order-history__products">
+													<div class="order-list">
+														<div class="order-list__list">
+															<div class='order-list__li'>
+																<div class="widget-product">
+																	<div class="widget-product__figure">
+																		<a class="widget-product__figure-link" href="product-card.html">
+																			<img class="widget-product__figure-img lazy-load" data-src="assets/images/temp/img-product-card-01.jpg" src="assets/images/empty.png" alt="Комплект постельного белья изо льна">
+																		</a>
+																	</div>
+																	<div class="widget-product__content">
+																		<div class="widget-product__title"><a href="product-card.html">Комплект постельного белья изо льна</a></div>
+																		<div class="widget-product__price">
+																			<div class="widget-product__price-els">
+																				<div class="widget-product__price-el widget-product__price-el_old">200 руб.</div>
+																				<div class="widget-product__price-el widget-product__price-el_new">180 руб.</div>
+																			</div>
+																		</div>
+																		<div class="widget-product__features">
+																			<div class="dl">
+																				<div class="dl__i">
+																					<div class="dl__t">Материал:</div>
+																					<div class="dl__d">лен</div>
+																				</div>
+																				<div class="dl__i">
+																					<div class="dl__t">Цвет:</div>
+																					<div class="dl__d">белый</div>
+																				</div>
+																				<div class="dl__i">
+																					<div class="dl__t">Размер:</div>
+																					<div class="dl__d">2 спл</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="widget-product__controls">
+																			<div class="widget-product__count">Количество: 1</div>
+																			<div class="widget-product__order"><a href="order.html" class="btn-def btn-def_invert btn-def_small" title="Заказать снова"><span>Заказать снова</span></a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class='order-list__li'>
+																<div class="widget-product">
+																	<div class="widget-product__figure">
+																		<a class="widget-product__figure-link" href="product-card.html">
+																			<img class="widget-product__figure-img lazy-load" data-src="assets/images/temp/img-product-card-01.jpg" src="assets/images/empty.png" alt="Комплект постельного белья изо льна">
+																		</a>
+																	</div>
+																	<div class="widget-product__content">
+																		<div class="widget-product__title"><a href="product-card.html">Комплект постельного белья изо льна</a></div>
+																		<div class="widget-product__price">
+																			<div class="widget-product__price-els">
+																				<div class="widget-product__price-el widget-product__price-el_old">200 руб.</div>
+																				<div class="widget-product__price-el widget-product__price-el_new">180 руб.</div>
+																			</div>
+																		</div>
+																		<div class="widget-product__features">
+																			<div class="dl">
+																				<div class="dl__i">
+																					<div class="dl__t">Материал:</div>
+																					<div class="dl__d">лен</div>
+																				</div>
+																				<div class="dl__i">
+																					<div class="dl__t">Цвет:</div>
+																					<div class="dl__d">белый</div>
+																				</div>
+																				<div class="dl__i">
+																					<div class="dl__t">Размер:</div>
+																					<div class="dl__d">2 спл</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="widget-product__controls">
+																			<div class="widget-product__count">Количество: 1</div>
+																			<div class="widget-product__order"><a href="order.html" class="btn-def btn-def_invert btn-def_small" title="Заказать снова"><span>Заказать снова</span></a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="order-history__item">
+										<div class="widget-order-history">
+											<div class="widget-order-history__common">
+												<div class="widget-order-history__common-body">
+													<div class="widget-order-history__status"><span class="sticker-status sticker-status_rejected">Отклонено</span>
+													</div>
+													<div class="widget-order-history__number">Заказ: №666-6666</div>
+													<div class="widget-order-history__info">
+														<div class="widget-order-history__info-holder">
+															<div class="widget-order-history__date">05.01.2019</div>
+															<div class="widget-order-history__price">Сумма: 18.81 BYN</div>
+															<div class="widget-order-history__payment">Оплата наличными</div>
+														</div>
+													</div>
+												</div>
+												<div class="widget-order-history__common-footer">
+													<a href="checkout.html" class="btn-def" title="Повторить заказ"><span>Повторить заказ</span></a>
+												</div>
+											</div>
+											<div class="widget-order-history__contain js-simplebar">
+												<div class="widget-order-history__products">
+													<div class="order-list">
+														<div class="order-list__list">
+															<div class='order-list__li'>
+																<div class="widget-product">
+																	<div class="widget-product__figure">
+																		<a class="widget-product__figure-link" href="product-card.html">
+																			<img class="widget-product__figure-img lazy-load" data-src="assets/images/temp/img-product-card-01.jpg" src="assets/images/empty.png" alt="Комплект постельного белья изо льна">
+																		</a>
+																	</div>
+																	<div class="widget-product__content">
+																		<div class="widget-product__title"><a href="product-card.html">Комплект постельного белья изо льна</a></div>
+																		<div class="widget-product__price">
+																			<div class="widget-product__price-els">
+																				<div class="widget-product__price-el widget-product__price-el_old">200 руб.</div>
+																				<div class="widget-product__price-el widget-product__price-el_new">180 руб.</div>
+																			</div>
+																		</div>
+																		<div class="widget-product__features">
+																			<div class="dl">
+																				<div class="dl__i">
+																					<div class="dl__t">Материал:</div>
+																					<div class="dl__d">лен</div>
+																				</div>
+																				<div class="dl__i">
+																					<div class="dl__t">Цвет:</div>
+																					<div class="dl__d">белый</div>
+																				</div>
+																				<div class="dl__i">
+																					<div class="dl__t">Размер:</div>
+																					<div class="dl__d">2 спл</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="widget-product__controls">
+																			<div class="widget-product__count">Количество: 1</div>
+																			<div class="widget-product__order"><a href="order.html" class="btn-def btn-def_invert btn-def_small" title="Заказать снова"><span>Заказать снова</span></a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="no-item-warning" style="display: none;"><strong>Вы еще не заказали ниодного товара. <a href="catalog.html">Перейти в каталог</a>.</strong></div>
+					</div>
+				</div>
+			</div>
+			<div class="page__section page__section_align-center">
+				<div class="layout-page">
+					<div class="layout-content">
+						<div class="layout-narrow layout-narrow_align-left">
+							<div class="pagination">
+								<div class="pagination__layout">
+									<div class="pagination__left">
+										<a style="display: none;" class="pagination__first disabled" href="#">
+											<i class="pagination__first-arr">
+												<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M7.21855 7.99999L10.5186 11.3L9.57589 12.2427L5.33322 7.99999L9.57589 3.75732L10.5186 4.69999L7.21855 7.99999Z" fill="black"></path>
+												</svg>
+											</i>
+											<span class="pagination__first-text">First</span>
+										</a>
+										<a class="pagination__prev disabled" href="#">
+											<i class="pagination__prev-arr">
+												<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M7.21855 7.99999L10.5186 11.3L9.57589 12.2427L5.33322 7.99999L9.57589 3.75732L10.5186 4.69999L7.21855 7.99999Z" fill="black"></path>
+												</svg>
+											</i>
+											<span class="pagination__prev-text">Prev</span>
+										</a>
+									</div>
+									<div class="pagination__pages">
+										<div class="pagination__pages-li"><a class="pagination__pages-li-el" href="#">1</a></div>
+										<div class="pagination__pages-li"><span class="pagination__pages-li-dots">...</span></div>
+										<div class="pagination__pages-li"><a class="pagination__pages-li-el" href="#">6</a></div>
+										<div class="pagination__pages-li current"><span class="pagination__pages-li-el">7</span></div>
+										<div class="pagination__pages-li"><a class="pagination__pages-li-el" href="#">8</a></div>
+										<div class="pagination__pages-li"><span class="pagination__pages-li-dots">...</span></div>
+										<div class="pagination__pages-li"><a class="pagination__pages-li-el" href="#">11</a></div>
+									</div>
+									<div class="pagination__right">
+										<a class="pagination__next" href="#">
+											<span class="pagination__next-text">Next</span>
+											<i class="pagination__next-arr">
+												<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M8.78144 8.00001L5.48144 4.70001L6.42411 3.75734L10.6668 8.00001L6.42411 12.2427L5.48145 11.3L8.78144 8.00001Z" fill="black"></path>
+												</svg>
+											</i>
+										</a>
+										<a style="display: none;" class="pagination__last" href="#">
+											<span class="pagination__last-text">Last</span>
+											<i class="pagination__last-arr">
+												<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M8.78144 8.00001L5.48144 4.70001L6.42411 3.75734L10.6668 8.00001L6.42411 12.2427L5.48145 11.3L8.78144 8.00001Z" fill="black"></path>
+												</svg>
+											</i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

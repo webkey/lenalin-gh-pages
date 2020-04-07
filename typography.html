@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Lenalin - Site map</title>
+	<title>Lenalin - Typography</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 	<meta name="description" content="Description">
@@ -139,10 +139,10 @@
 							<div class="header-assets__nav">
 								<nav class="nav">
 									<ul class="nav__list js-nav">
-										<li class="nav__li js-nav-li">
-											<a class="nav__li-el" href="home.html">
+										<li class="nav__li js-nav-li current">
+											<span class="nav__li-el">
 												<span class="nav__li-el-in">Главная</span>
-											</a>
+											</span>
 										</li>
 										<li class="nav__li js-nav-li has-drop">
 											<a class="nav__li-el" href="catalog.html"><span class="nav__li-el-in">Каталог</span></a>
@@ -332,9 +332,9 @@
 	</header>
 	<div class="main">
 		<div class="page">
-			<div class="page__breadcrumbs">
-				<div class="layout-page">
-					<div class="layout-content">
+			<div class="layout-page">
+				<div class="layout-content">
+					<div class="page__breadcrumbs">
 						<div class="breadcrumbs">
 							<ul itemscope itemtype="http://schema.org/BreadcrumbList" class="breadcrumbs__list">
 								<li class="breadcrumbs__li" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
@@ -345,53 +345,362 @@
 								</li>
 								<li class="breadcrumbs__li" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
 									<span class="breadcrumbs__el-in">
-										<span itemprop="name">Список страниц</span>
+										<span itemprop="name">Typography</span>
 									</span>
 								</li>
 							</ul>
 						</div>
 					</div>
-				</div>
-			</div>
-			<div class="page__heading">
-				<div class="layout-page">
-					<div class="layout-content">
-						<div class="heading">
-							<h1 class="heading__title">Список страниц</h1>
+					<div class="page__heading">
+						<h1 class="page__title">Typography</h1>
+					</div>
+					<div class="page__section edit-content">
+						<h2>Checkboxes</h2>
+						<div class="form-list">
+							<div class="form-list__list form-list__list_space-small">
+								<div class="form-list__li form-list__li_space-small">
+									<label class="form-checkbox">
+										<input class="form-checkbox__input" type="checkbox" name="checkbox-name_1">
+										<span class="form-checkbox__label">Чекбокс_1</span>
+									</label>
+								</div>
+								<div class="form-list__li form-list__li_space-small">
+									<label class="form-checkbox">
+										<input class="form-checkbox__input" type="checkbox" name="checkbox-name_2" checked>
+										<span class="form-checkbox__label">Чекбокс_2</span>
+									</label>
+								</div>
+								<div class="form-list__li form-list__li_space-small">
+									<label class="form-checkbox">
+										<input class="form-checkbox__input" type="checkbox" name="checkbox-name_3" disabled>
+										<span class="form-checkbox__label">Чекбокс_3</span>
+									</label>
+								</div>
+								<div class="form-list__li form-list__li_space-small">
+									<label class="form-checkbox">
+										<input class="form-checkbox__input" type="checkbox" name="checkbox-name_3" checked disabled>
+										<span class="form-checkbox__label">Чекбокс_4</span>
+									</label>
+								</div>
+							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-			<div class="page__section">
-				<div class="layout-page">
-					<div class="layout-content edit-content">
-						<ol class="list-of-pages">
-							<li><a href="home.html">Home - Главная</a></li>
-							<!--<li><a href="inner.html">Inner - Внутренняя текстовая</a></li>-->
-							<li><a href="about.html">About - О компании</a></li>
-							<li><a href="news.html">News - Список новостей</a></li>
-							<li><a href="news-one.html">News One - Внутренняя новостная</a></li>
-							<li><a href="contacts.html">Contacts - Контакты</a></li>
-							<li><a href="catalog.html">Catalog - Каталог</a></li>
-							<li><a href="category.html">Category - Категория</a></li>
-							<li><a href="product-card.html">Product card - Карточка продукта</a></li>
-							<li><a href="cart.html">Cart - Корзина</a></li>
-							<li><a href="checkout.html">Checkout - Оформление заказа</a></li>
-							<li><a href="cabinet-profile.html">Cabinet. Profile - Личный кабинет. Профиль</a></li>
-							<li><a href="cabinet-favorites.html">Cabinet. Favorites - Личный кабинет. Избранное</a></li>
-							<li><a href="cabinet-history.html">Cabinet. History - Личный кабинет. История заказов</a></li>
-							<li><a href="404.html">404 - Страница не найдена</a></li>
-							<li><a href="typography.html">Typography - Элементы</a></li>
-						</ol>
-						<style>
-							.list-of-pages li a {
-								color: inherit;
-							}
-
-							.list-of-pages li a::after {
-								content: ' ('attr(href) ')';
-							}
-						</style>
+					<div class="page__section edit-content">
+						<h2>Radio buttons</h2>
+						<div class="form-list">
+							<div class="form-list__list form-list__list_space-small">
+								<div class="form-list__li form-list__li_space-small">
+									<label class="form-radio">
+										<input class="form-radio__input" type="radio" name="checkbox-name">
+										<span class="form-radio__label">Радио_1</span>
+									</label>
+								</div>
+								<div class="form-list__li form-list__li_space-small">
+									<label class="form-radio">
+										<input class="form-radio__input" type="radio" name="checkbox-name" checked>
+										<span class="form-radio__label">Радио_2</span>
+									</label>
+								</div>
+								<div class="form-list__li form-list__li_space-small">
+									<label class="form-radio">
+										<input class="form-radio__input" type="radio" name="checkbox-name" disabled>
+										<span class="form-radio__label">Радио_3</span>
+									</label>
+								</div>
+								<div class="form-list__li form-list__li_space-small">
+									<label class="form-radio">
+										<input class="form-radio__input" type="radio" name="checkbox-name_2" checked disabled>
+										<span class="form-radio__label">Радио_4</span>
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="page__section edit-content">
+						<h2>Inputs</h2>
+						<div class="form-grid">
+							<div class="form-grid__row">
+								<div class="form-grid__col form-grid__col_6">
+									<div class="form-grid__field">
+										<div class="form-unit">
+											<div class="form-unit__label">
+												<label for="example-input-text-1" class="form-def-label">Input 1:</label>
+											</div>
+											<div class="form-unit__input">
+												<input class="form-def" id="example-input-text-1" name="example-input-text-1" type="text" placeholder="Input 1" required />
+											</div>
+											<div class="form-unit__note">Input text</div>
+										</div>
+									</div>
+								</div>
+								<div class="form-grid__col form-grid__col_6">
+									<div class="form-grid__field">
+										<div class="form-unit">
+											<div class="form-unit__label">
+												<label for="example-input-email-1" class="form-def-label">Input 2:</label>
+											</div>
+											<div class="form-unit__input">
+												<input class="form-def" id="example-input-email-1" name="example-input-email-1" type="email" placeholder="Input 2" required />
+											</div>
+											<div class="form-unit__note">Input email</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="page__section edit-content">
+						<h2>Selects</h2>
+						<div class="form-grid">
+							<div class="form-grid__row">
+								<div class="form-grid__col form-grid__col_6">
+									<div class="form-grid__field">
+										<div class="form-unit">
+											<div class="form-unit__label">
+												<label for="example-select-1" class="form-def-label">Select example 1:</label>
+											</div>
+											<div class="form-unit__input">
+												<select class="form-select js-form-select" id="example-select-1" name="example-select-1" required>
+													<!--Important! The first element must have a value of ""-->
+													<option value="">- Choose option -</option>
+													<option value="1">The Pilgrim’s Progress by John Bunyan (1678)</option>
+													<option value="2">Robinson Crusoe by Daniel Defoe (1719)</option>
+													<option value="3">Gulliver’s Travels by Jonathan Swift (1726)</option>
+													<option value="4">Clarissa by Samuel Richardson (1748)</option>
+													<option value="5">Tom Jones by Henry Fielding (1749)</option>
+													<option value="6">The Life and Opinions of Tristram Shandy, Gentleman by Laurence Sterne (1759)</option>
+													<option value="7">Emma by Jane Austen (1816)</option>
+													<option value="9">Frankenstein by Mary Shelley (1818)</option>
+													<option value="10">Nightmare Abbey by Thomas Love Peacock (1818)</option>
+													<option value="11">The Narrative of Arthur Gordon Pym of Nantucket by Edgar Allan Poe (1838)</option>
+													<option value="12">Sybil by Benjamin Disraeli (1845)</option>
+													<option value="13">Jane Eyre by Charlotte Brontë (1847)</option>
+													<option value="14">Wuthering Heights by Emily Brontë (1847)</option>
+													<option value="15">Vanity Fair by William Thackeray (1848)</option>
+												</select>
+											</div>
+											<div class="form-unit__note">required</div>
+										</div>
+									</div>
+								</div>
+								<div class="form-grid__col form-grid__col_6">
+									<div class="form-grid__field">
+										<div class="form-unit">
+											<div class="form-unit__label">
+												<label for="example-select-2" class="form-def-label">Select example 2:</label>
+											</div>
+											<div class="form-unit__input">
+												<select class="form-select js-form-select" id="example-select-2" name="example-select-2" data-search>
+													<!--Important! The first element must have a value of ""-->
+													<option value="">- Choose option -</option>
+													<option value="1">The Pilgrim’s Progress by John Bunyan (1678)</option>
+													<option value="2">Robinson Crusoe by Daniel Defoe (1719)</option>
+													<option value="3">Gulliver’s Travels by Jonathan Swift (1726)</option>
+													<option value="4">Clarissa by Samuel Richardson (1748)</option>
+													<option value="5">Tom Jones by Henry Fielding (1749)</option>
+													<option value="6">The Life and Opinions of Tristram Shandy, Gentleman by Laurence Sterne (1759)</option>
+													<option value="7">Emma by Jane Austen (1816)</option>
+													<option value="9">Frankenstein by Mary Shelley (1818)</option>
+													<option value="10">Nightmare Abbey by Thomas Love Peacock (1818)</option>
+													<option value="11">The Narrative of Arthur Gordon Pym of Nantucket by Edgar Allan Poe (1838)</option>
+													<option value="12">Sybil by Benjamin Disraeli (1845)</option>
+													<option value="13">Jane Eyre by Charlotte Brontë (1847)</option>
+													<option value="14">Wuthering Heights by Emily Brontë (1847)</option>
+													<option value="15">Vanity Fair by William Thackeray (1848)</option>
+												</select>
+											</div>
+											<div class="form-unit__note">has search, no required</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="form-grid__row">
+								<div class="form-grid__col form-grid__col_6">
+									<div class="form-grid__field">
+										<div class="form-unit">
+											<div class="form-unit__label">
+												<label for="example-select-3" class="form-def-label">Select example 2:</label>
+											</div>
+											<div class="form-unit__input">
+												<select class="form-select js-form-select" id="example-select-3" name="example-select-3" disabled required>
+													<!--Important! The first element must have a value of ""-->
+													<option value="">- Choose option -</option>
+													<option value="1">The Pilgrim’s Progress by John Bunyan (1678)</option>
+													<option value="2">Robinson Crusoe by Daniel Defoe (1719)</option>
+													<option value="3">Gulliver’s Travels by Jonathan Swift (1726)</option>
+													<option value="4">Clarissa by Samuel Richardson (1748)</option>
+													<option value="5">Tom Jones by Henry Fielding (1749)</option>
+													<option value="6">The Life and Opinions of Tristram Shandy, Gentleman by Laurence Sterne (1759)</option>
+													<option value="7">Emma by Jane Austen (1816)</option>
+													<option value="9">Frankenstein by Mary Shelley (1818)</option>
+													<option value="10">Nightmare Abbey by Thomas Love Peacock (1818)</option>
+													<option value="11">The Narrative of Arthur Gordon Pym of Nantucket by Edgar Allan Poe (1838)</option>
+													<option value="12">Sybil by Benjamin Disraeli (1845)</option>
+													<option value="13">Jane Eyre by Charlotte Brontë (1847)</option>
+													<option value="14">Wuthering Heights by Emily Brontë (1847)</option>
+													<option value="15">Vanity Fair by William Thackeray (1848)</option>
+												</select>
+											</div>
+											<div class="form-unit__note">disabled, required</div>
+										</div>
+									</div>
+								</div>
+								<div class="form-grid__col form-grid__col_6">
+									<div class="form-grid__field">
+										<div class="form-unit">
+											<div class="form-unit__label">
+												<label for="example-select-4" class="form-def-label">Select example 3:</label>
+											</div>
+											<div class="form-unit__input">
+												<select class="form-select js-form-select" id="example-select-4" name="example-select-4" disabled>
+													<!--Important! The first element must have a value of ""-->
+													<option value="">- Choose option -</option>
+													<option value="1">The Pilgrim’s Progress by John Bunyan (1678)</option>
+													<option value="2" selected>Robinson Crusoe by Daniel Defoe (1719)</option>
+													<option value="3">Gulliver’s Travels by Jonathan Swift (1726)</option>
+													<option value="4">Clarissa by Samuel Richardson (1748)</option>
+													<option value="5">Tom Jones by Henry Fielding (1749)</option>
+													<option value="6">The Life and Opinions of Tristram Shandy, Gentleman by Laurence Sterne (1759)</option>
+													<option value="7">Emma by Jane Austen (1816)</option>
+													<option value="9">Frankenstein by Mary Shelley (1818)</option>
+													<option value="10">Nightmare Abbey by Thomas Love Peacock (1818)</option>
+													<option value="11">The Narrative of Arthur Gordon Pym of Nantucket by Edgar Allan Poe (1838)</option>
+													<option value="12">Sybil by Benjamin Disraeli (1845)</option>
+													<option value="13">Jane Eyre by Charlotte Brontë (1847)</option>
+													<option value="14">Wuthering Heights by Emily Brontë (1847)</option>
+													<option value="15">Vanity Fair by William Thackeray (1848)</option>
+												</select>
+											</div>
+											<div class="form-unit__note">disabled, selected, no required</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="form-grid__row">
+								<div class="form-grid__col form-grid__col_6">
+									<div class="form-grid__field">
+										<div class="form-unit">
+											<div class="form-unit__label">
+												<label for="example-select-5" class="form-def-label">Select example 5:</label>
+											</div>
+											<div class="form-unit__input">
+												<select class="form-select js-form-select" id="example-select-5" name="example-select-5" multiple="multiple" required>
+													<!--Important! The first element must have a value of ""-->
+													<option value="">- Choose option -</option>
+													<option value="1">The Pilgrim’s Progress by John Bunyan (1678)</option>
+													<option value="2">Robinson Crusoe by Daniel Defoe (1719)</option>
+													<option value="3">Gulliver’s Travels by Jonathan Swift (1726)</option>
+													<option value="4">Clarissa by Samuel Richardson (1748)</option>
+													<option value="5">Tom Jones by Henry Fielding (1749)</option>
+													<option value="6">The Life and Opinions of Tristram Shandy, Gentleman by Laurence Sterne (1759)</option>
+													<option value="7">Emma by Jane Austen (1816)</option>
+													<option value="9">Frankenstein by Mary Shelley (1818)</option>
+													<option value="10">Nightmare Abbey by Thomas Love Peacock (1818)</option>
+													<option value="11">The Narrative of Arthur Gordon Pym of Nantucket by Edgar Allan Poe (1838)</option>
+													<option value="12">Sybil by Benjamin Disraeli (1845)</option>
+													<option value="13">Jane Eyre by Charlotte Brontë (1847)</option>
+													<option value="14">Wuthering Heights by Emily Brontë (1847)</option>
+													<option value="15">Vanity Fair by William Thackeray (1848)</option>
+												</select>
+											</div>
+											<div class="form-unit__note">multiple, required</div>
+										</div>
+									</div>
+								</div>
+								<div class="form-grid__col form-grid__col_6">
+									<div class="form-grid__field">
+										<div class="form-unit">
+											<div class="form-unit__label">
+												<label for="example-select-6" class="form-def-label">Select example 6:</label>
+											</div>
+											<div class="form-unit__input">
+												<select class="form-select js-form-select" id="example-select-6" name="example-select-6" multiple="multiple">
+													<!--Important! The first element must have a value of ""-->
+													<option value="">- Choose option -</option>
+													<option value="1">The Pilgrim’s Progress by John Bunyan (1678)</option>
+													<option value="2">Robinson Crusoe by Daniel Defoe (1719)</option>
+													<option value="3">Gulliver’s Travels by Jonathan Swift (1726)</option>
+													<option value="4">Clarissa by Samuel Richardson (1748)</option>
+													<option value="5">Tom Jones by Henry Fielding (1749)</option>
+													<option value="6">The Life and Opinions of Tristram Shandy, Gentleman by Laurence Sterne (1759)</option>
+													<option value="7">Emma by Jane Austen (1816)</option>
+													<option value="9">Frankenstein by Mary Shelley (1818)</option>
+													<option value="10">Nightmare Abbey by Thomas Love Peacock (1818)</option>
+													<option value="11">The Narrative of Arthur Gordon Pym of Nantucket by Edgar Allan Poe (1838)</option>
+													<option value="12">Sybil by Benjamin Disraeli (1845)</option>
+													<option value="13">Jane Eyre by Charlotte Brontë (1847)</option>
+													<option value="14">Wuthering Heights by Emily Brontë (1847)</option>
+													<option value="15">Vanity Fair by William Thackeray (1848)</option>
+												</select>
+											</div>
+											<div class="form-unit__note">multiple, no required</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="form-grid__row">
+								<div class="form-grid__col form-grid__col_6">
+									<div class="form-grid__field">
+										<div class="form-unit">
+											<div class="form-unit__label">
+												<label for="example-select-7" class="form-def-label">Select example 7:</label>
+											</div>
+											<div class="form-unit__input">
+												<select class="form-select js-form-select" id="example-select-7" name="example-select-7" multiple="multiple" disabled required>
+													<!--Important! The first element must have a value of ""-->
+													<option value="">- Choose option -</option>
+													<option value="1">The Pilgrim’s Progress by John Bunyan (1678)</option>
+													<option value="2">Robinson Crusoe by Daniel Defoe (1719)</option>
+													<option value="3">Gulliver’s Travels by Jonathan Swift (1726)</option>
+													<option value="4">Clarissa by Samuel Richardson (1748)</option>
+													<option value="5">Tom Jones by Henry Fielding (1749)</option>
+													<option value="6">The Life and Opinions of Tristram Shandy, Gentleman by Laurence Sterne (1759)</option>
+													<option value="7">Emma by Jane Austen (1816)</option>
+													<option value="9">Frankenstein by Mary Shelley (1818)</option>
+													<option value="10">Nightmare Abbey by Thomas Love Peacock (1818)</option>
+													<option value="11">The Narrative of Arthur Gordon Pym of Nantucket by Edgar Allan Poe (1838)</option>
+													<option value="12">Sybil by Benjamin Disraeli (1845)</option>
+													<option value="13">Jane Eyre by Charlotte Brontë (1847)</option>
+													<option value="14">Wuthering Heights by Emily Brontë (1847)</option>
+													<option value="15">Vanity Fair by William Thackeray (1848)</option>
+												</select>
+											</div>
+											<div class="form-unit__note">multiple, disabled, required</div>
+										</div>
+									</div>
+								</div>
+								<div class="form-grid__col form-grid__col_6">
+									<div class="form-grid__field">
+										<div class="form-unit">
+											<div class="form-unit__label">
+												<label for="example-select-8" class="form-def-label">Select example 8:</label>
+											</div>
+											<div class="form-unit__input">
+												<select class="form-select js-form-select" id="example-select-8" name="example-select-8" multiple="multiple" disabled>
+													<!--Important! The first element must have a value of ""-->
+													<option value="">- Choose option -</option>
+													<option value="1">The Pilgrim’s Progress by John Bunyan (1678)</option>
+													<option value="2" selected>Robinson Crusoe by Daniel Defoe (1719)</option>
+													<option value="3" selected>Gulliver’s Travels by Jonathan Swift (1726)</option>
+													<option value="4" selected>Clarissa by Samuel Richardson (1748)</option>
+													<option value="5">Tom Jones by Henry Fielding (1749)</option>
+													<option value="6">The Life and Opinions of Tristram Shandy, Gentleman by Laurence Sterne (1759)</option>
+													<option value="7">Emma by Jane Austen (1816)</option>
+													<option value="9">Frankenstein by Mary Shelley (1818)</option>
+													<option value="10">Nightmare Abbey by Thomas Love Peacock (1818)</option>
+													<option value="11">The Narrative of Arthur Gordon Pym of Nantucket by Edgar Allan Poe (1838)</option>
+													<option value="12">Sybil by Benjamin Disraeli (1845)</option>
+													<option value="13">Jane Eyre by Charlotte Brontë (1847)</option>
+													<option value="14">Wuthering Heights by Emily Brontë (1847)</option>
+													<option value="15">Vanity Fair by William Thackeray (1848)</option>
+												</select>
+											</div>
+											<div class="form-unit__note">multiple, disabled, selected, no required</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -419,7 +728,7 @@
 													<div class="footer-assets__box-content">
 														<div class="footer-nav">
 															<div class="footer-nav__list">
-																<div class="footer-nav__item"><a href="home.html" class="footer-nav__el">Главная</a></div>
+																<div class="footer-nav__item current"><span class="footer-nav__el">Главная</span></div>
 																<div class="footer-nav__item"><a href="catalog.html" class="footer-nav__el">Каталог</a></div>
 																<div class="footer-nav__item"><a href="news.html" class="footer-nav__el">Новости</a></div>
 																<div class="footer-nav__item"><a href="about.html" class="footer-nav__el">О нас</a></div>
